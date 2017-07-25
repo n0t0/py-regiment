@@ -81,4 +81,12 @@ print z
 #
 # print i
 
-#
+## 7/25/2017
+
+
+s = 'SomE arE UppER sOMe Are LOWEr'
+
+def only_upper(s):
+    return filter(lambda x: x.isupper(), s)
+
+print only_upper(s)

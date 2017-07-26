@@ -33,3 +33,18 @@ print 'Floating point number %f' % (2.2051) # 6 by default
 
 s = 2.5235235252
 print round(s, 2)
+
+# Alligning strings
+
+# OLD METHOD
+
+s = "10 spaces to the right"
+print '%10s spaces to the right' % ('10')
+print '%-10s spaces to the left' % ('10')
+
+
+# NEW METHOD - can specify a padding characther; can also center align 
+
+print '{:_>10} spaces to the right'.format('10')
+print '{:=<10} spaces to the left'.format('10')
+print '{:^10} spaces to the left'.format('10')

@@ -31,13 +31,11 @@ s = "10 spaces to the right"
 print '%10s spaces to the right' % ('10')
 print '%-10s spaces to the left' % ('10')
 
-
 # NEW METHOD - can specify a indenting characther; can also center align
 
 print '{:_>10} spaces to the right'.format('10')
 print '{:=<10} spaces to the left'.format('10')
 print '{:^10} spaces to the left'.format('10')
-
 
 ####Digits/Numbers####
 ######################
@@ -71,14 +69,12 @@ print '{:.5f}'.format(41.21532358972678935) # above .2 cuts after dicimal point
 s = 2.5235235252
 print round(s, 2)
 
-
 # Positive and Negative Numbers
 
 print '%+d' % (10) # positive
 print '% d' % (10) # negative
 print '{:+d}'.format(10)
 print '{:=+10d}'.format(10) # NEW METHOD allows padding related to the sign
-
 
 ####Defined Placeholders####
 ############################
@@ -109,11 +105,6 @@ class Car(object):
     type = 'SUV'
     make = [{'Lada': 'Niva'}, {'Jeep': 'Wrangler'}]
 print '{c.type} {c.make[0][Lada]}'.format(c=Car)
-
-
-####Date/Time####
-#################
-
 
 ####Parameters####
 ##################

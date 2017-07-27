@@ -6,7 +6,7 @@
 s = "Sralo %s na pateche. Koi go qde? - %s" % ('meche', 'Ti')
 print s
 
-# NEW METHOD; index positioning allowing for order change
+# NEW METHOD; index position allowing for order change
 
 s = 'Sralo {} na pateche. Koi go qde? - {}'.format('meche', 'Ti')
 print s

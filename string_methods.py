@@ -54,7 +54,7 @@ l = []
 for c in s3:
     if c.isupper() == True:
         l.append(c)
-        print l
+        print '--'.join(l)
 # print '-'.join(l)
 
 print '===='*40

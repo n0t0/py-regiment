@@ -62,6 +62,9 @@ print 'Floating point number %f' % (2.2051) # 6 by default
 print 'Indenting by 6 digits with 2 after decimal point %06.2f' % (2.2051) # total 6 characters
 print 'Indent a Floating point number %010.4f' % (2.2051) # total 10 characters
 print 'Indent a Floating point number %010.6f' % (2.2051) # total 10 characters
+print '{:06.2f}'.format(1.2) # NEW METHOD rounds up*
+print '{:.2f}'.format(41.21532358972678935) # .2 rounds up
+print '{:.5f}'.format(41.21532358972678935) # above .2 cuts after dicimal point
 
 # Ex.2 using round() method
 
@@ -84,3 +87,47 @@ d = {'given': 'Mila', 'last': 'Varta'}
 print '%(given)s %(last)s' % d
 print '{given} {last}'.format(**d)
 print '{x} {y} {z}'.format(x='Id', y='Ego', z='Superego') # NEW METHOD allows assigning
+
+# Accessing nested data structures NEW METHOD - Ex.2
+# NEW METHODS supports __getitem__ for dictionaries and lists
+
+customer = {'first': 'Happy', 'last': 'Customer'}
+print '{c[first]} {c[last]}'.format(c=customer)
+
+digits = [10,20,33,40,50]
+print '{d[2]}{d[0]}'.format(d=digits)
+
+# Also getattr() on objects
+
+class Car(object):
+    type = 'Sedan'
+print '{c.type}'.format(c=Car)
+
+# Both type of access can be freely mixed
+
+class Car(object):
+    type = 'SUV'
+    make = [{'Lada': 'Niva'}, {'Jeep': 'Wrangler'}]
+print '{c.type} {c.make[0][Lada]}'.format(c=Car)
+
+
+####Date/Time####
+#################
+
+
+####Parameters####
+##################
+
+# Parameters are nested expressions after : in the parent {} format
+
+print '{:{align}{indent}}'.format('title', align='^', indent='10').upper()
+
+# Precision
+
+print '%.*s = %.*f' % (3, 'NOKIA', 3, 64.3248) # OLD METHOD
+print '{:.{prec}} = {:.{prec}f}'.format('ALCATEL', 25.4214, prec=3)
+
+# Indent & Precision
+
+print '%*.*f' % (10, 2, 2.141421)
+print '{:{indent}.{prec}f}'.format(3.23523, indent=5, prec=2)

@@ -22,6 +22,13 @@ print s2
 s2 = '{3}, {2}, {1}, {0}'.format(1, 2, 3, 4)
 print s2
 
+# Indexing order of arguments Ex.3
+
+location = 'San Diego'
+year = 2022
+print 'By {} I wanna be living in {}!'.format(year, location)
+print 'Composed at {time} on {date}!'.format(time = '19:39', date = '07/30/2017')
+
 ####Alligning strings####
 #########################
 
@@ -53,13 +60,14 @@ print '{:05d}'.format(4)
 ####Formatting floating point number####
 ########################################
 
-print '10 digits after Floating point number %.10f' % (2.2051)
-print '4 digits after Floating point number %.4f' % (2.2051)
-print '2 digits after Floating point number %.2f' % (2.2051)
-print 'Floating point number %f' % (2.2051) # 6 by default
-print 'Indenting by 6 digits with 2 after decimal point %06.2f' % (2.2051) # total 6 characters
-print 'Indent a Floating point number %010.4f' % (2.2051) # total 10 characters
-print 'Indent a Floating point number %010.6f' % (2.2051) # total 10 characters
+print '10 digits filled after Floating point number %.10f' % (12.2051242)
+print '4 digits after Floating point number %.4f' % (8.4754089)
+print '2 digits after Floating point number %.2f' % (2.1511)
+print 'Floating point number %f' % (2.23) # filled with 6 by default
+print 'Indent by 6 digits with 2 after decimal point %06.2f' % (2.2051) # total 6 characters
+print 'Indent by 10 total with 4 after decimal point %010.4f' % (2.2051) # total 10 characters
+print 'Indent by 10 total with 6 after decimal point %010.6f' % (2.2051) # total 10 characters
+print 'Indent by 14 total with 3 after decimal point; no zeros %14.3f' % (2.2051)
 print '{:06.2f}'.format(1.2) # NEW METHOD rounds up*
 print '{:.2f}'.format(41.21532358972678935) # .2 rounds up
 print '{:.5f}'.format(41.21532358972678935) # above .2 cuts after dicimal point

@@ -6,7 +6,7 @@
 s = "Sralo %s na pateche. Koi go qde? - %s" % ('meche', 'Ti')
 print s
 
-# NEW METHOD; index position allowing for order change
+# NEW METHOD; order of arguments can change with index position
 
 s = 'Sralo {} na pateche. Koi go qde? - {}'.format('meche', 'Ti')
 print s
@@ -43,7 +43,7 @@ print '{:^10} spaces to the left'.format('10')
 print 'What is the answer of the Universe? - %d' % (42)
 print 'What is the emergency phone number? - {:d}'.format(911)
 
-# Indeting is also possible with Numbers
+# Indenting is also possible with Numbers
 
 print '%10d' % (4) # OLD METHOD
 print '{:20d}'.format(4) # NEW METHOD

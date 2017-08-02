@@ -8,3 +8,6 @@ FUNDAMENTALS:
 - Methods 
 - Lambda 
 
+ADVANCED:
+
+- RE

@@ -2,7 +2,8 @@ s = 'This is a string'
 s2 = 'This is also a string'
 s3 = 'ThIs stRIng S madE oF UppEr aND LOwer caSE chaRactErS'
 
-#### indexing, cutting & slicing a string
+####indexing, cutting & slicing a string####
+############################################
 print '===='*40
 
 print s[:2] # cutting
@@ -10,12 +11,18 @@ print s2[::2] # cutting 2 characters
 print s2[5:12] # slicing
 print len(s3)
 
-#### split() | join()
+####lower() | upper()####
+#########################
+
+print 'BIGGIE'.lower()
+print 'pac'.upper()
+
+####split() | join()####
+########################
 print '===='*40
 
 print s.split()
 print s2.splitlines()
-
 
 s4 = 'Abracadabra'
 print s4.split('a')
@@ -38,7 +45,6 @@ print '===='*40
 # for w in s5:
 #     print filter(lambda w: w.split(), s5.split())
 
-
 print '===='*40
 
 for w in s5.split():
@@ -46,8 +52,8 @@ for w in s5.split():
     l.append(w)
 print l
 
-
-#### isupper() | islower()
+####isupper() | islower()####
+#############################
 print '===='*40
 
 l = []

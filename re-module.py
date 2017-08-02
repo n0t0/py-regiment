@@ -4,11 +4,12 @@ import re
 # print p
 
 # match()
+# match() is used with group(num=0) or groups() - returns a tuple
 
 s = '01-test'
-match = re.match('[0-9].', s, flags=0)
+match = re.match('([0-9])(.*)', s, flags=0)
 if match:
-    print 'Match: ', match.group()
+    print 'Match: ', match.groups()
 
 s = 'This is a test'
 match= re.match('^this is (.) (.*)' , s, re.I|re.M)
@@ -18,6 +19,7 @@ if match:
     print 'Matched:\t', match.group(2)
 
 # search()
+# search() is used with group(num=0) or groups() - returns a tuple
 
 s = 'This is only a test'
 search = re.search('^this is (.*) (.) (.*)', s, re.I|re.M)

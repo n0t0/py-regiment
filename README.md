@@ -1,12 +1,12 @@
-This repository contains Python exercises for beginners.
+Python for beginners
 
 FUNDAMENTALS:
 
-- Strings 
+- Strings
 - Formatting
 - Lists
-- Methods 
-- Lambda 
+- Methods
+- Lambda
 
 ADVANCED:
 

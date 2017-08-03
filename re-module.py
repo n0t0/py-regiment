@@ -69,3 +69,6 @@ print repl
 
 repl = re.sub('[A-Z]', '!', i) # [A-Z] - upper only
 print repl
+
+repl = re.sub('X|Y', 'AB', i) # | either or 
+print repl

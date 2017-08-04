@@ -9,7 +9,9 @@ import re
 s = '01-test'
 match = re.match('([0-9])(.*)', s, flags=0)
 if match:
-    print 'Match: ', match.groups()
+    print 'Match: ', match.groups() # returns a tuple
+
+print type(match.groups())
 
 s = 'This is a test'
 match= re.match('^this is (.) (.*)' , s, re.I|re.M)
@@ -29,6 +31,9 @@ if search:
     print "Found: ", search.group(2)
     print "Found: ", search.group(3)
 
+if search:
+    print 'Found:\t', search.groups() # returns a tuple
+
 # match() Vs. search()
 # match() - beginning of the string
 # search() - anywhere in the string
@@ -45,3 +50,25 @@ if search:
     print 'Found: ', search.group()
 else:
     print 'Nothing found!'
+
+# Search and Substitute
+
+i = 'To find out more about X and Y go to Chapter #2 of the Book'
+
+repl = re.sub('\#', 'No.', i) # \ cancels special character
+print repl
+
+repl = re.sub('\d', '3', i) # \d is the same as [0-9]
+print repl
+
+repl = re.sub('\D', '-', i) # \D is the same as [^0-9]
+print repl
+
+repl = re.sub(r'\s', '.', i) # \s matches whitespace character
+print repl
+
+repl = re.sub('[A-Z]', '!', i) # [A-Z] - upper only
+print repl
+
+repl = re.sub('X|Y', 'AB', i) # | either or 
+print repl

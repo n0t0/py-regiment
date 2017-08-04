@@ -29,7 +29,7 @@ print l
 l.pop(2)
 print l
 
-# extend() extends a list by another list 
+# extend() extends a list by another list
 
 l.extend(['na', 'la', 'ta'])
 print l

@@ -6,8 +6,11 @@ FUNDAMENTALS:
 - Formatting
 - Lists
 - Methods
+- Importing Modules 
 - Lambda
+ 
 
 ADVANCED:
 
-- RE
+- RE module
+

@@ -13,4 +13,20 @@ print d
 
 print d.keys() # returns the keys
 print d.values() # returns the values of the keys
-print d.items() # returns both in (key, value) tuples 
+print d.items() # returns both in (key, value) tuples
+
+# Ex.2
+print '-'*40
+
+weekDays = dict()
+weekDays = {'Tuesday': 'martes',
+            'Wednesday': 'miercoles',
+            'Thursday': 'jueves',
+            'Friday': 'viernes',
+            'Saturday': 'sabado',
+            'Sunday': 'domingo'}
+weekDays['Monday'] = 'lunes'
+print weekDays['Sunday']
+print len(weekDays)
+vals = weekDays.values()
+print 'sabado' in vals

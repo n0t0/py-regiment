@@ -1,4 +1,4 @@
-# Recursive functions are calling themselves
+# Recursive functions are able to call themselves
 
 def countdown(n):
     if n <= 0:
@@ -17,3 +17,13 @@ def print_n(s, n):
     print print_n(s, n-1)
 
 print print_n('flood', 5)
+
+# Keyboard input
+
+name = raw_input('What\'s your name?\n')
+print name
+
+prompt = raw_input('What was your speed?\n')
+speed = raw_input(prompt)
+
+print int(speed) # int() to convert string into integers

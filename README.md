@@ -6,6 +6,9 @@ FUNDAMENTALS:
 - Formatting
 - Lists
 - Methods
+- Functions 
+- Conditionals 
+- Recursion
 - Dictionaries 
 - Importing Modules 
 - Lambda

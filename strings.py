@@ -40,8 +40,9 @@ print len(car)
 print car[:]
 
 
-word = 'abracadabra'
+# searching
 
+word = 'abracadabra'
 def find(word, letter): # the opposite of [] operator; return an index number
     index = 0
     while index < len(word):
@@ -50,4 +51,14 @@ def find(word, letter): # the opposite of [] operator; return an index number
         index += 1
     return -1
 
-print find(word, 'r')
+print find(word, 'c')
+
+# counting
+print '===='*40
+
+word = 'harmonica'
+count = 0
+for l in word:
+    if l == 'a':
+        count += 1
+    print count

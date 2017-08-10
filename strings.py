@@ -1,4 +1,4 @@
-# A STRING is a sequence of characters
+# a String is a sequence of characters
 
 car = 'mercedes'
 letter = car[1] # computers count from 0
@@ -15,8 +15,8 @@ last = car[lenght-1]
 print last
 
 
-# for and while loops
-print 'sssss'
+# while and for loops
+print '===='*40
 
 index = 0
 while index < len(car):
@@ -24,6 +24,30 @@ while index < len(car):
     print letter
     index += 1
 
-
 for char in car:
     print char
+
+
+# indexing, cutting & slicing
+print '===='*40
+
+car = 'mercedes'
+
+print car[:2] # cutting
+print car[3:] # cutting 2 characters
+print car[2:4] # slicing
+print len(car)
+print car[:]
+
+
+word = 'abracadabra'
+
+def find(word, letter): # the opposite of [] operator; return an index number
+    index = 0
+    while index < len(word):
+        if word[index] == letter:
+            return index
+        index += 1
+    return -1
+
+print find(word, 'r')

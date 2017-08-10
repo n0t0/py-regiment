@@ -10,11 +10,14 @@ FUNDAMENTALS:
 - Conditionals 
 - Recursion
 - Dictionaries 
+- Tuples  
 - Importing Modules 
 - Lambda
- 
+
 
 ADVANCED:
 
+- Classes
+- Files 
 - RE module
 

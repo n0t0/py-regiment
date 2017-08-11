@@ -3,8 +3,10 @@ Python for beginners
 FUNDAMENTALS:
 
 - Strings
+- String Methods
 - Formatting
 - Lists
+- List Methods
 - Methods
 - Functions 
 - Conditionals 

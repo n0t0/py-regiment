@@ -7,6 +7,7 @@ x = 2
 print car[x+1] # variables and operators can be used
 
 # len() method (move to string_method.py)
+print '===='*40
 
 print len(car) # returns the number of characters in a string
 
@@ -41,6 +42,7 @@ print car[:]
 
 
 # searching
+print '===='*40
 
 word = 'abracadabra'
 def find(word, letter): # the opposite of [] operator; return an index number

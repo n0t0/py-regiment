@@ -17,6 +17,14 @@ print len(s3)
 print 'BIGGIE'.lower()
 print 'pac'.upper()
 
+# find() method
+
+word = 'abracadabra'
+print word.find('a')
+print word.find('ra') # find() can take more than one character
+print word.find('ra', 3) # 2nd 'index' argument for starting point to search
+print word.find('a', 2, 4) # 3th argument where to stop the search
+
 ####split() | join()####
 ########################
 print '===='*40

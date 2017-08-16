@@ -41,3 +41,14 @@ a = 4.0
 x = 3.0
 y = (x + a/x) / 2
 print y
+
+while True:
+    print x
+    y = (x + a/x) / 2
+    if y == x:
+        break
+    x = y
+
+# algorithms
+
+# n * 9 = n-1 for first digit 10-n for second digit

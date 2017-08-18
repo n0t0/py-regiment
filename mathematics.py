@@ -25,4 +25,4 @@ print 4 - 1
 s = 'String'
 print s + s
 print s * 3
-print s ** 3 
+print s ** 3

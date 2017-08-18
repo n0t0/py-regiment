@@ -97,3 +97,18 @@ def only_capital(s3):
     return filter(lambda x: x.isupper(), s3)
 
 print only_capital(s3)
+
+
+# center()
+
+s = 'Subject'
+print s.center(100)
+print s.endswith('ect')
+
+# expandtabs(); default is 8
+
+s = 'This\t is\t too\t much\t tabs'
+print s.expandtabs(12)
+
+s = 'Boogie-Woogie-Boom'
+print s.partition('W')

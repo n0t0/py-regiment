@@ -56,3 +56,21 @@ def find_center(rect):
 
 center = find_center(box)
 print_point(center)
+
+# object are mutable
+
+box.width = box.width + 50
+box.height = box.height + 100
+
+
+def grow_rectangle(rect, dwidth, dheight):
+    rect.width += dwidth
+    rect.height += dheight
+
+
+print box.width
+print box.height
+
+grow_rectangle(box, 50, 100)
+print box.width
+print box.height

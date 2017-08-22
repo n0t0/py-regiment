@@ -11,6 +11,7 @@ def distance_between_points(p1, p2):
 
 print distance_between_points(3.0, 4.0)
 
+# TODO: define a functions within a class Point/s(object)
 
 
 # Exercise 2

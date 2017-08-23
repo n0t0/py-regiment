@@ -10,7 +10,7 @@ print Point # Point is defined at top level so fullname is __main__
 blank = Point() # instantination; blank is an instance of the class Point()
 print blank
 
-# attributes
+# Attributes
 
 blank.x = 3.0
 blank.y = 4.0
@@ -19,7 +19,7 @@ print blank.y
 x = blank.x
 print x
 
-# dot notation can be used with expressions
+# Dot (.) notation can be used with expressions
 
 print '({}, {})'.format(blank.x, blank.y)
 distance = sqrt(blank.x ** 2 + blank.y ** 2)
@@ -30,6 +30,7 @@ def print_point(p):
 
 print print_point(blank)
 
+# NOTE:
 # instide the function p is an alias for blank;
 # if the function changes p, blank changes
 
@@ -57,7 +58,7 @@ def find_center(rect):
 center = find_center(box)
 print_point(center)
 
-# object are mutable
+# Objects are mutable
 
 box.width = box.width + 50
 box.height = box.height + 100
@@ -74,3 +75,27 @@ print box.height
 grow_rectangle(box, 50, 100)
 print box.width
 print box.height
+
+# Copying is alternative to aliasing
+
+p1 = Point()
+p1.x = 3.0
+p1.y = 4.0
+
+import copy
+
+p2 = copy.copy(p1)
+print_point(p1)
+print_point(p2)
+print p1 is p2 # p1 and p2 contain the same data but are different points
+print p1 == p2 # for instances '==' is the same as the 'is' operator
+
+
+box2 = copy.copy(box)
+print box2 is box
+print box2.corner is box.corner
+
+# NOTE:
+# shallow copy copies object's references, but not embedded objects
+
+# type(object) and hasattr(object, 'name-of-attribute') 

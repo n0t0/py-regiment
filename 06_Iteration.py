@@ -1,10 +1,10 @@
-# updating variables
+# Updating variables
 
 x = 0
 x = x + 1
 print x
 
-# while statemenet
+# While statemenet
 def countdown(n):
     while n > 0:
         print n
@@ -24,7 +24,7 @@ def sequence(n):
 
 print sequence(10)
 
-# break
+# Break
 while True:
     line = raw_input('> ')
     if line == 'done':
@@ -33,7 +33,7 @@ while True:
 
 print 'Done!'
 
-# square roots
+# Square roots
 
 # Newton's method for computing square roots: y = (x + a/x) / 2
 
@@ -49,6 +49,6 @@ while True:
         break
     x = y
 
-# algorithms
+# Algorithms
 
 # n * 9 = n-1 for first digit 10-n for second digit

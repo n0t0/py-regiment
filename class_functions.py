@@ -58,3 +58,23 @@ def add_time(t1, t2):
 
 done = add_time(start, duration)
 print_time(done)
+
+
+# Modifiers
+
+def increment(time, seconds):
+    time.second += seconds
+
+    if time.second >= 60:
+        time.second -= 60
+        time.minute += 1
+
+    if time.minute >= 60:
+        time.minute -= 60
+        time.hour += 1
+
+# NOTE: What happens if the parameter seconds is much greater than sixty?
+
+# In that case, it is not enough to carry once; we have to keep doing it until
+# time.second is less than sixty. One solution is to replace the if statements
+# with while statements. That would make the function correct, but not very efficient.

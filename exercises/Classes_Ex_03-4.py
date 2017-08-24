@@ -10,16 +10,17 @@ class Time(object):
     attributes: hour, minute, second
     """
 
-def print_time(Time):
-    t = Time()
-    t.hour = '%.2d' % 14
-    t.minute = '%.2d' % 9
-    t.second = '%.2d' % 23
+def print_time(t):
     print '{}:{}:{}'.format(t.hour, t.minute, t.second)
 
-print_time(Time)
+t = Time()
+t.hour = '%.2d' % 14
+t.minute = '%.2d' % 9
+t.second = '%.2d' % 23
+
+print_time(t)
 
 # Exercise 2
 # Write a boolean function called is_after that takes two Time objects,
 # t1 and t2, and returns True if t1 follows t2 chronologically and False otherwise.
-# Challenge: don't use an if statement 
+# Challenge: don't use an if statement

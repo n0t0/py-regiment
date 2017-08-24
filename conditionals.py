@@ -3,6 +3,7 @@
 print 7 / 2
 print 7 % 2 # returns the remainder after division
 
+# NOTE:
 # extracting the right most digit from a number - x % 10 x(in base of 10)
 # the last two digits - x % 100
 
@@ -93,7 +94,8 @@ else:
     else:
         print 'x is less than y'
 
-# *nested conditionals can be difficult to read; logical operators are better
+# NOTE:
+# Nested conditionals can be difficult to read; logical operators are better
 
 x = 5
 if 0 < x:

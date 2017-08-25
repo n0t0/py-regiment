@@ -34,7 +34,6 @@ duration.hour = 1
 duration.minute = 43
 duration.second = 47
 
-
 done = add_time(start, duration)
 print_time(done)
 
@@ -78,3 +77,16 @@ def increment(time, seconds):
 # In that case, it is not enough to carry once; we have to keep doing it until
 # time.second is less than sixty. One solution is to replace the if statements
 # with while statements. That would make the function correct, but not very efficient.
+
+
+def time_to_int(t):
+    minutes = t.hour * 60 + t.minute
+    seconds = t.minute * 60 + t.second
+    return seconds
+
+
+def int_to_time(seconds):
+    time = Time()
+    minutes, t.second = divmod(seconds, 60)
+    t.hour, t.minute = divmod(minutes, 60)
+    return time

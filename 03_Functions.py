@@ -1,3 +1,5 @@
+# Def for Define a function
+
 def lyrics():
     print 'Go, tell Aunt Rhodie,'
     print 'go, tel Aunt Rhodie.'
@@ -6,7 +8,7 @@ def lyrics():
 
 print lyrics()
 
-# calling a functions inside another function
+# Calling a functions inside another function
 
 def variation():
     print lyrics()
@@ -17,7 +19,7 @@ def variation():
 
 print variation()
 
-# flow of execution
+# Flow of execution
 
 def first():
     print 'This is the 1st function'
@@ -36,8 +38,8 @@ def fourth():
 
 print third()
 
-# parameters and arguments
-# inside the functions arguments are assigned variables --> parameters
+# NOTE: Parameters vs. Arguments
+# Inside a function arguments are assigned to variables called parameters
 
 def repeat(x): # argument
     print x # parameter
@@ -48,7 +50,7 @@ print repeat(2)
 y = 3
 print repeat(y)
 
-# local variables and parameters
+# Local variables and parameters
 
 def cat_repeat(part1, part2):
     cat = part1 + part2

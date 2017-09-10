@@ -1,3 +1,5 @@
+# Exercise 5
+
 # This exercise can be done using only the statements and other features we have learned so far.
 # 1. Write a function that draws a grid like the following:
 # + - - - - + - - - - +
@@ -105,12 +107,10 @@ def build_square(x, y):
 
 
 def print_topBottom():
-    # print a,
     print a, b, b, b, b, '+', b, b, b, b, '+'
 
 def print_content():
     print c, d, d, d, d, '|', d, d, d, d, '|'
-
 
 print build_square(print_topBottom, print_content)
 

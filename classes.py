@@ -98,4 +98,4 @@ print box2.corner is box.corner
 # NOTE:
 # shallow copy copies object's references, but not embedded objects
 
-# type(object) and hasattr(object, 'name-of-attribute') 
+# type(object) and hasattr(object, 'name-of-attribute')

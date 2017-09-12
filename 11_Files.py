@@ -57,5 +57,5 @@ try:
     for line in fin:
         print line
     fin.close()
-except:
+except:``
     print 'Something went wrong.'

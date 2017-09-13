@@ -38,3 +38,24 @@ queen_of_diamonds = Card(1, 12)
 
 card1 = Card(2, 11)
 print card1
+
+
+class Deck(object):
+
+
+    def __init__(self):
+        self.cards = []
+        for suit in range(4):
+            for rank in range(14):
+                card = Card(suit, rank)
+                self.cards.append(card)
+
+
+    def __str__(self):
+        res = []
+        for card in self.cards:
+            res.append(str(card))
+        return '\n'.join(res)
+
+deck = Deck()
+print deck

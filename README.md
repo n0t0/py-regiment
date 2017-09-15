@@ -2,24 +2,26 @@ Python for beginners
 
 FUNDAMENTALS:
 
-- Strings
-- String Methods
-- Formatting
-- Lists
-- List Methods
+- Arithmetics
 - Methods
-- Functions 
-- Conditionals 
+- Functions
+- Conditionals
 - Recursion
-- Dictionaries 
+- Iteration
+- Strings
+- Lists
+- Dictionaries
 - Tuples  
-- Importing Modules 
-- Lambda
-
+- Files
+- Classes
+- Inheritance
 
 ADVANCED:
 
-- Classes
-- Files 
-- RE module
 
+- Formatting
+- Lambda
+- Importing Modules
+- RE module
+- String Methods
+- List Methods

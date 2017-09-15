@@ -69,5 +69,28 @@ class Deck(object):
     # def shuffle(self):
     #     random.shuffle(self.cards)
 
+
+    def move_cards(self, hand, num):
+        for i in range(num):
+            hand.add_card(self.pop_card())
+
 deck = Deck()
 print deck
+
+# Inheritance
+
+class Hand(Deck):
+    """Represents a hand of playing cards."""
+
+    # NOTE: Defining init in a child class overides the parent's -
+    def __init__(self, label=""):
+        self.cards = []
+        self.label = label
+
+hand = Hand('new_hand')
+print hand.cards
+print hand.label
+
+card = deck.pop_card()
+hand.add_card(card)
+print hand

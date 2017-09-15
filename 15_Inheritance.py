@@ -57,5 +57,17 @@ class Deck(object):
             res.append(str(card))
         return '\n'.join(res)
 
+
+    def pop_card(self):
+        return self.cards.pop()
+
+
+    def add_card(self, card):
+        self.cards.append(card)
+
+    # NOTE: import random module
+    # def shuffle(self):
+    #     random.shuffle(self.cards)
+
 deck = Deck()
 print deck

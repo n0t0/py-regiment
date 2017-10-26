@@ -1,6 +1,9 @@
-# Order of operations
+# First Program
 
-# PEMDAS acronym
+print 'hello world'
+
+# Mathematics
+# Remember "PEMDAS" acronym for Order of Operations
 
 # Parantheses
 
@@ -25,4 +28,9 @@ print 4 - 1
 s = 'String'
 print s + s
 print s * 3
-print s ** 3
+# print s ** 3 # doesn't work with strings
+
+# Getting Help
+
+print help() # getting help
+print help('print')

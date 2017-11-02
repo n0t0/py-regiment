@@ -4,9 +4,9 @@
 
 # Speed = Distance / Time
 
-# Convert 10 Kg in miles
+# Convert 10 Kg into miles
 
-print 10 * 1.61
+print 10 / 1.61
 
 # Convert 43 minutes and 30 seconds to get decimal of a hour
 
@@ -14,4 +14,4 @@ print 43.5 / 60
 
 # Calculate Average Speed
 
-print 16.1 / 0.725
+print 6.21 / 0.72

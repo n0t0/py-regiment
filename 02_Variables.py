@@ -23,3 +23,5 @@ print '\'{}\' is an integer; \'{}\' is a string; \'{}\' is a floating-point '.fo
 # Assigning a Variables
 
 message = 'The system is shutting down in 10 minutes'
+x = 100
+y = 200

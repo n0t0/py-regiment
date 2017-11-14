@@ -5,7 +5,7 @@ FUNDAMENTALS:
 - Arithmetics
 - Methods
 - Functions
-- Conditionals
+- Conditionals (if-elif-else)
 - Recursion
 - Iteration
 - Strings

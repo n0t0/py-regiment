@@ -1,4 +1,4 @@
-# Exercise 2
+#### Exercise 2
 # Assume that we execute the following assignment statements:
 # width = 17
 # height = 12.0
@@ -11,7 +11,6 @@
 # 1 + 2 * 5
 # delimiter * 5
 # Use the Python interpreter to check your answers.
-
 
 width = 17
 height = 12.0
@@ -31,7 +30,7 @@ def check_val_type(x):
 
 print check_val_type(b)
 
-# Exercise 3
+#### Exercise 3
 # Practice using the Python interpreter as a calculator:
 
 # 3.1 The volume of a sphere with radius r is 4/3 pi r^3. What is the volume

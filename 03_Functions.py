@@ -1,4 +1,47 @@
-# Def for Define a function
+# Built in Functions
+
+print int('32') # converts to integer
+print int(32.99) # chops the fraction part
+print int(-2.44)
+print float(32) # converts to floating-point numbers
+print str(32) # converts to string
+print str(32.22)
+
+# Math Functions
+print '####'*40
+
+# NOTE: Add Math's module and functions in another chapter
+# Engine compression
+# RPM
+# AVG speed
+# Aerodynamics
+# Bike suspension
+
+import math
+print math
+
+# ratio = signal_power / noise_power
+# decibels = 10 * math.log10(ratio)
+#
+# radians = 0.7
+# height = maht.sin(radians)
+#
+# degrees = 15
+# radians = degrees / 360.0 * 2 * math.pi
+# math.sin(radians)
+#
+# # check
+#
+# math.sqrt(2) / 2.0
+
+#### Composition
+# An argument of a function can be an expression or even a function calls
+#
+# x = time(3600 + 43)
+# y = type(x)
+
+# Keyword 'def' for Define a function
+print '####'*40
 
 def lyrics():
     print 'Go, tell Aunt Rhodie,'
@@ -7,8 +50,10 @@ def lyrics():
     print 'goose is in her bed!'
 
 print lyrics()
+print type(lyrics)
 
 # Calling a functions inside another function
+print '####'*40
 
 def variation():
     print lyrics()
@@ -20,6 +65,7 @@ def variation():
 print variation()
 
 # Flow of execution
+print '####'*40
 
 def first():
     print 'This is the 1st function'

@@ -18,10 +18,11 @@ FUNDAMENTALS:
 
 ADVANCED:
 
-
 - Formatting
 - Lambda
 - Importing Modules
 - RE module
 - String Methods
 - List Methods
+
+EXERCISES:

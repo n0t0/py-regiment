@@ -1,10 +1,11 @@
-
-
 import math # importing a module
 
 print math # prints information about it
 print math.pi # calling a module's functions (dot notation)
 print math.sqrt(16)
+
+
+# NOTE: define a math.sin and math.log10() functions
 
 # ratio = signal_power / noise_power
 # decibels = 10 * math.log10(ratio)
@@ -20,7 +21,9 @@ print math.sqrt(16)
 #
 # math.sqrt(2) / 2.0
 
-# NOTE: Add Math's module and functions in another chapter
+# NOTE: define an engine compression function
+
+
 # Engine compression and compressions ratio
 
 piston = 'x'

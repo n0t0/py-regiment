@@ -5,6 +5,9 @@ print math.pi # calling a module's functions (dot notation)
 print math.sqrt(16)
 
 
+print 2**10
+print math.pow(2, 10)
+
 # NOTE: define a math.sin and math.log10() functions
 
 # ratio = signal_power / noise_power

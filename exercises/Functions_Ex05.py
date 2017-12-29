@@ -121,13 +121,13 @@ f = (a + (d + b)*4 + d) * 2 + a
 g = (c + 9*d)*2 + c
 
 
-def print_twice(double):
-    print double
-    print double
+def print_twice(a):
+    print a
+    print a
 
-def do_twice(f,duo):
-    f(duo)
-    f(duo)
+def do_twice(a,b):
+    a(b)
+    a(b)
 
 def box():
     print f
@@ -150,14 +150,14 @@ f = (a + (d + b)*4 + d) * 4 + a
 g = (c + 9*d)*4 + c
 
 
-def print_twice(double):
-    print double
-    print double
+def print_twice(a):
+    print a
+    print a
 
 
-def do_twice(f,duo):
-    f(duo)
-    f(duo)
+def do_twice(a,b):
+    a(b)
+    a(b)
 
 
 def box():

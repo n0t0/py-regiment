@@ -31,6 +31,8 @@
 def do_twice(f):
     f()
     f()
+    # print f
+    # print f
 
 
 def print_spam():
@@ -59,7 +61,7 @@ def print_twice(krakra):
     print krakra
     print krakra
 
-print print_twice('double trouble')
+print_twice('double trouble')
 print '----'*40
 
 # 4
@@ -73,7 +75,7 @@ def print_twice(krakra):
     print krakra
     print krakra
 
-print do_twice(print_twice,'flood')
+do_twice(print_twice,'flood')
 print '----'*40
 
 # 5
@@ -87,4 +89,4 @@ def do_four(op, trop):
     op(trop)
     op(trop)
 
-print do_four(print_twice, trop)
+do_four(print_twice, trop)

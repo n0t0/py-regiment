@@ -10,7 +10,12 @@
 
 s = 'signature'
 
+
 def right_justify(s):
     print (70-len(s)) * ' ' + s
 
 print right_justify(s)
+
+
+string = 'today is a good day'
+print len(string) * 2 

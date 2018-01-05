@@ -40,3 +40,5 @@ cc = 1000
 # AVG speed
 # Aerodynamics
 # Bike suspension
+
+print math.sqrt(20)

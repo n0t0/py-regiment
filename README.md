@@ -1,6 +1,6 @@
-Python for beginners
+# Python for beginners
 
-FUNDAMENTALS:
+## FUNDAMENTALS:
 
 - Arithmetics
 - Methods
@@ -16,13 +16,13 @@ FUNDAMENTALS:
 - Classes
 - Inheritance
 
-ADVANCED:
+## ADVANCED:
 
-- Formatting
-- Lambda
-- Importing Modules
-- RE module
-- String Methods
-- List Methods
+1. Formatting
+1. Lambda
+1. Importing Modules
+1. RE module
+1. String Methods
+1. List Methods
 
 EXERCISES:

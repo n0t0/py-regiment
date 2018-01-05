@@ -43,11 +43,10 @@ def check():
 
 check()
 
-# Exercise 3
+# Exercise 2
 # Use incremental development to write a function called hypotenuse that returns
 # the length of the hypotenuse of a right triangle given the lengths of the two
 # legs as arguments. Record each stage of the development process as you go.
-print '===='*40
 
 from math import sqrt
 
@@ -56,3 +55,14 @@ def hypotenuse(l1, l2):
     print sqrt(h)
 
 hypotenuse(4, 2)
+
+# Exercise 3
+
+
+def is_between(x, y, z):
+    return x <= y and y <= z
+    #     return True
+    # else:
+    #     return False
+
+print is_between(2,4,6)

@@ -10,6 +10,16 @@ print float(32) # converts to floating-point numbers
 print str(32) # converts to string
 print str(32.22)
 
+print '####'*40
+# More Built-In Functions
+print '####'*40
+
+i = 1
+print isinstance(i, int)
+
+s = 'string'
+print isinstance(s, str)
+print isinstance(s, int)
 
 print '####'*40
 # Math Functions

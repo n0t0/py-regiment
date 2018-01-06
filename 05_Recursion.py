@@ -22,7 +22,6 @@ print print_n('flood', 3)
 
 
 s = 'Hello'
-
 def print_n(s, n):
     if n <= 0:
         return

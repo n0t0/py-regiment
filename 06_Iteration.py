@@ -24,6 +24,14 @@ def sequence(n):
 
 print sequence(10)
 
+
+def print_n(s, n):
+    while n > 0:
+        print s
+        n = n - 1
+
+print_n('flood', 3)
+
 # Break
 while True:
     line = raw_input('> ')
@@ -49,6 +57,7 @@ while True:
         break
     x = y
 
+# Iffo Iffanoff
 # Algorithms
 
 # n * 9 = n-1 for first digit 10-n for second digit

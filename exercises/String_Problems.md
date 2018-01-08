@@ -2,7 +2,7 @@
 Write a function that takes a string as an argument and displays the letters
 backward, one per line.
 
-## Exercise 2
+### Exercise 2
 Modify the program to fix this error.
 
 In Roberts McCloskey's book 'Make Way for Ducklings', the names of the ducklings
@@ -15,8 +15,6 @@ suffix = 'ack'
 
 for letter in prefixes:
     print letter + suffix
-    if prefixes == 'O':
-        print letter + 'u' + suffix
 ```
 
 The output is:
@@ -48,44 +46,51 @@ return -1**
 Encapsulate this code in a function named count, and generalize
 it so that it accepts the string and the letter as arguments.
 
+```
 word = 'banana'
 count = 0
 for letter in word:
     if letter == 'a':
         count = count + 1
 print count
+```
 
-# Exercise 5
-# Rewrite this function so that instead of traversing the string,
-# it uses the three-parameter version of find from the previous section.
+### Exercise 5
+Rewrite this function so that instead of traversing the string,
+it uses the three-parameter version of find from the previous section.
 
-# Exercise 6
-# There is a string method called count that is similar to the function
-# in the previous exercise. Read the documentation of this method and
-# write an invocation that counts the number of as in 'abracadabra'.
+### Exercise 6
+There is a string method called count that is similar to the function
+in the previous exercise. Read the documentation of this method and
+write an invocation that counts the number of as in 'abracadabra'.
 
-_word = 'abracadabra'
-print word.count('a')_
+```
+word = 'abracadabra'
+print word.count('a')
+```
 
+### Exercise 7
+Read the documentation of the string methods at
+http://docs.python.org/2/library/stdtypes.html#string-methods.
+You might want to experiment with some of them to make sure you understand
+how they work. strip() and replace() are particularly useful.
 
-# Exercise 7
-# Read the documentation of the string methods at
-# http://docs.python.org/2/library/stdtypes.html#string-methods.
-# You might want to experiment with some of them to make sure you understand
-# how they work. strip() and replace() are particularly useful.
+#### replace()
 
-# replace()
-
-_word = 'abracadabra'
+```
+word = 'abracadabra'
 print word.replace('a','-')
 print word.replace('a','-', 2) # 3th argument counts occurences to be replaced_
+```
 
-# strip()
+#### strip()
 
-_w = 'Metallica - Unforgiven.mp4'
+```
+w = 'Metallica - Unforgiven.mp4'
 print w.strip('.mp4')_
+```
 
-# The documentation uses a syntax that might be confusing.
-# For example, in find(sub[, start[, end]]), the brackets indicate optional
-# arguments. So sub is required, but start is optional, and if you include
-# start, then end is optional.
+The documentation uses a syntax that might be confusing.
+For example, in find(sub[, start[, end]]), the brackets indicate optional
+arguments. So sub is required, but start is optional, and if you include
+start, then end is optional.

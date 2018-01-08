@@ -27,6 +27,7 @@ The output is:
 - Oack
 - Pack
 - Qack
+
 Of course, that's not quite right because "Ouack" and "Quack" are misspelled.
 
 ### Exercise 3

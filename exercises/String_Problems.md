@@ -1,4 +1,4 @@
-_Exercise 1_
+### Exercise 1
 Write a function that takes a string as an argument and displays the letters
 backward, one per line.
 
@@ -9,6 +9,7 @@ In Roberts McCloskey's book 'Make Way for Ducklings', the names of the ducklings
 are Jack, Kack, Lack, Mack, Nack, Ouack, Pack, and Quack. This loop outputs
 these names in order:
 
+```
 prefixes = 'JKLMNOPQ'
 suffix = 'ack'
 
@@ -16,6 +17,7 @@ for letter in prefixes:
     print letter + suffix
     if prefixes == 'O':
         print letter + 'u' + suffix
+```
 
 The output is:
 
@@ -33,12 +35,14 @@ Of course, that's not quite right because "Ouack" and "Quack" are misspelled.
 Modify find so that it has a third parameter, the index in word
 where it should start looking.def find(word, letter):
 
-    **index = 0
-    while index < len(word):
-        if word[index] == letter:
-            return index
-        index = index + 1
-    return -1**
+```
+index = 0
+while index < len(word):
+    if word[index] == letter:
+        return index
+    index = index + 1
+return -1**
+```
 
 - Exercise 4
 Encapsulate this code in a function named count, and generalize

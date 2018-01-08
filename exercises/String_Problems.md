@@ -1,55 +1,55 @@
-# Exercise 1
-# Write a function that takes a string as an argument and displays the letters
-# backward, one per line.
+_Exercise 1_
+Write a function that takes a string as an argument and displays the letters
+backward, one per line.
 
-# Exercise 2
-# Modify the program to fix this error.
+## Exercise 2
+Modify the program to fix this error.
 
-# In Roberts McCloskey's book 'Make Way for Ducklings', the names of the ducklings
-# are Jack, Kack, Lack, Mack, Nack, Ouack, Pack, and Quack. This loop outputs
-# these names in order:
+In Roberts McCloskey's book 'Make Way for Ducklings', the names of the ducklings
+are Jack, Kack, Lack, Mack, Nack, Ouack, Pack, and Quack. This loop outputs
+these names in order:
 
-_prefixes = 'JKLMNOPQ'
+prefixes = 'JKLMNOPQ'
 suffix = 'ack'
 
 for letter in prefixes:
     print letter + suffix
     if prefixes == 'O':
-        print letter + 'u' + suffix_
+        print letter + 'u' + suffix
 
-# The output is:
-#
-# Jack
-# Kack
-# Lack
-# Mack
-# Nack
-# Oack
-# Pack
-# Qack
-# Of course, that's not quite right because "Ouack" and "Quack" are misspelled.
+The output is:
 
-# Exercise 3
-# Modify find so that it has a third parameter, the index in word
-# where it should start looking.def find(word, letter):
+Jack
+Kack
+Lack
+Mack
+Nack
+Oack
+Pack
+Qack
+Of course, that's not quite right because "Ouack" and "Quack" are misspelled.
 
-    _index = 0
+- Exercise 3
+Modify find so that it has a third parameter, the index in word
+where it should start looking.def find(word, letter):
+
+    **index = 0
     while index < len(word):
         if word[index] == letter:
             return index
         index = index + 1
-    return -1_
+    return -1**
 
-# Exercise 4
-# Encapsulate this code in a function named count, and generalize
-# it so that it accepts the string and the letter as arguments.
+- Exercise 4
+Encapsulate this code in a function named count, and generalize
+it so that it accepts the string and the letter as arguments.
 
-_word = 'banana'
+word = 'banana'
 count = 0
 for letter in word:
     if letter == 'a':
         count = count + 1
-print count_
+print count
 
 # Exercise 5
 # Rewrite this function so that instead of traversing the string,

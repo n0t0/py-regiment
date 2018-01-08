@@ -19,14 +19,14 @@ for letter in prefixes:
 
 The output is:
 
-Jack
-Kack
-Lack
-Mack
-Nack
-Oack
-Pack
-Qack
+- Jack
+- Kack
+- Lack
+- Mack
+- Nack
+- Oack
+- Pack
+- Qack
 Of course, that's not quite right because "Ouack" and "Quack" are misspelled.
 
 ### Exercise 3

@@ -29,8 +29,8 @@ Pack
 Qack
 Of course, that's not quite right because "Ouack" and "Quack" are misspelled.
 
-- Exercise 3
-Modify find so that it has a third parameter, the index in word
+### Exercise 3
+Modify _find_ so that it has a third parameter, the index in word
 where it should start looking.def find(word, letter):
 
 ```
@@ -42,7 +42,7 @@ while index < len(word):
 return -1**
 ```
 
-- Exercise 4
+### Exercise 4
 Encapsulate this code in a function named count, and generalize
 it so that it accepts the string and the letter as arguments.
 

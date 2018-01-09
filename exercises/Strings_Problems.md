@@ -58,8 +58,8 @@ print count
 ```
 
 ### Exercise 5
-Rewrite this function so that instead of traversing the string,
-it uses the three-parameter version of find from the previous section.
+Rewrite _count_ function so that instead of traversing the string,
+it uses the three-parameter version of _find_ from the previous section.
 
 ### Exercise 6
 There is a string method called count that is similar to the function

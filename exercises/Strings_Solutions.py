@@ -56,3 +56,30 @@ def find(word, letter):
             return index
         index = index + 1
     return -1
+
+# NOTE: where the index in the word should be start looking?
+
+# Exercise 4
+# Encapsulate this code in a function named count, and generalize
+# it so that it accepts the string and the letter as arguments.
+
+word = 'banana'
+count = 0
+for letter in word:
+    if letter == 'a':
+        count = count + 1
+print count
+
+
+string = 'Today is raining.'
+letter = 'i'
+
+
+def count(string, letter):
+    count = 0
+    for x in string:
+        if x == letter:
+            count += 1
+            print count
+
+print count(string, letter)

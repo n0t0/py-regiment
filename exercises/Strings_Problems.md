@@ -82,17 +82,76 @@ how they work. strip() and replace() are particularly useful.
 ```
 word = 'abracadabra'
 print word.replace('a','-')
-print word.replace('a','-', 2) # 3th argument counts occurences to be replaced_
+print word.replace('a','-', 2) # 3th argument counts occurences to be replaced
 ```
 
 #### strip()
 
 ```
 w = 'Metallica - Unforgiven.mp4'
-print w.strip('.mp4')_
+print w.strip('.mp4')
 ```
 
 The documentation uses a syntax that might be confusing.
 For example, in find(sub[, start[, end]]), the brackets indicate optional
 arguments. So sub is required, but start is optional, and if you include
 start, then end is optional.
+
+### Exercise 8
+A string slice can take a third index that specifies the “step size;” that is, the number of spaces between successive characters. A step size of 2 means every other character; 3 means every third, etc.
+
+```
+>>> fruit = 'banana'
+>>> fruit[0:5:2]
+'bnn'
+```
+A step size of -1 goes through the word backwards, so the slice [::-1] generates a reversed string.
+
+Use this idiom to write a one-line version of is_palindrome from Exercise 6.
+
+### Exercise 9
+The following functions are all intended to check whether a string contains any lowercase letters, but at least some of them are wrong. For each function, describe what the function actually does (assuming that the parameter is a string).
+
+```
+def any_lowercase1(s):
+    for c in s:
+        if c.islower():
+            return True
+        else:
+            return False
+
+def any_lowercase2(s):
+    for c in s:
+        if 'c'.islower():
+            return 'True'
+        else:
+            return 'False'
+
+def any_lowercase3(s):
+    for c in s:
+        flag = c.islower()
+    return flag
+
+def any_lowercase4(s):
+    flag = False
+    for c in s:
+        flag = flag or c.islower()
+    return flag
+
+def any_lowercase5(s):
+    for c in s:
+        if not c.islower():
+            return False
+    return True
+```
+
+### Exercise 10  
+ROT13 is a weak form of encryption that involves “rotating” each letter in a word by 13 places. To rotate a letter means to shift it through the alphabet, wrapping around to the beginning if necessary, so ’A’ shifted by 3 is ’D’ and ’Z’ shifted by 1 is ’A’.
+
+Write a function called rotate_word that takes a string and an integer as parameters, and that returns a new string that contains the letters from the original string “rotated” by the given amount.
+
+For example, “cheer” rotated by 7 is “jolly” and “melon” rotated by -10 is “cubed”.
+
+You might want to use the built-in functions ord, which converts a character to a numeric code, and chr, which converts numeric codes to characters.
+
+Potentially offensive jokes on the Internet are sometimes encoded in ROT13. If you are not easily offended, find and decode some of them. Solution: http://thinkpython.com/code/rotate.py.

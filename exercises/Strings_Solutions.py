@@ -49,7 +49,9 @@ for l in prefixes:
 # Modify find so that it has a third parameter, the index in word
 # where it should start looking.
 
-def find(word, letter):
+# NOTE: look <word>.find() for third argument 
+
+def find(word, letter, index):
     index = 0
     while index < len(word):
         if word[index] == letter:
@@ -57,7 +59,7 @@ def find(word, letter):
         index = index + 1
     return -1
 
-# NOTE: where the index in the word should be start looking?
+
 
 # Exercise 4
 # Encapsulate this code in a function named count, and generalize

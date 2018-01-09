@@ -1,12 +1,12 @@
-# a String is a sequence of characters
+# A String is a Sequence of Characters
 
 car = 'mercedes'
-letter = car[1] # computers count from 0
+letter = car[1] # indexing; computers count from 0
 print letter
 x = 2
-print car[x+1] # variables and operators can be used
+print car[x+1] # variables, expressions and operators can be used for indexing
 
-# len() method (move to string_method.py)
+# len() Method (move to string_method.py)
 print '===='*40
 
 print len(car) # returns the number of characters in a string
@@ -15,8 +15,9 @@ lenght = len(car)
 last = car[lenght-1]
 print last
 
+print car[-1] # negative indexing is allowed
 
-# while and for loops
+# While and For Loops
 print '===='*40
 
 index = 0
@@ -29,19 +30,20 @@ for char in car:
     print char
 
 
-# indexing, cutting & slicing
+# Indexing, Cutting & Slicing
 print '===='*40
 
 car = 'mercedes'
 
-print car[:2] # cutting
-print car[3:] # cutting 2 characters
+print car[:3] # cutting up to 3rd index
+print car[3:] # cutting from 3rd index
 print car[2:4] # slicing
+print car[2:7:2] # cutting by 2
 print len(car)
 print car[:]
 
 
-# searching
+# Searching
 print '===='*40
 
 word = 'abracadabra'
@@ -55,7 +57,7 @@ def find(word, letter): # the opposite of [] operator; return an index number
 
 print find(word, 'c')
 
-# counting
+# Counting
 print '===='*40
 
 word = 'harmonica'

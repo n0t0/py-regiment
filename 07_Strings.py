@@ -77,15 +77,25 @@ def in_both(word1, word2):
         if letter in word2:
             print letter
 
-
 in_both('bravo', 'brava')
 in_both('jaguar', 'tiger')
 in_both('raspberry', 'orange')
 
 # String Comparison
+print '===='*40
 
 # NOTE: Relational operators work on strings
 
 word = 'coco'
 if word == 'raspberry':
     print 'so many berries'
+
+
+if word < 'strawberry':
+    print 'Your word, ' + word + ', comes before strawberry'
+elif word > 'strawberry':
+    print 'Your word, ' + word + ', comes after strawberry'
+else:
+    print 'so many berries'
+
+# NOTE: Uppercase letters come before lowercase letters; use lower() method

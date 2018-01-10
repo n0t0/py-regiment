@@ -1,18 +1,21 @@
-# append() method
+# List Methods
+
+
+# append()
 
 l = ['classical', 'rock', 'pop', 'techno']
 print l
 l.append('electronic') # appends to the end of the list
 print l
 
-# insert() method
+# insert()
 
 l.insert(3, 'hip-hop') # index BEFORE inserting item or string
 print l
 l.insert(6, 'jazz')
 print l
 
-# remove() method
+# remove()
 
 l.remove('electronic')
 print l
@@ -33,3 +36,9 @@ print l
 
 l.extend(['na', 'la', 'ta'])
 print l
+
+# sort() arranges the elements of the list from low to high
+
+mus_alphabet = ['a', 'g', 'f', 'd', 'c', 'b', 'e']
+mus_alphabet.sort()
+print mus_alphabet

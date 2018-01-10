@@ -66,3 +66,26 @@ for l in word:
     if l == 'a':
         count += 1
     print count
+
+# The in Operator
+
+print 'a' in 'harmonica'
+print 'abc' in 'harmonica'
+
+def in_both(word1, word2):
+    for letter in word1:
+        if letter in word2:
+            print letter
+
+
+in_both('bravo', 'brava')
+in_both('jaguar', 'tiger')
+in_both('raspberry', 'orange')
+
+# String Comparison
+
+# NOTE: Relational operators work on strings
+
+word = 'coco'
+if word == 'raspberry':
+    print 'so many berries'

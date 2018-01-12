@@ -16,7 +16,7 @@ _res_ is initialized with an empty list; each time through the loop, we append t
 An operation like _capitalize_all_ is sometimes called a map because it “maps” a function (in this case the method capitalize) onto each of the elements in a sequence.
 
 ### Exercise 2  
-Use capitalize_all to write a function named capitalize_nested that takes a nested list of strings and returns a new nested list with all strings capitalized.
+Use _capitalize_all_ to write a function named capitalize_nested that takes a nested list of strings and returns a new nested list with all strings capitalized.
 
 Another common operation is to select some of the elements from a list and return a sublist. For example, the following function takes a list of strings and returns a list that contains only the uppercase strings:
 

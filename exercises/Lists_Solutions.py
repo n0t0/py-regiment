@@ -21,5 +21,49 @@ def capitalize_all(t):
 # elements in a sequence.
 
 
-def nested_sum(list):
-    pass
+t = [1, 2, [3, 4], 5, 6, [[7, 8], 9, 10]]
+
+
+# print len(t)
+print t[2]
+print t[5]
+print t[5][0]
+print '===='*40
+# total = t.append(t[2])
+# print t
+
+# l = [1, 2, 3, 4, 5]
+# x = l.pop(0)
+# print x
+
+
+def nested_sum(t):
+    total = []
+    # total.append(t[2])
+    # total.append(t[5])
+    # total.append(t[5][0])
+    for nest in t:
+        if nest == t[2]:
+            total.append(nest)
+        elif nest == t[5] and t[5][0]:
+            total.append(nest)
+    # x = total.pop(0)
+    # print x
+    # y = total.pop(0)
+    # print y
+            # s = ' '.join(map(str, total))
+            # print s
+    # while t:
+    #     total.extend(t.pop(0))
+    print total
+    x = total[0] + total[1]
+    print x
+    y = x.pop(2)
+    print x.extend(y)
+    print x
+    print sum(x)
+
+
+
+
+print nested_sum(t)

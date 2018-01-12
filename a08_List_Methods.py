@@ -1,6 +1,5 @@
 # List Methods
 
-
 # append()
 
 l = ['classical', 'rock', 'pop', 'techno']
@@ -29,8 +28,8 @@ print l
 # pop() indexed item is deleted; if not index given - removes last
 l.pop()
 print l
-l.pop(2)
-print l
+x = l.pop(2)
+print x
 
 # extend() extends a list by another list
 

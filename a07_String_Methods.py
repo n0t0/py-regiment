@@ -112,3 +112,10 @@ print s.expandtabs(12)
 
 s = 'Boogie-Woogie-Boom'
 print s.partition('W')
+
+
+# strip()
+
+s = 'today is a good day'
+s = s.strip()
+print s

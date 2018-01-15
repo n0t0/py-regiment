@@ -49,7 +49,7 @@ for l in prefixes:
 # Modify find so that it has a third parameter, the index in word
 # where it should start looking.
 
-# NOTE: look <word>.find() for third argument 
+# NOTE: look <word>.find() for third argument
 
 def find(word, letter, index):
     index = 0
@@ -85,3 +85,17 @@ def count(string, letter):
             print count
 
 print count(string, letter)
+
+# Exercise 5
+# Rewrite _count_ function so that instead of traversing the string,
+# it uses the three-parameter version of _find_ from the previous section.
+
+
+# Exercise 6
+# There is a string method called count that is similar to the function
+# in the previous exercise. Read the documentation of this method and
+# write an invocation that counts the number of as in 'abracadabra'.
+print '===='*40
+
+word = 'abracadabra'
+print word.count('a')

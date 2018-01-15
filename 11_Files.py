@@ -1,4 +1,4 @@
-# Writing a file
+# Writing a File
 
 fout = open('output.txt', 'w')
 print fout
@@ -57,5 +57,5 @@ try:
     for line in fin:
         print line
     fin.close()
-except:``
+except:
     print 'Something went wrong.'

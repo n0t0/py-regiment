@@ -10,10 +10,43 @@ fin = open('z:/python/words.txt')
 
 
 def words_keys(fin):
-    d = {}
+    # d = {}
     for word in fin:
         d = {key: None for key in fin}
-        for i in d:
-            print i
-
+        # NOTE: Test time() on dict and list
+        # for i in d:
+        #     print i
+        # NOTE: Fix escape \n in words.txt
+        print 'prodigal\n' in d
 words_keys(fin)
+
+print '===='*40
+# Exercise 2
+
+
+def histogram(s):
+    d = dict()
+    # v = c in s
+    d = {c: 1 for c in s}
+    for c in d:
+        print d.get(c)
+    #
+    # else:
+    #     print d.get(c, 0)
+    #     print c, d[c]
+        # print d.get(c)
+    # for c in s:
+    #     d = {c: 1 for c in s}
+        # d[c] = 1
+        # print d.get(c)
+    #     if c not in d:
+    #         d[c] = 1
+    #     else:
+    #         d[c] += 1
+    # return d.get('s')
+
+print histogram('stttttrumma')
+
+
+# h = histrogram('s')
+# print h

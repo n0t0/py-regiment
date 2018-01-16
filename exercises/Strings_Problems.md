@@ -62,7 +62,7 @@ Rewrite _count_ function so that instead of traversing the string,
 it uses the three-parameter version of _find_ from the previous section.
 
 ### Exercise 6
-There is a string method called count that is similar to the function
+There is a string method called _count_ that is similar to the function
 in the previous exercise. Read the documentation of this method and
 write an invocation that counts the number of as in 'abracadabra'.
 

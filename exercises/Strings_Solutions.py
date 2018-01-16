@@ -7,7 +7,6 @@ x = 'unforgiven'
 def backward(x):
     for char in x[::-1]:
         print char
-
 backward(x)
 
 print '===='*40
@@ -75,7 +74,6 @@ def find(word, letter, start):
     return -1
 print find('exercise','e', 2)
 
-
 print '===='*40
 # Exercise 4
 # Encapsulate this code in a function named count, and generalize
@@ -88,25 +86,24 @@ for letter in word:
         count = count + 1
 print count
 
-
-string = 'Today is raining.'
-letter = 'i'
-
+s = 'Today is raining'
+l = 'i'
 
 def count(string, letter):
-    count = 0
+    c = 0
     for x in string:
         if x == letter:
-            count += 1
-            print count
+            c += 1
+            print c, letter
+print count('exercise', 'e')
 
-print count(string, letter)
-
+print '===='*40
 # Exercise 5
 # Rewrite _count_ function so that instead of traversing the string,
 # it uses the three-parameter version of _find_ from the previous section.
 
 
+print '===='*40
 # Exercise 6
 # There is a string method called count that is similar to the function
 # in the previous exercise. Read the documentation of this method and

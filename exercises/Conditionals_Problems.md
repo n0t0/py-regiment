@@ -1,5 +1,4 @@
 ### Exercise 1
-
 Fermat’s Last Theorem says that there are no positive integers a, b, and c such that: a**n + b**n = c** for any values greater than 2.
 
 1. Proof that there are no positive numbers to satisfy:
@@ -12,7 +11,6 @@ converts them to integers, and uses check_fermat to check wheter they violate
 Fermat's theorem.
 
 ### Exercise 2
-
 If you are given three sticks, you may or may not be able to arrange them
 in a triangle. For example, if one of the sticks is 12 inches long and
 the other two are one inch long, it is clear that you will not be able

@@ -1,15 +1,18 @@
+print '====1'*40
 # Exercise 1
 # Write a function that takes a string as an argument and displays the letters
 # backward, one per line.
 
 x = 'unforgiven'
 
+
 def backward(x):
     for char in x[::-1]:
         print char
 backward(x)
 
-print '===='*40
+
+print '====2'*40
 # Exercise 2
 # Modify the program to fix this error.
 
@@ -20,10 +23,12 @@ print '===='*40
 prefixes = 'JKLMNOPQ'
 suffix = 'ack'
 
+
 for letter in prefixes:
     print letter + suffix
     if prefixes == 'O':
         print letter + 'u' + suffix
+
 
 # The output is:
 #
@@ -37,6 +42,7 @@ for letter in prefixes:
 # Qack
 # Of course, that's not quite right because "Ouack" and "Quack" are misspelled.
 
+
 for l in prefixes:
     if l in prefixes[5]:
         print l + 'uack'
@@ -44,6 +50,7 @@ for l in prefixes:
         print l + 'uack'
     else:
         print l + suffix
+
 
 print '====3'*40
 # Exercise 3
@@ -61,6 +68,7 @@ def find(word, letter):
         index += 1
     return -1
 print find('exercise','r')
+
 
 # v2
 
@@ -97,26 +105,28 @@ print count
 s = 'Today is raining'
 l = 'i'
 
+
 def count(string, letter):
     c = 0
     for x in string:
         if x == letter:
             c += 1
-            print c, letter
-print count('exercise', 'e')
+    print c, letter
+print count('exercise', 'x')
 
-print '===='*40
+
+print '====5'*40
 # Exercise 5
 # Rewrite _count_ function so that instead of traversing the string,
 # it uses the three-parameter version of _find_ from the previous section.
 
 
-print '===='*40
+print '====6'*40
 # Exercise 6
 # There is a string method called count that is similar to the function
 # in the previous exercise. Read the documentation of this method and
 # write an invocation that counts the number of as in 'abracadabra'.
-print '===='*40
+
 
 word = 'abracadabra'
 print word.count('a')

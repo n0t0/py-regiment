@@ -19,13 +19,15 @@ import time
 
 my_words = [elt.strip() for elt in open('z:/python/sonnet_words.txt', 'r').readlines()]
 word_list = [elt.strip() for elt in open('z:/python/sowpods.txt', 'r').readlines()]
-word_dict = dict((elt, None) for elt in word_list)
+# word_dict = dict((elt, None) for elt in word_list)
+word_set = set(word_list)
+
 
 counter = 0
 start = time.time()
 
 for word in my_words:
-    if word not in word_dict:
+    if word not in word_set:
         print word
         counter += 1
 

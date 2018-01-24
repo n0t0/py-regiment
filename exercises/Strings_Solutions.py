@@ -45,12 +45,13 @@ for l in prefixes:
     else:
         print l + suffix
 
-print '===='*40
+print '====3'*40
 # Exercise 3
 # Modify find so that it has a third parameter, the index in word
 # where it should start looking.
 
 # NOTE: look <word>.find() for third argument
+
 
 def find(word, letter):
     index = 0
@@ -59,22 +60,29 @@ def find(word, letter):
             return index
         index += 1
     return -1
-print find('exercise','x')
+print find('exercise','r')
+
+# v2
 
 
 def find(word, letter, start):
     index = 0
-    # start =
     while index < len(word):
         if index < start:
             index = start
+            if start > len(word):
+                print "Lenght of the word is: " + str(len(word))
+            elif word[start] == letter:
+                return start, letter
         elif word[index] == letter:
-            return index
+            return index, letter
         index += 1
-    return -1
-print find('exercise','e', 2)
+    # return -1
+    print 'Did not found "' + letter + '" after index: ' + str(start)
+print find('exercise','r', 4)
 
-print '===='*40
+
+print '====4'*40
 # Exercise 4
 # Encapsulate this code in a function named count, and generalize
 # it so that it accepts the string and the letter as arguments.

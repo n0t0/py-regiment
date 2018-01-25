@@ -112,13 +112,22 @@ def count(string, letter):
         if x == letter:
             c += 1
     print c, letter
-print count('exercise', 'x')
+count('exercise', 'x')
 
 
 print '====5'*40
 # Exercise 5
 # Rewrite _count_ function so that instead of traversing the string,
 # it uses the three-parameter version of _find_ from the previous section.
+
+
+def count(string, letter, start):
+    c = 0
+    # find(string, letter, start)
+    find(string, letter, start)
+        c += 1
+    print c, i
+count('string', 'g', 1)
 
 
 print '====6'*40

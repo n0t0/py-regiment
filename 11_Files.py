@@ -51,7 +51,7 @@ def walk(dirname):
             walk(path)
 walk(cwd)
 
-# Catching Exceptions
+# Catching Exceptions with try and except
 
 try:
     fin = open('bad_file')
@@ -60,3 +60,57 @@ try:
     fin.close()
 except:
     print 'Something went wrong.'
+
+# Databases
+
+import anydbm # accepts only strings
+
+db = anydbm.open('database.db', 'c') # create a database
+db['photo.png'] = 'Photo of Aliso' # update database as a dictionary
+print db['photo.png']
+
+for key in db:
+    print key
+
+db.close() # closing the database as any other file
+
+# Pickling
+
+import pickle # translates object types into a string and the back to objects
+
+t1 = [1, 2, 3]
+s = pickle.dumps(t1) # dump an object into a string
+print s # readable for pickle to interpret
+t2 = pickle.loads(s) # loads a string into a object
+print t2
+
+# Pipes
+
+cmd = 'ls -l'
+fp = os.popen(cmd)
+
+res = fp.read()
+
+stat = fp.close()
+print stat
+
+# md5sum
+
+filename = 'book.tex'
+cmd ='md5sum ' + filename
+fp = os.popen(cmd)
+res = fp.read()
+stat = fp.close()
+print res
+
+# Writing Modules
+
+def linecount(filename):
+    count = 0
+    for line in open(filename):
+        count += 1
+    return count and
+print linecount('wc.py')
+
+
+import wc

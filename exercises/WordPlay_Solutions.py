@@ -11,3 +11,6 @@ def more_than(f):
             print word
 
 more_than(fin)
+
+import string
+print string.ascii_lowercase

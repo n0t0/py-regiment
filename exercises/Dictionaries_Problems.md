@@ -15,6 +15,7 @@ Dictionaries have a method called get that takes a key and a default value. If t
 >>> h.get('b', 0)
 0
 ```
+Use get to write histogram more concisely. You should be able to eliminate the if statement.
 
 ### Exercise 3  
 Dictionaries have a method called keys that returns the keys of the dictionary, in no particular order, as a list.
@@ -35,4 +36,15 @@ p 1
 r 2
 t 1
 o 1
+```
+
+### Exercise 4  
+Modify reverse_lookup so that it builds and returns a list of all keys that map to v, or an empty list if there are none.
+
+```
+def reverse_lookup(d, v):
+    for k in d:
+        if d[k] == v:
+            return k
+    raise ValueError
 ```

@@ -6,7 +6,7 @@
 # 2.
 # Write a function that prompts the user to input values for a, b, c and n
 # converts them to integers, and uses check_fermat to check wheter they violate
-# Fermat's theorem
+# Fermat's theorem.
 
 # 1.
 

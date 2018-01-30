@@ -6,11 +6,11 @@
 # For example, the following function takes a list of strings and returns
 # a new list that contains capitalized strings:
 
-def capitalize_all(t):
-    res = []
-    for s in t:
-        res.append(s.capitalize())
-    return res
+# def capitalize_all(t):
+#     res = []
+#     for s in t:
+#         res.append(s.capitalize())
+#     return res
 
 
 # res is initialized with an empty list; each time through the loop, we append
@@ -63,7 +63,65 @@ def nested_sum(t):
     print x
     print sum(x)
 
-
-
-
 print nested_sum(t)
+
+# Exercise 2
+print '===='*40
+
+def capitalize_all(t):
+    res = []
+    for s in t:
+        res.append(s.capitalize())
+    return res
+
+
+nested_t = ['string1', ['String2', 'string3'], 'string4',['string5']]
+
+
+def capitalized_nested(nested_t):
+    nested_tCap = []
+    for e in nested_t:
+        if e == type(str):
+            print type(e)
+        # print e.capitalize()
+        # if s.isupper()
+        #     nested_tCap.append(s)
+    # return nested_tCap
+
+print capitalized_nested(nested_t)
+
+
+# Exercise 3
+print '===='*40
+
+t = [1, 2, 3]
+
+def cum_sum(t):
+    new_t = []
+    for e in t:
+        if e == 0:
+            return 0
+        elif e == 1:
+            return e + 1
+        else:
+            return cum_sum(t) + cum_sum(t+1)
+        # e = e + t[1]
+        # new_t.append(e)
+    # return new_t
+
+print cum_sum(t)
+
+
+# Exercise 4
+# Write a function called middle that takes a list and returns a new list that
+# contains all but the first and last elements. So middle([1,2,3,4]) should
+# return [2,3].
+print '===='*40
+
+t = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+def middle(t):
+    cut = t[1:-1]
+    return cut
+
+print middle(t)

@@ -19,12 +19,12 @@
 ## ADVANCED:
 
 1. Formatting
-1. More Functions
 1. Lambda
 1. Importing Modules
 1. RE module
 1. String Methods
 1. List Methods
+1. More Functions
 
 
 EXERCISES:

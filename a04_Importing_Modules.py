@@ -20,5 +20,8 @@ print t.localtime()
 # Importing specific function from a module allows calling its function only
 
 from calendar import firstweekday
-
 print firstweekday()
+
+import random
+print random.randint(0,5)
+print random.random()

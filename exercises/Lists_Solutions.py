@@ -127,6 +127,7 @@ def middle(t):
 print middle(t)
 
 # Exercise 5
+print '===='*40
 
 s = 'hubbabubba'
 l = list(s)
@@ -136,3 +137,18 @@ def chop(l):
     mod_l = l[1:-1]
     print mod_l
 print chop(l)
+
+
+# Exercise 6
+print '===='*40
+
+l = [2,4,6,3,2,1,2]
+
+def is_sorted(l):
+    for e in l:
+        if e > 0:
+            e = e[1]
+        return True
+    else:
+        return False
+print is_sorted(l)

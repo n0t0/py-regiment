@@ -41,7 +41,7 @@ Write a function that takes a list of numbers and returns the cumulative sum; th
 Write a function called middle that takes a list and returns a new list that contains all but the first and last elements. So middle([1,2,3,4]) should return [2,3].
 
 ### Exercise 5  
-Write a function called chop that takes a list, modifies it by removing the first and last elements, and returns None.
+Write a function called _chop_ that takes a list, modifies it by removing the first and last elements, and returns None.
 
 ### Exercise 6   
 Write a function called is_sorted that takes a list as a parameter and returns True if the list is sorted in ascending order and False otherwise. You can assume (as a precondition) that the elements of the list can be compared with the relational operators <, >, etc.

@@ -125,3 +125,14 @@ def middle(t):
     return cut
 
 print middle(t)
+
+# Exercise 5
+
+s = 'hubbabubba'
+l = list(s)
+
+
+def chop(l):
+    mod_l = l[1:-1]
+    print mod_l
+print chop(l)

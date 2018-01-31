@@ -44,18 +44,18 @@ Write a function called middle that takes a list and returns a new list that con
 Write a function called _chop_ that takes a list, modifies it by removing the first and last elements, and returns None.
 
 ### Exercise 6   
-Write a function called is_sorted that takes a list as a parameter and returns True if the list is sorted in ascending order and False otherwise. You can assume (as a precondition) that the elements of the list can be compared with the relational operators <, >, etc.
-For example, is_sorted([1,2,2]) should return True and is_sorted(['b','a']) should return False.
+Write a function called _is_sorted_ that takes a list as a parameter and returns _True_ if the list is sorted in ascending order and _False_ otherwise. You can assume (as a precondition) that the elements of the list can be compared with the relational operators <, >, etc.
+For example, _is_sorted([1,2,2])_ should return _True_ and _is_sorted(['b','a'])_ should return _False_.
 
 ### Exercise 7  
-Two words are anagrams if you can rearrange the letters from one to spell the other. Write a function called is_anagram that takes two strings and returns True if they are anagrams.
+Two words are anagrams if you can rearrange the letters from one to spell the other. Write a function called _is_anagram_ that takes two strings and returns _True_ if they are anagrams.
 
 ### Exercise 8  
 The (so-called) Birthday Paradox:
 
-Write a function called has_duplicates that takes a list and returns True if there is any element that appears more than once. It should not modify the original list.
-If there are 23 students in your class, what are the chances that two of you have the same birthday? You can estimate this probability by generating random samples of 23 birthdays and checking for matches. Hint: you can generate random birthdays with the randint function in the random module.
-You can read about this problem at http://en.wikipedia.org/wiki/Birthday_paradox, and you can download my solution from http://thinkpython.com/code/birthday.py.
+Write a function called _has_duplicates_ that takes a list and returns _True_ if there is any element that appears more than once. It should not modify the original list.
+If there are 23 students in your class, what are the chances that two of you have the same birthday? You can estimate this probability by generating random samples of 23 birthdays and checking for matches. Hint: you can generate random birthdays with the _randint_ function in the _random module_.
+You can read about this problem at http://en.wikipedia.org/wiki/Birthday_paradox.
 
 ### Exercise 9  
 Write a function called remove_duplicates that takes a list and returns a new list with only the unique elements from the original. Hint: they don’t have to be in the same order.

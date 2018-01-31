@@ -107,7 +107,7 @@ A string slice can take a third index that specifies the “step size;” that i
 ```
 A step size of -1 goes through the word backwards, so the slice [::-1] generates a reversed string.
 
-Use this idiom to write a one-line version of is_palindrome from Exercise 6.
+Use this idiom to write a one-line version of is_palindrome from Math_Problems --Exercise 5.
 
 ### Exercise 9
 The following functions are all intended to check whether a string contains any lowercase letters, but at least some of them are wrong. For each function, describe what the function actually does (assuming that the parameter is a string).

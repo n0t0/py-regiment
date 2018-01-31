@@ -121,13 +121,13 @@ print '====5'*40
 # it uses the three-parameter version of _find_ from the previous section.
 
 
-def count(string, letter, start):
-    c = 0
-    # find(string, letter, start)
-    find(string, letter, start)
-        c += 1
-    print c, i
-count('string', 'g', 1)
+# def count(string, letter, start):
+#     c = 0
+#     # find(string, letter, start)
+#     find(string, letter, start)
+#         c += 1
+#         print c, i
+# count('string', 'g', 1)
 
 
 print '====6'*40
@@ -137,5 +137,30 @@ print '====6'*40
 # write an invocation that counts the number of as in 'abracadabra'.
 
 
-word = 'abracadabra'
+word = ' abracadabra'
 print word.count('a')
+
+print '====7'*40
+# Exercise 7
+
+s = 'abracadabra'
+# str.endswith()
+print s.endswith('abra',0, 4)
+
+# str.find()
+print s.find('bra', 2)
+
+# str.lower()
+print s.islower()
+
+# str.split()
+print s.split('ca')
+
+print '====8'*40
+
+
+# Exercise 8
+
+w = 'annapolis'
+s = 'radar'
+print [s == s[::-1]]

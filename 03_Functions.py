@@ -1,7 +1,4 @@
-print '####'*40
 # Built in Functions
-print '####'*40
-
 
 print int('32') # converts to integer
 print int(32.99) # chops the fraction part
@@ -10,9 +7,7 @@ print float(32) # converts to floating-point numbers
 print str(32) # converts to string
 print str(32.22)
 
-print '####'*40
 # More Built-In Functions
-print '####'*40
 
 i = 1
 print isinstance(i, int)
@@ -21,12 +16,8 @@ s = 'string'
 print isinstance(s, str)
 print isinstance(s, int)
 
-print '####'*40
 # Math Functions
-# Calling a 'dot notation' function from a module
-# module - colletion of functions
-print '####'*40
-
+# NOTE: module --> colletion of functions
 
 import math # importing a module
 
@@ -34,21 +25,15 @@ print math # prints information about it
 print math.pi # calling a module's functions (dot notation)
 print math.sqrt(16)
 
-
-print '####'*40
 # Composition
-# An argument of a function can be an expression or even a function call
-print '####'*40
-
+# NOTE:  an argument of a function can be an expression or even a function call
 
 print math.sqrt(2+2)
 print math.sqrt(math.sqrt(16))
 
 
-print '####'*40
-# Define a function; Keyword 'def'
-print '####'*40
 
+# Defining a Function; Keyword 'def'
 
 def lyrics():
     print 'Go, tell Aunt Rhodie,'
@@ -61,11 +46,7 @@ print type(lyrics) # and it has the type 'function'
 
 print lyrics() # calling a function is the same as calin built-in function
 
-
-print '####'*40
 # Calling a functions inside another function
-print '####'*40
-
 
 def variation():
     print lyrics()
@@ -76,11 +57,8 @@ def variation():
 
 print variation()
 
-
-print '####'*40
-# Flow of execution; follow the flow instead of reading top-bottom!
-print '####'*40
-
+# Flow of Execution;
+# NOTE: follow the flow instead of reading top-bottom!
 
 def first():
     print 'This is the 1st function'
@@ -100,10 +78,8 @@ def fourth():
 print third()
 
 
-print '####'*40
-# NOTE: Parameters vs. Arguments
-# Inside a function arguments are assigned to variables called parameters
-print '####'*40
+# Parameters vs. Arguments
+# NOTE: inside a function arguments are assigned to variables called parameters
 
 
 def repeat(x): # argument asiggned to a parameter inside the function
@@ -115,10 +91,7 @@ print repeat(2)
 y = 3 # variable can be used as an argument
 print repeat(y)
 
-
-print '####'*40
-# Local variables and parameters
-print '####'*40
+# Local Variables and Parameters
 
 
 def cat_repeat(part1, part2):
@@ -126,7 +99,6 @@ def cat_repeat(part1, part2):
     print repeat(cat)
 
 print cat_repeat(2, 2) # cat is destroyed when cat_repeat terminates
-
 
 line1 = 'King of the land! King of the land!'
 line2 = 'Beast of the jungle say he is so grand!'

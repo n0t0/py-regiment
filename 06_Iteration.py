@@ -1,16 +1,15 @@
-# Updating variables
+# Updating Variables
 
 x = 0
 x = x + 1
 print x
 
-# While statemenet
+# While Statemenet
 def countdown(n):
     while n > 0:
         print n
         n = n-1
     print 'Fire in the hole!'
-
 print countdown(5)
 
 
@@ -21,7 +20,6 @@ def sequence(n):
             n = n/2
         else:
             n = n*3+1
-
 print sequence(10)
 
 
@@ -29,7 +27,6 @@ def print_n(s, n):
     while n > 0:
         print s
         n = n - 1
-
 print_n('flood', 3)
 
 # Break
@@ -41,7 +38,7 @@ while True:
 
 print 'Done!'
 
-# Square roots
+# Square Roots
 
 # Newton's method for computing square roots: y = (x + a/x) / 2
 

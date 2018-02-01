@@ -3,7 +3,7 @@
 print 'hello world'
 
 # Mathematics
-# Remember "PEMDAS" acronym for Order of Operations
+# NOTE: "PEMDAS" acronym for Order of Operations
 
 # Parantheses
 
@@ -25,12 +25,12 @@ print 10 // 3
 
 print 4 - 1
 
-# String concatenation
+# String Concatenation
 
 s = 'String'
 print s + s
 print s * 3
-# print s ** 3 # doesn't work with strings
+# NOTE: print s ** 3 # doesn't work with strings
 
 # Getting Help
 

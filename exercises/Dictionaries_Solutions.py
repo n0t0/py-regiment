@@ -50,3 +50,18 @@ print histogram('stttttrumma')
 
 # h = histrogram('s')
 # print h
+
+
+# Exercise 3
+h = {'v': 1, 'a': 2, 'r': 1, 'd': 1, 'a': 1, 'r': 2}
+
+
+def print_hist(h):
+    # l = []
+    for e in h.keys():
+        l = []
+        l.append(e)
+        l.sort()
+        print l
+
+print_hist(h)

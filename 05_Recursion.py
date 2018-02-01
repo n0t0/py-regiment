@@ -1,6 +1,4 @@
-print '####'*40
-# Recursive functions are able to call themselves
-print '####'*40
+# Recursive Functions are Able to Call Themselves
 
 def countdown(n):
     if n <= 0:
@@ -8,7 +6,6 @@ def countdown(n):
     else:
         print n
         countdown(n-1)
-
 print countdown(5)
 
 
@@ -17,7 +14,6 @@ def print_n(s, n):
         return
     print s
     print print_n(s, n-1)
-
 print print_n('flood', 3)
 
 
@@ -27,13 +23,9 @@ def print_n(s, n):
         return
     print s
     print print_n(s, n-1)
-
 print print_n(s, 3)
 
-
-print '####'*40
-# Keyboard input
-print '####'*40
+# Keyboard Input
 
 name = raw_input("What's your name?\n")
 print name

@@ -1,4 +1,4 @@
-print '====1'*40
+print '\nExercise 1\n'
 # Exercise 1
 # Write a function that takes a string as an argument and displays the letters
 # backward, one per line.
@@ -12,7 +12,7 @@ def backward(x):
 backward(x)
 
 
-print '====2'*40
+print '\nExercise 2\n'
 # Exercise 2
 # Modify the program to fix this error.
 
@@ -24,10 +24,10 @@ prefixes = 'JKLMNOPQ'
 suffix = 'ack'
 
 
-for letter in prefixes:
-    print letter + suffix
-    if prefixes == 'O':
-        print letter + 'u' + suffix
+# for letter in prefixes:
+#     print letter + suffix
+#     if prefixes == 'O':
+#         print letter + 'u' + suffix
 
 
 # The output is:
@@ -52,7 +52,7 @@ for l in prefixes:
         print l + suffix
 
 
-print '====3'*40
+print '\nExercise 3\n'
 # Exercise 3
 # Modify find so that it has a third parameter, the index in word
 # where it should start looking.
@@ -70,8 +70,11 @@ def find(word, letter):
 print find('exercise','r')
 
 
-# v2
+print '\nver.02\n'
 
+word = 'exercise'
+letter = 'r'
+start = 2
 
 def find(word, letter, start):
     index = 0
@@ -87,10 +90,10 @@ def find(word, letter, start):
         index += 1
     # return -1
     print 'Did not found "' + letter + '" after index: ' + str(start)
-print find('exercise','r', 4)
+print find(word, letter, start)
 
 
-print '====4'*40
+print '\nExercise 4\n'
 # Exercise 4
 # Encapsulate this code in a function named count, and generalize
 # it so that it accepts the string and the letter as arguments.
@@ -111,26 +114,30 @@ def count(string, letter):
     for x in string:
         if x == letter:
             c += 1
-    print c, letter
-count('exercise', 'x')
+    print c, letter + '\'s are found'
+count('exercise', 'e')
 
 
-print '====5'*40
+print '\nExercise 5\n'
 # Exercise 5
 # Rewrite _count_ function so that instead of traversing the string,
 # it uses the three-parameter version of _find_ from the previous section.
 
+string = 'abracadabra'
+letter = 'a'
+start = 1
+def count(*args):
+    c = 0
+    if find(string, letter, start) > 1:
+        print letter
+        c += 1
+    else:
+        print 'Letter not found'
+    print str(c), letter + ' found'
+count(find(string, letter, start))
 
-# def count(string, letter, start):
-#     c = 0
-#     # find(string, letter, start)
-#     find(string, letter, start)
-#         c += 1
-#         print c, i
-# count('string', 'g', 1)
 
-
-print '====6'*40
+print '\nExercise 6\n'
 # Exercise 6
 # There is a string method called count that is similar to the function
 # in the previous exercise. Read the documentation of this method and
@@ -140,10 +147,16 @@ print '====6'*40
 word = ' abracadabra'
 print word.count('a')
 
-print '====7'*40
+print '\nExercise 7\n'
 # Exercise 7
 
-s = 'abracadabra'
+s = 'abracadabra.puff'
+# str.strip()
+print s.strip('.puff')
+
+# str.replace()
+print s.replace('puff', 'paff')
+
 # str.endswith()
 print s.endswith('abra',0, 4)
 
@@ -156,11 +169,9 @@ print s.islower()
 # str.split()
 print s.split('ca')
 
-print '====8'*40
-
-
+print '\nExercise 8\n'
 # Exercise 8
 
 w = 'annapolis'
 s = 'radar'
-print [s == s[::-1]]
+print s == s[::-1]

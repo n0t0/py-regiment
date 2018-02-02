@@ -20,7 +20,7 @@ Use get to write histogram more concisely. You should be able to eliminate the i
 ### Exercise 3  
 Dictionaries have a method called keys that returns the keys of the dictionary, in no particular order, as a list.
 
-Modify print_hist to print the keys and their values in alphabetical order.
+Modify _print_hist_ to print the keys and their values in alphabetical order.
 
 ```
 def print_hist(h):

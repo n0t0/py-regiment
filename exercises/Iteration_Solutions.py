@@ -15,10 +15,15 @@ def print_n(s, n):
         n -= 1
 print_n('spam', 5)
 
-
 # Exercise 2
-# Encapsulate this loop
+# Encapsulate this loop,
+#     if abs(y-x) < epsilon:
+        # break:
+# in a function called square_root that takes a as a parameter,
+# chooses a reasonable value of x, and returns an estimate of
+# the square root of a. Where epsilon = 0.0000001
 
+# NOTE:
 # while True:
 #     print x
 #     y = (x + a/x) / 2
@@ -26,6 +31,11 @@ print_n('spam', 5)
 #         break
 #     x = y
 
-# in a function called square_root that takes a as a parameter,
-# chooses a reasonable value of x, and returns an estimate of
-# the square root of a.
+epsilon = 0.0000001
+
+def square_root(a):
+    x = 3
+    y = (x + a/x) / 2
+    if abs(y-2) < epsilon:
+        print a
+print square_root(4)

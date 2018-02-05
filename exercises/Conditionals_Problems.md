@@ -21,7 +21,7 @@ If any of the three lengths is greater than the sum of the other two,
 then you cannot form a triangle. Otherwise, you can. (If the sum of two
 lengths equals the third, they form what is called a "degemerate" triangle.)
 
-1. Write a function named is_triangle that takes three integers as arguments,
+1. Write a function named _is_triangle_ that takes three integers as arguments,
 and that prints either "Yes" or "No," depending on whether you can or cannot
 form a triangle from sticks with the given lengths.
 

@@ -1,3 +1,4 @@
+print '\n Exercise 1\n'
 ### Exercise 1
 # Write a function called nested_sum that takes a nested list of integers and
 # add up the elements from all of the nested lists.
@@ -28,7 +29,6 @@ t = [1, 2, [3, 4], 5, 6, [[7, 8], 9, 10]]
 print t[2]
 print t[5]
 print t[5][0]
-print '===='*40
 # total = t.append(t[2])
 # print t
 
@@ -62,11 +62,12 @@ def nested_sum(t):
     print x.extend(y)
     print x
     print sum(x)
+nested_sum(t)
 
-print nested_sum(t)
 
+print '\n Exercise 2\n'
 # Exercise 2
-print '===='*40
+
 
 def capitalize_all(t):
     res = []
@@ -87,12 +88,12 @@ def capitalized_nested(nested_t):
         # if s.isupper()
         #     nested_tCap.append(s)
     # return nested_tCap
-
 print capitalized_nested(nested_t)
 
 
+print '\n Exercise 3\n'
 # Exercise 3
-print '===='*40
+
 
 t = [1, 2, 3]
 

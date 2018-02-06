@@ -21,7 +21,7 @@ print blank.y
 x = blank.x
 print x
 # NOTE:
-# Dot (.) notation can be used with expressions
+# dot (.) notation can be used with expressions
 
 print '({}, {})'.format(blank.x, blank.y)
 distance = sqrt(blank.x ** 2 + blank.y ** 2)
@@ -59,7 +59,7 @@ def find_center(rect):
 center = find_center(box)
 print_point(center)
 
-# Objects are mutable
+# Objects are Mutable
 
 box.width = box.width + 50
 box.height = box.height + 100
@@ -77,7 +77,7 @@ grow_rectangle(box, 50, 100)
 print box.width
 print box.height
 
-# Copying is alternative to aliasing
+# Copying is Alternative to Aliasing
 
 p1 = Point()
 p1.x = 3.0
@@ -100,3 +100,13 @@ print box2.corner is box.corner
 # shallow copy copies object's references, but not embedded objects
 
 # type(object) and hasattr(object, 'name-of-attribute')
+
+
+box3 = copy.deepcopy(box)
+print box3 is box
+print box3.corner is box.corner
+
+# NOTE: use built-in hasattr() for checking if object has an attribute
+
+print hasattr(box, 'width')
+print hasattr(box, 'lenght')

@@ -1,11 +1,13 @@
-# User defined type is called a Class
+# User Defined Type is Called a Class
 
 from math import sqrt
 
 class Point(object):
-    """Represent a point in 2D space"""
+    """
+    Represent a point in 2D space
+    """
 
-print Point # Point is defined at top level so fullname is __main__
+print Point # point is defined at top level so fullname is __main__
 
 blank = Point() # instantination; blank is an instance of the class Point()
 print blank
@@ -18,7 +20,7 @@ blank.y = 4.0
 print blank.y
 x = blank.x
 print x
-
+# NOTE:
 # Dot (.) notation can be used with expressions
 
 print '({}, {})'.format(blank.x, blank.y)
@@ -27,7 +29,6 @@ print distance
 
 def print_point(p):
     print '{}, {}'.format(p.x, p.y)
-
 print print_point(blank)
 
 # NOTE:

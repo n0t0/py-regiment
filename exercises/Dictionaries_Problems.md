@@ -39,7 +39,7 @@ o 1
 ```
 
 ### Exercise 4  
-Modify reverse_lookup so that it builds and returns a list of all keys that map to v, or an empty list if there are none.
+Modify _reverse_lookup_ so that it builds and returns a list of all keys that map to v, or an empty list if there are none.
 
 ```
 def reverse_lookup(d, v):
@@ -47,4 +47,35 @@ def reverse_lookup(d, v):
         if d[k] == v:
             return k
     raise ValueError
+```
+
+### Exercise 5
+Read the documentation of the dictionary method _setdefault_ and use it to write a more concise version of _invert_dict_.
+
+
+```
+def invert_dict(d):
+    inverse = dict()
+    for key in d:
+        val = d[key]
+        if val not in inverse:
+            inverse[val] = [key]
+        else:
+            inverse[val].append(key)
+    return inverse
+```
+
+### Exercise 6
+Run this version of _fibonacci_ and the original with a range of parameters and compare their run times.
+
+```
+known = {0:0, 1:1}
+
+def fibonacci(n):
+    if n in known:
+        return known[n]
+
+    res = fibonacci(n-1) + fibonacci(n-2)
+    known[n] = res
+    return res
 ```

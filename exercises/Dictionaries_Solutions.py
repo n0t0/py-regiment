@@ -1,3 +1,4 @@
+print '\nExercise 1\n'
 # Exercise 1
 # Write a function that reads the words in words.txt and stores them as keys in
 # a dictionary. It doesn't matter what the values are. Then you can use the
@@ -20,7 +21,7 @@ def words_keys(fin):
         print 'prodigal\n' in d
 words_keys(fin)
 
-print '===='*40
+print '\nExercise 2\n'
 # Exercise 2
 
 

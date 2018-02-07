@@ -17,7 +17,7 @@ A(m, n) =     A(m−1, 1)	if  m > 0  and  n = 0
 
 ```
 
-See http://en.wikipedia.org/wiki/Ackermann_function. Write a function named ack that evaluates Ackermann’s function. Use your function to evaluate ack(3, 4), which should be 125. What happens for larger values of m and n?
+See http://en.wikipedia.org/wiki/Ackermann_function. Write a function named _ack_ that evaluates Ackermann’s function. Use your function to evaluate _ack(3, 4)_, which should be 125. What happens for larger values of m and n?
 
 ### Exercise 5
 A _palindrome_ is a word that is spelled the same backward and forward, like "civic" and "racecar". Recursively, a word is a palindrome if the first and last letters are the same and the middle is a palindrome.
@@ -37,7 +37,7 @@ def middle(word):
 
 
 Type these functions into a file named palindrome.py and test them out. What happens if you call middle with a string with two letters? One letter? What about the empty string, which is written '' and contains no letters?
-Write a function called is_palindrome that takes a string argument and returns True if it is a palindrome and False otherwise. Remember that you can use the built-in function len to check the length of a string.
+Write a function called _is_palindrome_ that takes a string argument and returns _True_ if it is a palindrome and _False_ otherwise. Remember that you can use the built-in function _len_ to check the length of a string.
 
 
 ### Exercise 6  

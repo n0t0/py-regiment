@@ -51,3 +51,87 @@ def move_rectangle(rect, dx, dy):
     point = p.x, p.y
     print point
 move_rectangle(box, box.corner.x, box.corner.y)
+
+print '\n Exercise 4\n'
+# Exercise 4
+class Time(object):
+    """
+    Represents the time of the day.
+
+    attributes: hour, minute, second
+    """
+
+t = Time()
+t.hour = '%.2d' % 14
+t.minute = '%.2d' % 9
+t.second = '%.2d' % 23
+
+def print_time(t):
+    print '{}:{}:{}'.format(t.hour, t.minute, t.second)
+print_time(t)
+
+
+print '\n Exercise 6\n'
+# Exercise 6
+
+start = Time()
+start.hour = 8
+start.minute = 30
+start.second = 0
+
+duration = Time()
+duration.hour = 1
+duration.minute = 43
+duration.second = 47
+
+def add_time(t1, t2):
+    sum = Time()
+    sum.hour = t1.hour + t2.hour
+    sum.minute = t1.minute + t2.minute
+    sum.second = t1.second + t2.second
+
+    if sum.second >= 60:
+        sum.second -= 60
+        sum.minute += 1
+
+    if sum.minute >=60:
+        sum.minute -= 60
+        sum.hour += 1
+
+    return sum
+# done = add_time(start, duration)
+# print_time(done)
+
+# divide seconds until >60
+import math
+# from decimal import *
+
+
+def increment(time, seconds):
+    print_time(start)
+    print seconds, 'seconds added'
+
+    if seconds > 60:
+        minutes = seconds / 60.00
+        whole = minutes - minutes % 1
+        print 'there are', int(math.floor(whole)), 'minutes in', seconds, 'seconds'
+        time.minute += int(math.floor(whole))
+
+        seconds = minutes % 1  * 60
+        seconds = str(seconds).split('.')
+        print int(seconds[0]), 'seconds are left over'
+        time.second += int(seconds[0])
+
+    else:
+        time.second += seconds
+
+    if time.second >= 60:
+        time.second -= seconds
+        time.minute += 1
+
+    if time.minute >= 60:
+        time.minute -= 60
+        time.hour += 1
+
+    print_time(start)
+increment(start, 411)

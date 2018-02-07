@@ -12,7 +12,6 @@ t.second = '%.2d' % 23
 
 def print_time(t):
     print '{}:{}:{}'.format(t.hour, t.minute, t.second)
-
 print_time(t)
 
 # Pure Functions
@@ -37,7 +36,7 @@ duration.second = 47
 done = add_time(start, duration)
 print_time(done)
 
-# Patching add_time() to carry minutes and seconds >60
+# Patching add_time() to Carry Minutes and Seconds >60
 
 def add_time(t1, t2):
     sum = Time()
@@ -71,7 +70,6 @@ def increment(time, seconds):
     if time.minute >= 60:
         time.minute -= 60
         time.hour += 1
-
 
 
 # NOTE: What happens if the parameter seconds is much greater than sixty?

@@ -31,7 +31,7 @@ def increment(time, seconds):
         time.hour += 1
 ```
 
-Is this function correct? What happens if the parameter seconds is much greater than sixty?
+Is this function correct? What happens if the parameter **seconds** is much greater than sixty?
 
 Write a correct version of _increment_ that doesn’t contain any loops.
 

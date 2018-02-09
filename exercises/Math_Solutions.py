@@ -1,3 +1,4 @@
+print '\n Exercise 1\n'
 # Exercise 1
 # Write a compare function that returns 1 if x > y, 0 if x == y,
 # and -1 if x < y.
@@ -5,7 +6,7 @@
 x = 2
 y = 1
 
-def compare():
+def compare(x, y):
     if x > y:
         return 1
     elif x == y:
@@ -13,14 +14,14 @@ def compare():
     else:
         x < y
         return -1
-
-compare()
+print compare(x, y)
 
 def check():
     return 1
-
 check()
 
+
+print '\n Exercise 2\n'
 # Exercise 2
 # Use incremental development to write a function called hypotenuse that returns
 # the length of the hypotenuse of a right triangle given the lengths of the two
@@ -31,9 +32,10 @@ from math import sqrt
 def hypotenuse(l1, l2):
     h = l1**2 + l2**2
     print sqrt(h)
-
 hypotenuse(4, 2)
 
+
+print '\n Exercise 3\n'
 # Exercise 3
 
 
@@ -44,3 +46,5 @@ def is_between(x, y, z):
     #     return False
 
 print is_between(2,4,6)
+
+# Exercise 4

@@ -2,10 +2,10 @@
 Write a compare function that returns 1 if x > y, 0 if x == y, and -1 if x < y.
 
 ### Exercise 2  
-Use incremental development to write a function called hypotenuse that returns the length of the hypotenuse of a right triangle given the lengths of the two legs as arguments. Record each stage of the development process as you go.
+Use incremental development to write a function called _hypotenuse_ that returns the length of the hypotenuse of a right triangle given the lengths of the two legs as arguments. Record each stage of the development process as you go.
 
 ### Exercise 3  
-Write a function is_between(x, y, z) that returns True if x ≤ y ≤ z or False otherwise.
+Write a function _is_between(x, y, z)_ that returns _True_ if **x ≤ y ≤ z** or _False_ otherwise.
 
 ### Exercise 4  
 The Ackermann function, A(m, n), is defined:

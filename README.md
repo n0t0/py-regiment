@@ -3,10 +3,10 @@
 ## FUNDAMENTALS:
 
 - Arithmetics
-- Methods
+- Variables
 - Functions
 - Conditionals (if-elif-else)
-- Recursion
+- Recursion  
 - Iteration
 - Strings
 - Lists
@@ -19,6 +19,7 @@
 ## ADVANCED:
 
 1. Formatting
+1. Methods
 1. Lambda
 1. Importing Modules
 1. RE module
@@ -26,5 +27,10 @@
 1. List Methods
 1. More Functions
 
+## Modules
+
+### import math
+### import re
+### import os
 
 EXERCISES:

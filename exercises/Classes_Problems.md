@@ -66,3 +66,13 @@ The datetime module provides *date* and *time* objects that are similar to the *
 2. Write a program that takes a birthday as input and prints the user’s age and the number of days, hours, minutes and seconds until their next birthday.
 3. For two people born on different days, there is a day when one is twice as old as the other. That’s their Double Day. Write a program that takes two birthdays and computes their Double Day.
 4. For a little more challenge, write the more general version that computes the day when one person is n times older than the other.
+
+
+### Exercise 8
+
+Rewrite _time_to_int_ as a method. It is probably not appropriate to rewrite *int_to_time* as a method; what object you would invoke it on?
+
+
+### Exercise 9
+
+Write an _add_ method for the **Point** class.

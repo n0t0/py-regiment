@@ -1,4 +1,5 @@
-# Python for beginners
+# Python for Beginners
+# Content
 
 ## FUNDAMENTALS:
 
@@ -30,7 +31,10 @@
 ## Modules
 
 ### import math
+NOTE link needed
 ### import re
+NOTE link needed
 ### import os
+NOTE link needed
 
-EXERCISES:
+## EXERCISES:

@@ -174,8 +174,26 @@ class Point(object):
 
     def print_point(self):
         print '{}, {}'.format(self.x, self.y)
-    print print_point(blank)
+    # print_point(blank)
 
 blank = Point()
 blank = Point(2.0)
 blank.print_point()
+
+print '\n Exercise 10\n'
+
+class Point(object):
+    """
+    Represent a point in 2D space
+    """
+
+    def __init__(self, x=0.0, y=0.0):
+        self.x = x
+        self.y = y
+
+    def __str__(self):
+        return '{},{}'.format(self.x, self.y)
+
+
+p = Point(3.0, 4.0)
+print p

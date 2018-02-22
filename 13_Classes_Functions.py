@@ -77,15 +77,22 @@ def increment(time, seconds):
 # In that case, it is not enough to carry once; we have to keep doing it until
 # time.second is less than sixty. One solution is to replace the if statements
 # with while statements. That would make the function correct, but not very efficient.
-
+print 2
+t = Time()
+t.hour = '%.2d' % 12
+t.minute = '%.2d' % 9
+t.second = '%.2d' % 23
+s = '{}:{}:{}'.format(t.hour, t.minute, t.second)
 
 def time_to_int(t):
     minutes = t.hour * 60 + t.minute
-    seconds = t.minute * 60 + t.second
+    print minutes
+    seconds = minutes * 60 + t.second
     return seconds
+print time_to_int(t)
 
 
-def int_to_time(seconds):
+def int_to_time(s):
     time = Time()
     minutes, t.second = divmod(seconds, 60)
     t.hour, t.minute = divmod(minutes, 60)

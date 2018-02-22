@@ -139,24 +139,43 @@ increment(start, 411)
 
 print '\n Exercise 8\n'
 
-t = Time()
-t.hour = '%.2d' % 14
-t.minute = '%.2d' % 9
-t.second = '%.2d' % 23
+# t = Time()
+# t.hour = '%.2d' % 14
+# t.minute = '%.2d' % 9
+# t.second = '%.2d' % 23
+#
+# class Time(object):
+#     """
+#     Represents the time of the day.
+#
+#     attributes: hour, minute, second
+#     """
+#     def __init__
+#     # def print_time(self):
+#     #     print '{}:{}:{}'.format(self.hour, self.minute, self.second)
+#     # print_time(t)
+#
+#     def time_to_int(self):
+#         minutes = self.hour * 60 + self.minute
+#         seconds = minutes * 60 + self.second
+#         return seconds
+#
+# t.time_to_int()
+print '\n Exercise 9\n'
 
-class Time(object):
+class Point(object):
     """
-    Represents the time of the day.
-
-    attributes: hour, minute, second
+    Represent a point in 2D space
     """
-    # def print_time(self):
-    #     print '{}:{}:{}'.format(self.hour, self.minute, self.second)
-    # print_time(t)
 
-    def time_to_int(self):
-        minutes = self.hour * 60 + self.minute
-        seconds = minutes * 60 + self.second
-        return seconds
+    def __init__(self, x=0.0, y=0.0):
+        self.x = x
+        self.y = y
 
-t.time_to_int()
+    def print_point(self):
+        print '{}, {}'.format(self.x, self.y)
+    print print_point(blank)
+
+blank = Point()
+blank = Point(2.0)
+blank.print_point()

@@ -135,3 +135,28 @@ def increment(time, seconds):
 
     print_time(start)
 increment(start, 411)
+
+
+print '\n Exercise 8\n'
+
+t = Time()
+t.hour = '%.2d' % 14
+t.minute = '%.2d' % 9
+t.second = '%.2d' % 23
+
+class Time(object):
+    """
+    Represents the time of the day.
+
+    attributes: hour, minute, second
+    """
+    # def print_time(self):
+    #     print '{}:{}:{}'.format(self.hour, self.minute, self.second)
+    # print_time(t)
+
+    def time_to_int(self):
+        minutes = self.hour * 60 + self.minute
+        seconds = minutes * 60 + self.second
+        return seconds
+
+t.time_to_int()

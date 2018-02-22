@@ -72,7 +72,14 @@ The datetime module provides *date* and *time* objects that are similar to the *
 
 Rewrite _time_to_int_ as a method. It is probably not appropriate to rewrite *int_to_time* as a method; what object you would invoke it on?
 
-
 ### Exercise 9
+
+Write an _init_ method for the **Point** class that takes _x_ and *y* as optional parameters and assigns them to the corresponding attributes.
+
+### Exercise 10
+
+Write a _str_ method for the **Point** class. Create a _Point_ object and print it.
+
+### Exercise 11
 
 Write an _add_ method for the **Point** class.

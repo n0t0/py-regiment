@@ -66,7 +66,3 @@ time = Time (9, 45)
 time.print_time()
 time = Time (9, 45, 32)
 time.print_time()
-
-# start.print_time()
-# end = start.increment(1337)
-# end.print_time()

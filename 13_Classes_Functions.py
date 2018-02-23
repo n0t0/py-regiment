@@ -86,7 +86,6 @@ s = '{}:{}:{}'.format(t.hour, t.minute, t.second)
 
 def time_to_int(t):
     minutes = t.hour * 60 + t.minute
-    print minutes
     seconds = minutes * 60 + t.second
     return seconds
 print time_to_int(t)

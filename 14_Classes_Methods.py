@@ -29,7 +29,7 @@ def int_to_time(s):
 
 
 
-# __init__ Method
+# __init__  and __str__ Methods
 
 class Time(object):
     """
@@ -59,6 +59,12 @@ class Time(object):
         return int_to_time(seconds)
 
 time = Time()
+time.print_time()
+time = Time(9)
+time.print_time()
+time = Time (9, 45)
+time.print_time()
+time = Time (9, 45, 32)
 time.print_time()
 
 # start.print_time()

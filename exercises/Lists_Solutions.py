@@ -26,9 +26,9 @@ t = [1, 2, [3, 4], 5, 6, [[7, 8], 9, 10]]
 
 
 # print len(t)
-print t[2]
-print t[5]
-print t[5][0]
+# print t[2]
+# print t[5]
+# print t[5][0]
 # total = t.append(t[2])
 # print t
 
@@ -77,18 +77,28 @@ def capitalize_all(t):
 
 
 nested_t = ['string1', ['String2', 'string3'], 'string4',['string5']]
-
+# print type(nested_t)
+print hasattr(str(nested_t), str)
 
 def capitalized_nested(nested_t):
-    nested_tCap = []
+    nested_res = []
+    # index = 0
     for e in nested_t:
-        if e == type(str):
-            print type(e)
+        print type(e)
+        # nested_res.append(iter(e))
+            # print 'eda'
+
+            # nested_res.append(e)
+        # print nested_res
+        # print 'dsa'
+        # if e is type(list):
+        # if e == type(list):
+            # print e
         # print e.capitalize()
         # if s.isupper()
         #     nested_tCap.append(s)
     # return nested_tCap
-print capitalized_nested(nested_t)
+capitalized_nested(nested_t)
 
 
 print '\n Exercise 3\n'

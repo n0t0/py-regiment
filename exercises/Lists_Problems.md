@@ -30,7 +30,7 @@ def only_upper(t):
 ```
 _isupper_ is a string method that returns True if the string contains only upper case letters.
 
-An operation like only_upper is called a filter because it selects some of the elements and filters out the others.
+An operation like _only_upper_ is called a filter because it selects some of the elements and filters out the others.
 
 Most common list operations can be expressed as a combination of map, filter and reduce. Because these operations are so common, Python provides language features to support them, including the built-in function map and an operator called a “list comprehension.”
 

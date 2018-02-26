@@ -38,7 +38,7 @@ Most common list operations can be expressed as a combination of map, filter and
 Write a function that takes a list of numbers and returns the cumulative sum; that is, a new list where the **ith** element is the sum of the first **i+1** elements from the original list. For example, the cumulative sum of [1, 2, 3] is [1, 3, 6].
 
 ### Exercise 4  
-Write a function called middle that takes a list and returns a new list that contains all but the first and last elements. So middle([1,2,3,4]) should return [2,3].
+Write a function called _middle_ that takes a list and returns a new list that contains all but the first and last elements. So middle([1,2,3,4]) should return [2,3].
 
 ### Exercise 5  
 Write a function called _chop_ that takes a list, modifies it by removing the first and last elements, and returns None.

@@ -1,4 +1,4 @@
-print '\n Exercise 1\n'
+print '\n Exercise 1\n'.upper()
 # Exercise 1
 
 t = [1, 2, [3, 4], 5, 6, [[7, 8], 9, 10]]
@@ -44,7 +44,7 @@ def nested_sum(t):
 nested_sum(t)
 
 
-print '\n Exercise 2\n'
+print '\n Exercise 2\n'.upper()
 # Exercise 2
 
 
@@ -68,7 +68,7 @@ def capitalized_nested(nested_t):
 capitalized_nested(nested_t)
 
 
-print '\n Exercise 3\n'
+print '\n Exercise 3\n'.upper()
 # Exercise 3
 
 
@@ -90,22 +90,22 @@ def cum_sum(t):
 print cum_sum(t)
 
 
+print '\n Exercise 4\n'.upper()
 # Exercise 4
 # Write a function called middle that takes a list and returns a new list that
 # contains all but the first and last elements. So middle([1,2,3,4]) should
 # return [2,3].
-print '===='*40
+
 
 t = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 def middle(t):
     cut = t[1:-1]
     return cut
-
 print middle(t)
 
+print '\n Exercise 5\n'.upper()
 # Exercise 5
-print '===='*40
 
 s = 'hubbabubba'
 l = list(s)
@@ -116,9 +116,9 @@ def chop(l):
     print mod_l
 print chop(l)
 
-
+print '\n Exercise 6\n'.upper()
 # Exercise 6
-print '===='*40
+
 
 l = [2,4,6,3,2,1,2]
 

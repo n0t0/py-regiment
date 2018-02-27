@@ -4,36 +4,13 @@ print '\n Exercise 1\n'.upper()
 t = [1, 2, [3, 4], 5, 6, [[7, 8], 9, 10]]
 
 
-# print len(t)
-# print t[2]
-# print t[5]
-# print t[5][0]
-# total = t.append(t[2])
-# print t
-
-# l = [1, 2, 3, 4, 5]
-# x = l.pop(0)
-# print x
-
-
 def nested_sum(t):
     total = []
-    # total.append(t[2])
-    # total.append(t[5])
-    # total.append(t[5][0])
     for nest in t:
         if nest == t[2]:
             total.append(nest)
         elif nest == t[5] and t[5][0]:
             total.append(nest)
-    # x = total.pop(0)
-    # print x
-    # y = total.pop(0)
-    # print y
-            # s = ' '.join(map(str, total))
-            # print s
-    # while t:
-    #     total.extend(t.pop(0))
     print total
     x = total[0] + total[1]
     print x
@@ -53,7 +30,6 @@ def capitalize_all(t):
     for s in t:
         res.append(s.capitalize())
     return res
-
 nested_t = ['string1', ['String2', 'string3'], 'string4',['string5']]
 
 def capitalized_nested(nested_t):
@@ -83,10 +59,6 @@ def cum_sum(t):
             return e + 1
         else:
             return cum_sum(t) + cum_sum(t+1)
-        # e = e + t[1]
-        # new_t.append(e)
-    # return new_t
-
 print cum_sum(t)
 
 

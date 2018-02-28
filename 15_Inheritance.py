@@ -15,19 +15,6 @@ class Card(object):
                              Card.suit_names[self.suit])
 
 
-    # def __cmp__(self, other):
-    #     # suits
-    #     if self.suit > other.suit: return 1
-    #     if self.suit < other.suit: return -1
-    #
-    #     # if suits are the same..check ranks
-    #     if self.rank > other.rank: return 1
-    #     if self.rank < other.rank: return -1
-    #
-    #     # if ranks are the same..it's a tie
-    #     return 0
-
-
     def __cmp__(self, other):
         t1 = self.suit, self.rank
         t2 = other.suit, other.rank

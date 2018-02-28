@@ -1,7 +1,10 @@
 # Python for Beginners
-### Content
+## Content
+## Exercises
 
-## FUNDAMENTALS:
+[Exercises and Solutions](https://github.com/n0t0/py-regiment/tree/master/exercises)
+
+### FUNDAMENTALS:
 
 1. Arithmetics
 2. Variables
@@ -17,7 +20,7 @@
 12. Classes
 13. Inheritance
 
-## ADVANCED:
+### ADVANCED:
 
 1. Formatting
 1. Methods
@@ -26,14 +29,9 @@
 1. List Methods
 1. More Functions
 
-## Modules
+### MODULES:
 
 1. Importing Modules
 1. RE
 1. Math
 1. os
-
-
-## EXERCISES:
-
-[Exercises and Solutions](https://github.com/n0t0/py-regiment/tree/master/exercises)

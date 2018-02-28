@@ -1,5 +1,5 @@
 # Python for Beginners
-# *Content*
+### Content
 
 ## FUNDAMENTALS:
 
@@ -29,14 +29,11 @@
 ## Modules
 
 1. Importing Modules
-1. RE Module
-1. Math Module
+1. RE
+1. Math
+1. os
 
-### import math
-NOTE link needed
-### import re
-NOTE link needed
-### import os
-NOTE link needed
 
 ## EXERCISES:
+
+[Exercises and Solutions](https://github.com/n0t0/py-regiment/tree/master/exercises)

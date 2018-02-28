@@ -1,8 +1,9 @@
 # Python for Beginners
-## Content
 ## Exercises
 
 [Exercises and Solutions](https://github.com/n0t0/py-regiment/tree/master/exercises)
+
+## Content
 
 ### FUNDAMENTALS:
 

@@ -1,5 +1,5 @@
 # Exercise 1
-#
+print '\nExercise 1\n'
 # 1.
 # Proof that there are no positive numbers to satisfy a**n + b**n = c**n for n>2
 #
@@ -48,7 +48,7 @@ check_fermat(a, b, c, n)
 
 
 # Exercise 2
-
+print '\nExercise 2\n'
 # If you are given three sticks, you may or may not be able to arrange them
 # in a triangle. For example, if one of the sticks is 12 inches long and
 # the other two are one inch long, it is clear that you will not be able

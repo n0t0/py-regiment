@@ -1,5 +1,5 @@
 ### Exercise 1
-Fermat’s Last Theorem says that there are no positive integers a, b, and c such that: a**n + b**n = c** for any values greater than 2.
+Fermat’s Last Theorem says that there are no positive integers **a**, **b**, and **c** such that: **a\*\*n + b\*\*n = c\*\*** for any values greater than **2**.
 
 1. Proof that there are no positive numbers to satisfy:
 ```

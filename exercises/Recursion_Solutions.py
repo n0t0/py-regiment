@@ -20,3 +20,5 @@ print do_n(walking, steps)
 ## Exercise 2
 #
 # Re-write the function above to indicate correctly the number of steps
+
+

@@ -1,4 +1,5 @@
 # Exercise 1
+print '\nExercise 1\n'
 
 # Python provides a built-in function called len that returns the length of a string,
 # so the value of len('allen') is 5. Write a function named right_justify that takes

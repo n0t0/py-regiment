@@ -22,6 +22,7 @@ string = 'today is a good day'
 print len(string) * 2
 
 # Exercise 2
+print '\nExercise 2\n'
 
 # A function object is a value you can assign to a variable or pass as an argument.
 # For example, do_twice is a function that takes a function object as an argument
@@ -115,6 +116,7 @@ def do_four(op, trop):
 do_four(print_twice, trop)
 
 # Exercise 3
+print '\nExercise 3\n'
 
 # 1. Write a function that draws a grid like the following:
 # + - - - - + - - - - +

@@ -32,7 +32,7 @@ from math import sqrt
 def hypotenuse(l1, l2):
     h = l1**2 + l2**2
     print sqrt(h)
-hypotenuse(4, 2)
+hypotenuse(3, 4)
 
 
 print '\n Exercise 3\n'
@@ -48,3 +48,20 @@ def is_between(x, y, z):
 print is_between(2,4,6)
 
 # Exercise 4
+print '\n Exercise 4\n'
+
+
+# Exercise 5
+print '\n Exercise 5\n'
+
+word = 'racecar'
+
+def is_palindrome(word):
+    if word[::-1] == word[:]:
+        print "It is a palindrome"
+    else: 
+        print "Try another word"
+is_palindrome(word)
+
+
+

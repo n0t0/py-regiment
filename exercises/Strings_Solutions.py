@@ -73,25 +73,57 @@ print find('exercise','r')
 print '\nver.02\n'
 
 word = 'exercise'
-letter = 'r'
-start = 2
+letter = 'e'
+start = 1
 
 def find(word, letter, start):
     index = 0
-    while index < len(word):
-        if index < start:
-            index = start
-            if start > len(word):
-                print "Lenght of the word is: " + str(len(word))
-            elif word[start] == letter:
-                return start, letter
-        elif word[index] == letter:
-            return index, letter
-        index += 1
-    # return -1
+    for i in word:
+        while index < len(word):
+            if index < start:
+                index = start
+                if start > len(word):
+                    print "Lenght of the word is: " + str(len(word))
+                elif word[start] == letter:
+                    return start, letter
+            elif word[index] == letter:
+                return index, letter
+            index += 1
+    start += 2
+    find(word, letter, start)
     print 'Did not found "' + letter + '" after index: ' + str(start)
 print find(word, letter, start)
 
+word = 'abracadabra'
+letter = 'a'
+start = 4
+def count(find):
+    print 'test'
+    c = 0
+    if letter in find(word, letter, start):
+        c += 1
+        print c
+        print letter
+        #count(find)
+        # return
+    else: 
+        print 'No no more letters found'
+    print 'test'
+    #     c += 1
+    #     print letter
+    # else:
+    #     print 'Letter not found'
+    # print str(c), letter + ' found'
+count(find)
+
+
+def count(string, letter):
+    c = 0
+    for x in string:
+        if x == letter:
+            c += 1
+    print c, letter + '\'s are found'
+count('exercise', 'e')
 
 print '\nExercise 4\n'
 # Exercise 4
@@ -129,8 +161,8 @@ start = 1
 def count(*args):
     c = 0
     if find(string, letter, start) > 1:
-        print letter
         c += 1
+        print letter
     else:
         print 'Letter not found'
     print str(c), letter + ' found'

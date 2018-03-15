@@ -31,7 +31,7 @@ class Deck(object):
 
 
     def __init__(self):
-        self.cards = []
+        self.cards = []`
         for suit in range(4):
             for rank in range(14):
                 card = Card(suit, rank)
@@ -81,3 +81,5 @@ print hand.label
 card = deck.pop_card()
 hand.add_card(card)
 print hand
+
+

@@ -30,6 +30,7 @@ def capitalize_all(t):
     for s in t:
         res.append(s.capitalize())
     return res
+
 nested_t = ['string1', ['String2', 'string3'], 'string4',['string5']]
 
 def capitalized_nested(nested_t):
@@ -39,7 +40,7 @@ def capitalized_nested(nested_t):
         if type(e) == str:
             nested_res.append(e.capitalize())
         else:
-            print nested_res.append(capitalize_all(e))
+            nested_res.append(capitalize_all(e))
     print nested_res
 capitalized_nested(nested_t)
 

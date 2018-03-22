@@ -11,7 +11,7 @@ def capitalize_all(t):
     return res
 ```
 
-_res_ is initialized with an empty list; each time through the loop, we append the next element. So res is another kind of accumulator.
+_res_ is initialized with an empty list; each time through the loop, we append the next element. So _res_ is another kind of accumulator.
 
 An operation like _capitalize_all_ is sometimes called a **map** because it “maps” a function (in this case the method capitalize) onto each of the elements in a sequence.
 
@@ -32,7 +32,7 @@ _isupper_ is a string method that returns True if the string contains only upper
 
 An operation like _only_upper_ is called a filter because it selects some of the elements and filters out the others.
 
-Most common list operations can be expressed as a combination of map, filter and reduce. Because these operations are so common, Python provides language features to support them, including the built-in function map and an operator called a “list comprehension.”
+Most common list operations can be expressed as a combination of **map**, **filter** and **reduce**. Because these operations are so common, Python provides language features to support them, including the built-in function map and an operator called a “list comprehension.”
 
 ### Exercise 3  
 Write a function that takes a list of numbers and returns the cumulative sum; that is, a new list where the **ith** element is the sum of the first **i+1** elements from the original list. For example, the cumulative sum of [1, 2, 3] is [1, 3, 6].

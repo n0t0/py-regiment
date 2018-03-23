@@ -49,18 +49,17 @@ print '\n Exercise 3\n'.upper()
 # Exercise 3
 
 
-t = [1, 2, 3]
+numbers = [1, 2, 3]
 
-def cum_sum(t):
-    new_t = []
-    for e in t:
-        if e == 0:
-            return 0
-        elif e == 1:
-            return e + 1
-        else:
-            return cum_sum(t) + cum_sum(t+1)
-print cum_sum(t)
+
+def cum(numbers):
+    cumulative = []
+    s = 0
+    for x in numbers:
+        s = s + x
+        cumulative.append(s)
+    print cumulative
+cum(numbers)
 
 
 print '\n Exercise 4\n'.upper()

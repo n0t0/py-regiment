@@ -32,10 +32,10 @@ _isupper_ is a string method that returns True if the string contains only upper
 
 An operation like _only_upper_ is called a filter because it selects some of the elements and filters out the others.
 
-Most common list operations can be expressed as a combination of **map**, **filter** and **reduce**. Because these operations are so common, Python provides language features to support them, including the built-in function map and an operator called a “list comprehension.”
+Most common list operations can be expressed as a combination of **map**, **filter** and **reduce**. Because these operations are so common, Python provides language features to support them, including the built-in function **map** and an operator called a “list comprehension.”
 
 ### Exercise 3  
-Write a function that takes a list of numbers and returns the cumulative sum; that is, a new list where the **ith** element is the sum of the first **i+1** elements from the original list. For example, the cumulative sum of [1, 2, 3] is [1, 3, 6].
+Write a function that takes a list of numbers and returns the **cumulative sum**; that is, a new list where the **ith** element is the sum of the first **i+1** elements from the original list. For example, the **cumulative** sum of **[1, 2, 3]** is **[1, 3, 6]**.
 
 ### Exercise 4  
 Write a function called _middle_ that takes a list and returns a new list that contains all but the first and last elements. So middle([1,2,3,4]) should return [2,3].

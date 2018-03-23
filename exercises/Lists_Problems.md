@@ -28,7 +28,7 @@ def only_upper(t):
             res.append(s)
     return res
 ```
-_isupper_ is a string method that returns True if the string contains only upper case letters.
+_isupper_ is a string method that returns _True_ if the string contains only upper case letters.
 
 An operation like _only_upper_ is called a filter because it selects some of the elements and filters out the others.
 

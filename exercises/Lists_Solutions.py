@@ -92,13 +92,17 @@ print '\n Exercise 6\n'.upper()
 # Exercise 6
 
 
-l = [2,4,6,3,2,1,2]
+l = [3,4,6]
 
 def is_sorted(l):
-    for e in l:
-        if e > 0:
-            e = e[1]
-        return True
+    print max(l)
+    print l[0]
+    if l[0] < max(l):
+        print True
+    # for e in l:
+        # if e > l[2]:
+            # e = e[1]
+            # return True
     else:
         return False
 print is_sorted(l)

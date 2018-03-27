@@ -92,17 +92,17 @@ print '\n Exercise 6\n'.upper()
 # Exercise 6
 
 
-l = [3,4,6]
+l = [3,4,9,7,8]
+
 
 def is_sorted(l):
-    print max(l)
-    print l[0]
-    if l[0] < max(l):
-        print True
-    # for e in l:
-        # if e > l[2]:
-            # e = e[1]
-            # return True
-    else:
-        return False
+    for i, j in enumerate(l[:-1]):
+        if j <= l[i+1]:
+            print True, j
+        else:
+            return False, 'Not an ascending order list'
 print is_sorted(l)
+
+
+print '\n Exercise 7\n'.upper()
+# Exercise 7

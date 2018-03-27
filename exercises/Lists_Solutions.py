@@ -107,22 +107,21 @@ print is_sorted(l)
 print '\n Exercise 7\n'.upper()
 # Exercise 7
 
-s1 = 'listen'
+# version_01
+
+s1 = 'ilisten'
 print s1
 s2 = 'silent'
 print s2
-# ana = s2[:0] + s2[(0+1):]
-# print ana
-
 print '\n'
+
 def is_anagram(s1, s2):
-    # anagram = []
     for i in s1:
-        # print i
         if i in s2:
-            s2 = s2[:0] + s2[(0+1):]
+            s2 = s2.replace(i, ' ')
             print i, s2
-            # s2.pop(i)
         else:
-            print False
+            print False 
+            print i, 'already listed in', s2
+            break   
 is_anagram(s1, s2)

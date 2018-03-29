@@ -109,7 +109,7 @@ print '\n Exercise 7\n'.upper()
 
 # version_01
 
-s1 = 'ilisten'
+s1 = 'listen'
 print s1
 s2 = 'silent'
 print s2

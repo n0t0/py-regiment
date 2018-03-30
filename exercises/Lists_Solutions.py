@@ -137,11 +137,14 @@ print random.randint(0, 23)
 b = [1, 2, 3, 4, 5]
 students = random.randint(0, 23)
 print students
+b1 = random.randint(366)
+b2 = random.randint(366)
+
 
 def has_duplicates(b):
-    for e in b:    
-        if e in b:
-            print e, 'appears in', b
+    for e in students:    
+        if e in students:
+            print e, 'appears in', students
         else:
             print 'nobody matches someone\' birtday'
 has_duplicates(b)

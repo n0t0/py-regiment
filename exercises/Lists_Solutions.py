@@ -130,8 +130,18 @@ is_anagram(s1, s2)
 
 print '\n Exercise 8\n'.upper()
 # Exercise 8
+import random
 
+print random.randint(0, 23)
 
-def has_duplicates():
-    pass 
-    
+b = [1, 2, 3, 4, 5]
+students = random.randint(0, 23)
+print students
+
+def has_duplicates(b):
+    for e in b:    
+        if e in b:
+            print e, 'appears in', b
+        else:
+            print 'nobody matches someone\' birtday'
+has_duplicates(b)

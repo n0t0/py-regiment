@@ -109,7 +109,7 @@ print '\n Exercise 7\n'.upper()
 
 # version_01
 
-s1 = 'slisten'
+s1 = 'listen'
 print s1
 s2 = 'silent'
 print s2
@@ -126,3 +126,12 @@ def is_anagram(s1, s2):
             print i, 'is already used in', ln
             break   
 is_anagram(s1, s2)
+
+
+print '\n Exercise 8\n'.upper()
+# Exercise 8
+
+
+def has_duplicates():
+    pass 
+    

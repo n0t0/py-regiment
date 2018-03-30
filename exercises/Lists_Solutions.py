@@ -109,19 +109,20 @@ print '\n Exercise 7\n'.upper()
 
 # version_01
 
-s1 = 'listen'
+s1 = 'slisten'
 print s1
 s2 = 'silent'
 print s2
 print '\n'
+ln = s2 
 
 def is_anagram(s1, s2):
     for i in s1:
         if i in s2:
             s2 = s2.replace(i, ' ')
-            print i, s2
+            print i.upper(), s2.upper()
         else:
             print False 
-            print i, 'already listed in', s2
+            print i, 'is already used in', ln
             break   
 is_anagram(s1, s2)

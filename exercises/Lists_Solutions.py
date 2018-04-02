@@ -148,3 +148,6 @@ def has_duplicates(b):
         else:
             print 'nobody matches someone\' birtday'
 has_duplicates(b)
+
+print '\n Exercise 9\n'.upper()
+# Exercise 9

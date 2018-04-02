@@ -134,20 +134,31 @@ import random
 
 print random.randint(0, 23)
 
-b = [1, 2, 3, 4, 5]
-students = random.randint(0, 23)
-print students
-b1 = random.randint(366)
-b2 = random.randint(366)
+### 366 number of birthdays (February 29 included)
+
+birthdays = []
+
+for s in range(23):
+    print random.randint(1,366)
+    birthdays.append(random.randint(1,366))
+
+print birthdays
+
+e = random.randint(1,366)
+
+def has_duplicates(birthdays):
+    # seen = set()
+    # uniq = [x for x in birthdays if x not in seen and not seen.add(x)]
+    if e in birthdays:
+        return e 
+    else:
+        print 'nobody matches someone\'s birtday'
+has_duplicates(birthdays)
 
 
-def has_duplicates(b):
-    for e in students:    
-        if e in students:
-            print e, 'appears in', students
-        else:
-            print 'nobody matches someone\' birtday'
-has_duplicates(b)
+print birthdays
+
+
 
 print '\n Exercise 9\n'.upper()
 # Exercise 9

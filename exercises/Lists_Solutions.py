@@ -144,25 +144,46 @@ for s in range(23):
 
 print birthdays
 
-e = random.randint(1,1000)
+e = random.randint(1,366)
 
 def has_duplicates(birthdays):
     for e in range(0, len(birthdays)):
         for x in range(e + 1, len(birthdays)):
             if birthdays[e] == birthdays[x]:
                 print 'two people have birthdays on', e
-        else:
-            print 'nobody matches someone\'s birthday'
+    else:
+        print 'nobody matches someone\'s birthday'
 has_duplicates(birthdays)
-
 
 print birthdays
 
+print len(birthdays) != len(set(birthdays))
 
-l = [2, 4, 5, 2]
+print '\n\n'
 
+l = [2, 3, 4, 2]
 
+def has_duplicates(l):
+    seen = set()
+    for e in l:
+        if e in seen:
+            print e
+        seen.add(e)
+    print 'tral'
+has_duplicates(l)
 
 
 print '\n Exercise 9\n'.upper()
 # Exercise 9
+
+
+def remove_duplicates(l):
+    uniq = []
+    seen = set()
+    for e in l:
+        if e in seen:
+            uniq.append(e)
+        seen.add(e)
+    print uniq
+remove_duplicates(l)
+

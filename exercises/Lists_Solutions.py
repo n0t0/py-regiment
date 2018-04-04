@@ -132,28 +132,14 @@ print '\n Exercise 8\n'.upper()
 # Exercise 8
 import random
 
-# print random.randint(0, 23)
-
 ### 366 number of birthdays (February 29 included)
 
 birthdays = []
 
 for student in range(23):
-    # print random.randint(1,366)
     birthdays.append(random.randint(1,366))
 
 print birthdays
-
-# e = random.randint(1,366)
-
-# def has_duplicates(birthdays):
-#     for e in range(0, len(birthdays)):
-#         for x in range(e + 1, len(birthdays)):
-#             if birthdays[e] == birthdays[x]:
-#                 print 'two people have birthdays on', e, x 
-#     else:
-#         print 'nobody matches someone\'s birthday'
-# has_duplicates(birthdays)
 
 def has_duplicates(birthdays):
     seen = set()
@@ -168,18 +154,18 @@ has_duplicates(birthdays)
 
 print birthdays
 
-print len(birthdays) != len(set(birthdays))
+# print len(birthdays) != len(set(birthdays))
 
-l = [2, 3, 4, 2]
+# l = [2, 3, 4, 2]
 
-def has_duplicates(l):
-    seen = set()
-    for e in l:
-        if e in seen:
-            print e
-        seen.add(e)
-    print 'tral'
-has_duplicates(l)
+# def has_duplicates(l):
+#     seen = set()
+#     for e in l:
+#         if e in seen:
+#             print e
+#         seen.add(e)
+#     print 'tral'
+# has_duplicates(l)
 
 
 print '\n Exercise 9\n'.upper()

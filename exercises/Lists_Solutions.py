@@ -159,16 +159,11 @@ def has_duplicates(birthdays):
     seen = set()
     for e in birthdays:
         if e in seen:
-            print e, 'birthday'
-        #     # print 'two people have birthdays on', e, x 
-        # print seen
+            print e, 'birthday paradox'
+            break
         seen.add(e)
-        elif:
-            e == 2:
-            print e, 'is 2'
-        else: 
-            print 'ga'
-        # break
+    else: 
+        print 'no birthday paradox'
 has_duplicates(birthdays)
 
 print birthdays

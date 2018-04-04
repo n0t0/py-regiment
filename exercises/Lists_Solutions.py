@@ -184,4 +184,5 @@ def remove_duplicates(l):
 remove_duplicates(l)
 
 
-
+print '\n Exercise 10\n'.upper()
+# Exercise 10

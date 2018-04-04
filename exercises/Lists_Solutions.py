@@ -156,7 +156,7 @@ print birthdays
 
 # print len(birthdays) != len(set(birthdays))
 
-# l = [2, 3, 4, 2]
+l = [2, 3, 4, 2, 2, 2, 5, 6, 6, 6, 18]
 
 # def has_duplicates(l):
 #     seen = set()
@@ -180,6 +180,7 @@ def remove_duplicates(l):
             uniq.append(e)
         seen.add(e)
     print uniq
+    print list(seen)
 remove_duplicates(l)
 
 

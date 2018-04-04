@@ -58,7 +58,7 @@ If there are 23 students in your class, what are the chances that two of you hav
 You can read about this problem at http://en.wikipedia.org/wiki/Birthday_paradox.
 
 ### Exercise 9  
-Write a function called remove_duplicates that takes a list and returns a new list with only the unique elements from the original. Hint: they don’t have to be in the same order.
+Write a function called _remove_duplicates_ that takes a list and returns a new list with only the unique elements from the original. Hint: they don’t have to be in the same order.
 
 ### Exercise 10  
 Write a function that reads the file words.txt and builds a list with one element per word. Write two versions of this function, one using the append method and the other using the idiom t = t + [x]. Which one takes longer to run? Why?

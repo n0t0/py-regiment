@@ -132,14 +132,14 @@ print '\n Exercise 8\n'.upper()
 # Exercise 8
 import random
 
-print random.randint(0, 23)
+# print random.randint(0, 23)
 
 ### 366 number of birthdays (February 29 included)
 
 birthdays = []
 
-for s in range(23):
-    print random.randint(1,366)
+for student in range(23):
+    # print random.randint(1,366)
     birthdays.append(random.randint(1,366))
 
 print birthdays
@@ -158,8 +158,6 @@ has_duplicates(birthdays)
 print birthdays
 
 print len(birthdays) != len(set(birthdays))
-
-print '\n\n'
 
 l = [2, 3, 4, 2]
 
@@ -186,4 +184,6 @@ def remove_duplicates(l):
         seen.add(e)
     print uniq
 remove_duplicates(l)
+
+
 

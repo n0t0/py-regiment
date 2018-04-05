@@ -156,21 +156,12 @@ print birthdays
 
 # print len(birthdays) != len(set(birthdays))
 
-l = [2, 3, 4, 2, 2, 2, 5, 6, 6, 6, 18]
-
-# def has_duplicates(l):
-#     seen = set()
-#     for e in l:
-#         if e in seen:
-#             print e
-#         seen.add(e)
-#     print 'tral'
-# has_duplicates(l)
 
 
 print '\n Exercise 9\n'.upper()
 # Exercise 9
 
+l = [2, 3, 4, 2, 2, 2, 5, 6, 6, 6, 18]
 
 def remove_duplicates(l):
     uniq = []

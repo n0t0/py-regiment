@@ -178,6 +178,14 @@ remove_duplicates(l)
 print '\n Exercise 10\n'.upper()
 # Exercise 10
 
+WORD_LIST = "Z:\python\words.txt"
+
+wordlist = open(WORD_LIST).readlines()
+
+print wordlist
+
+
 def reader(f):
-    
+    pass
+
 

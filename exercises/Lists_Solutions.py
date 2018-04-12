@@ -182,8 +182,9 @@ WORD_LIST = "Z:\python\words.txt"
 
 wordlist = open(WORD_LIST).readlines()
 
-print wordlist
+worlidst = [word.lower().strip() for word in wordlist]
 
+print wordlist
 
 def reader(f):
     pass

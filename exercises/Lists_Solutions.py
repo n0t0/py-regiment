@@ -188,5 +188,3 @@ print wordlist
 
 def reader(f):
     pass
-
-

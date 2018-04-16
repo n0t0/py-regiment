@@ -178,13 +178,17 @@ remove_duplicates(l)
 print '\n Exercise 10\n'.upper()
 # Exercise 10
 
+
 WORD_LIST = "Z:\python\words.txt"
-
 wordlist = open(WORD_LIST).readlines()
+#wordlist = [word.lower().strip() for word in wordlist]
+#wordlist = [word.lower().strip() for word in wordlist]
 
-worlidst = [word.lower().strip() for word in wordlist]
+#print wordlist
 
-print wordlist
-
-def reader(f):
-    pass
+def reader(wordlist):
+    for word in wordlist:
+        word.lower()
+        word.strip()
+    print wordlist
+reader(wordlist)

@@ -181,10 +181,10 @@ print '\n Exercise 10\n'.upper()
 
 WORD_LIST = "Z:\python\words.txt"
 wordlist = open(WORD_LIST).readlines()
-#wordlist = [word.lower().strip() for word in wordlist]
-#wordlist = [word.lower().strip() for word in wordlist]
+wordlist = [word.lower().strip() for word in wordlist]
+wordlist = [word.lower().strip() for word in wordlist]
 
-#print wordlist
+print wordlist
 
 def reader(wordlist):
     for word in wordlist:

@@ -192,3 +192,6 @@ def reader(wordlist):
         word.strip()
     print wordlist
 reader(wordlist)
+
+print '\n Exercise 11\n'.upper()
+# Exercise 11

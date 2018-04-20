@@ -195,3 +195,6 @@ reader(wordlist)
 
 print '\n Exercise 11\n'.upper()
 # Exercise 11
+
+print '\n Exercise 12\n'.upper()
+# Exercise 12

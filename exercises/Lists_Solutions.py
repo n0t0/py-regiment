@@ -198,3 +198,6 @@ print '\n Exercise 11\n'.upper()
 
 print '\n Exercise 12\n'.upper()
 # Exercise 12
+
+print '\n Exercise 13\n'.upper()
+# Exercise 13

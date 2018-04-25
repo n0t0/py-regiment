@@ -179,19 +179,22 @@ print '\n Exercise 10\n'.upper()
 # Exercise 10
 
 
-WORD_LIST = "Z:\python\words.txt"
+# WORD_LIST = "Z:\python\words.txt"
+WORD_LIST = "Z:\python\w.txt"
 wordlist = open(WORD_LIST).readlines()
 wordlist = [word.lower().strip() for word in wordlist]
-wordlist = [word.lower().strip() for word in wordlist]
+# wordlist = [word.lower().strip() for word in wordlist]
 
 print wordlist
 
-def reader(wordlist):
-    for word in wordlist:
-        word.lower()
-        word.strip()
-    print wordlist
-reader(wordlist)
+# # def reader(wordlist):
+# #     for word in wordlist:
+# #         word.lower().strip()
+# #         word.strip()
+# #     print wordlist
+# reader(wordlist)
+
+
 
 print '\n Exercise 11\n'.upper()
 # Exercise 11

@@ -230,6 +230,13 @@ print elapsed_time, 'seconds'
 print '\n Exercise 11\n'.upper()
 # Exercise 11
 
+
+def bisect(sorted, target_v):
+    pass
+
+
+
+
 print '\n Exercise 12\n'.upper()
 # Exercise 12
 

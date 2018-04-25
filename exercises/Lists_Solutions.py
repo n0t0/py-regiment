@@ -178,22 +178,53 @@ remove_duplicates(l)
 print '\n Exercise 10\n'.upper()
 # Exercise 10
 
-
-# WORD_LIST = "Z:\python\words.txt"
 WORD_LIST = "Z:\python\w.txt"
 wordlist = open(WORD_LIST).readlines()
 wordlist = [word.lower().strip() for word in wordlist]
-# wordlist = [word.lower().strip() for word in wordlist]
 
-print wordlist
 
-# # def reader(wordlist):
-# #     for word in wordlist:
-# #         word.lower().strip()
-# #         word.strip()
-# #     print wordlist
-# reader(wordlist)
+def word_list2():
+    t = []
+    fin = open("Z:\python\w.txt")
+    for line in fin:
+        word = line.strip()
+        t.append(word)
+    return t
 
+
+def word_list3():
+    t = []
+    fin = open("Z:\python\w.txt")
+    for line in fin:
+        word = line.strip()
+        t = t + [word]
+    return t
+
+import time 
+
+start_time = time.time()
+t = wordlist
+elapsed_time = time.time() - start_time
+
+print len(t)
+print t[:10]
+print elapsed_time, 'seconds'
+
+start_time = time.time()
+t = word_list2()
+elapsed_time = time.time() - start_time
+
+print len(t)
+print t[:10]
+print elapsed_time, 'seconds'
+
+start_time = time.time()
+t = word_list3()
+elapsed_time = time.time() - start_time
+
+print len(t)
+print t[:10]
+print elapsed_time, 'seconds'
 
 
 print '\n Exercise 11\n'.upper()

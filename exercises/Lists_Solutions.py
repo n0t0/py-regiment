@@ -231,10 +231,8 @@ print '\n Exercise 11\n'.upper()
 # Exercise 11
 
 
-def bisect(sorted, target_v):
+def bisect(sor_list, target_v):
     pass
-
-
 
 
 print '\n Exercise 12\n'.upper()

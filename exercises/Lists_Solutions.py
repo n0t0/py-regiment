@@ -232,11 +232,21 @@ print '\n Exercise 11\n'.upper()
 
 
 def bisect(sor_list, target_v):
-    pass
+    print wordlist
+    return 
 
 
 print '\n Exercise 12\n'.upper()
 # Exercise 12
+
+def reverse_pair():
+    for word in wordlist:
+        if word == word[::-1]:
+            print word
+reverse_pair()
+ 
+
+
 
 print '\n Exercise 13\n'.upper()
 # Exercise 13

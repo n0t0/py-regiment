@@ -72,7 +72,7 @@ Because the words are in alphabetical order, we can speed things up with a bisec
 
 Either way, you cut the remaining search space in half. If the word list has 113,809 words, it will take about 17 steps to find the word or conclude that it’s not there.
 
-Write a function called bisect that takes a sorted list and a target value and returns the index of the value in the list, if it’s there, or None if it’s not.
+Write a function called _bisect_ that takes a sorted list and a target value and returns the index of the value in the list, if it’s there, or None if it’s not.
 
 Or you could read the documentation of the bisect module and use that! Solution: http://thinkpython.com/code/inlist.py.
 

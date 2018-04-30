@@ -251,5 +251,3 @@ print '\n Exercise 13\n'.upper()
 
 def interlock():
     pass 
-
-    

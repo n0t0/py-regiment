@@ -250,4 +250,5 @@ print '\n Exercise 13\n'.upper()
 # Exercise 13
 
 def interlock():
+    print 'work'
     pass 

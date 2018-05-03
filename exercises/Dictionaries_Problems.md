@@ -1,5 +1,5 @@
 ### Exercise 1  
-Write a function that reads the words in words.txt and stores them as keys in a dictionary. It doesn’t matter what the values are. Then you can use the _in_ operator as a fast way to check whether a string is in the dictionary.
+Write a function that reads the words in **words.txt** and stores them as keys in a dictionary. It doesn’t matter what the values are. Then you can use the _in_ operator as a fast way to check whether a string is in the dictionary.
 
 If you did Exercise 11, you can compare the speed of this implementation with the list in operator and the bisection search.
 
@@ -15,7 +15,19 @@ Dictionaries have a method called **get** that takes a key and a default value. 
 >>> h.get('b', 0)
 0
 ```
+
 Use get to write _histogram_ more concisely. You should be able to eliminate the if statement.
+
+```
+def histogram(s):
+    d = dict()
+    for c in s:
+        if c not in d:
+            d[c] = 1
+        else:
+            d[c] += 1
+    return d
+```
 
 ### Exercise 3  
 Dictionaries have a method called keys that returns the keys of the dictionary, in no particular order, as a list.

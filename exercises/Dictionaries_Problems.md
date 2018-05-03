@@ -4,7 +4,7 @@ Write a function that reads the words in words.txt and stores them as keys in a 
 If you did Exercise 11, you can compare the speed of this implementation with the list in operator and the bisection search.
 
 ### Exercise 2  
-Dictionaries have a method called get that takes a key and a default value. If the key appears in the dictionary, get returns the corresponding value; otherwise it returns the default value. For example:
+Dictionaries have a method called **get** that takes a key and a default value. If the key appears in the dictionary, get returns the corresponding value; otherwise it returns the default value. For example:
 
 ```
 >>> h = histogram('a')
@@ -15,7 +15,7 @@ Dictionaries have a method called get that takes a key and a default value. If t
 >>> h.get('b', 0)
 0
 ```
-Use get to write histogram more concisely. You should be able to eliminate the if statement.
+Use get to write _histogram_ more concisely. You should be able to eliminate the if statement.
 
 ### Exercise 3  
 Dictionaries have a method called keys that returns the keys of the dictionary, in no particular order, as a list.

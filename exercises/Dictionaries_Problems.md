@@ -16,7 +16,7 @@ Dictionaries have a method called **get** that takes a key and a default value. 
 0
 ```
 
-Use get to write _histogram_ more concisely. You should be able to eliminate the if statement.
+Use **get** to write _histogram_ more concisely. You should be able to eliminate the if statement.
 
 ```
 def histogram(s):

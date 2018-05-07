@@ -1,11 +1,4 @@
 print '\nExercise 1\n'
-# Exercise 1
-# Write a function that reads the words in words.txt and stores them as keys in
-# a dictionary. It doesn't matter what the values are. Then you can use the
-# "in" operator as a fast way to check whether a string is in the dictionary.
-
-# If you did Exercise 11, you can compare the speed of this implementation with
-# the list in operator and the bisection search.
 
 fin = open('z:/python/words.txt')
 
@@ -25,10 +18,24 @@ print '\nExercise 2\n'
 # Exercise 2
 
 
+s = {'key':'value'}
+def his(s):
+    d = dict()
+    for c in s:
+        if c not in d:
+            d[c] = 1
+        else:
+            d[c] += 1
+    return d
+his(s)
+
+
+
 def histogram(s):
     d = dict()
     # v = c in s
     d = {c: 1 for c in s}
+    d.get
     for c in d:
         print d.get(c)
     #
@@ -52,7 +59,7 @@ print histogram('stttttrumma')
 # h = histrogram('s')
 # print h
 
-
+print '\nExercise 3\n'
 # Exercise 3
 h = {'v': 1, 'a': 2, 'r': 1, 'd': 1, 'a': 1, 'r': 2}
 
@@ -64,5 +71,4 @@ def print_hist(h):
         l.append(e)
         l.sort()
         print l
-
 print_hist(h)

@@ -30,7 +30,7 @@ def histogram(s):
 ```
 
 ### Exercise 3  
-Dictionaries have a method called keys that returns the keys of the dictionary, in no particular order, as a list.
+Dictionaries have a method called **keys** that returns the keys of the dictionary, in no particular order, as a list.
 
 Modify _print_hist_ to print the keys and their values in alphabetical order.
 

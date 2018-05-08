@@ -18,7 +18,6 @@ print '\nExercise 2\n'
 # Exercise 2
 
 
-s = {'kumalisa'}
 def his(s):
     d = dict()
     for c in s:
@@ -27,17 +26,21 @@ def his(s):
         else:
             d[c] += 1
     return d
-his(s)
+h = his('kumalisa')
+print h
 
 
 
 def histogram(s):
     d = dict()
     # v = c in s
-    d = {c: 1 for c in s}
-    d.get
-    for c in d:
-        print d.get(c)
+    # d = {c: 1 for c in s}
+    # d.get
+    for c in s:
+        d[c] = 1
+        # d.get()
+        # print d.get(c)
+        return d
     #
     # else:
     #     print d.get(c, 0)

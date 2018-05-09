@@ -43,7 +43,13 @@ print '\nExercise 3\n'
 # Exercise 3
 h = {'v': 1, 'a': 2, 'r': 1, 'd': 1, 'a': 1, 'r': 2}
 
-print h.keys()
+# print h.keys()
+
+def print_hist(h):
+    for c in h:
+        print c, h[c]
+print_hist(h)
+
 
 def print_hist(h):
     # l = []

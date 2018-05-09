@@ -27,39 +27,17 @@ def his(s):
             d[c] += 1
     return d
 h = his('kumalisa')
-print h
+# print h.get('kuma')
 
 
 
 def histogram(s):
     d = dict()
-    # v = c in s
-    # d = {c: 1 for c in s}
-    # d.get
     for c in s:
-        d[c] = 1
-        # d.get()
-        # print d.get(c)
-        return d
-    #
-    # else:
-    #     print d.get(c, 0)
-    #     print c, d[c]
-        # print d.get(c)
-    # for c in s:
-    #     d = {c: 1 for c in s}
-        # d[c] = 1
-        # print d.get(c)
-    #     if c not in d:
-    #         d[c] = 1
-    #     else:
-    #         d[c] += 1
-    # return d.get('s')
-print histogram('stttttrumma')
+        d[c] = d.get(c, 0) + 1 
+    return d
+print histogram('alabalanica')
 
-
-# h = histrogram('s')
-# print h
 
 print '\nExercise 3\n'
 # Exercise 3

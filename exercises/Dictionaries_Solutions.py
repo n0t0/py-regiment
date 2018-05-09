@@ -26,9 +26,9 @@ def his(s):
         else:
             d[c] += 1
     return d
-h = his('kumalisa')
-# print h.get('kuma')
-
+h = his('a')
+print h.get('a')
+print h.get('b')
 
 
 def histogram(s):

@@ -87,3 +87,19 @@ def invert_dict(d):
         else:
             inverse[val].append(key)
     return inverse
+print invert_dict(d)
+
+
+def invert_dict(d):
+    inverse = dict()
+    for k in d:
+        v = d[k]
+        if v not in inverse:
+            inverse.setdefault(v, [k])
+        else:
+            inverse[v].append(k)
+    return inverse
+print invert_dict(d)
+    
+
+

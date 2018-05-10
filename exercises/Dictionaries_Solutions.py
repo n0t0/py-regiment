@@ -56,3 +56,19 @@ def print_hist(h):
         print k, v 
 print_hist(h)
 
+
+print '\nExercise 4\n'
+# Exercise 4
+
+
+d = {'b': 1, 'g': 1, 'z': 0, 'o': 1, 'z': 2}
+print d
+
+def reverse_lookup(d, v):
+    l = []
+    for k in d:
+        if d[k] == v:
+            l.append(k)
+    return l
+k = reverse_lookup(d, 1)
+print k

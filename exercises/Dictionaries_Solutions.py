@@ -52,10 +52,7 @@ print_hist(h)
 
 
 def print_hist(h):
-    # l = []
-    for e in h.keys():
-        l = []
-        l.append(e)
-        l.sort()
-        print l
+    for k, v in sorted(h.items()):
+        print k, v 
 print_hist(h)
+

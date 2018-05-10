@@ -1,12 +1,12 @@
 ### Exercise 1  
-Many of the built-in functions use variable-length argument tuples. For example, max and min can take any number of arguments:
+Many of the built-in functions use variable-length argument tuples. For example, _max_ and _min_ can take any number of arguments:
 
 ```
 >>> max(1,2,3)
 3
 ```
 
-But sum does not.
+But _sum_ does not.
 
 ```
 >>> sum(1,2,3)

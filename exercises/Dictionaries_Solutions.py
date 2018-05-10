@@ -72,3 +72,18 @@ def reverse_lookup(d, v):
     return l
 k = reverse_lookup(d, 1)
 print k
+
+
+print '\nExercise 5\n'
+# Exercise 5
+
+
+def invert_dict(d):
+    inverse = dict()
+    for key in d:
+        val = d[key]
+        if val not in inverse:
+            inverse[val] = [key]
+        else:
+            inverse[val].append(key)
+    return inverse

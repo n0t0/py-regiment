@@ -16,7 +16,7 @@ TypeError: sum expected at most 2 arguments, got 3
 Write a function called sumall that takes any number of arguments and returns their sum.
 
 ### Exercise 2  
-In following example, ties are broken by comparing words, so words with the same length appear in reverse alphabetical order. For other applications you might want to break ties at random. Modify this example so that words with the same length appear in random order. Hint: see the random function in the random module.
+In following example, ties are broken by comparing words, so words with the same length appear in reverse alphabetical order. For other applications you might want to break ties at random. Modify this example so that words with the same length appear in random order. Hint: see the **random** function in the random module.
 
 
 ```
@@ -34,7 +34,7 @@ def sort_by_length(words):
 ```
 
 ### Exercise 3  
-Write a function called most_frequent that takes a string and prints the letters in decreasing order of frequency. Find text samples from several different languages and see how letter frequency varies between languages. Compare your results with the tables at http://en.wikipedia.org/wiki/Letter_frequencies. Solution: http://thinkpython.com/code/most_frequent.py.
+Write a function called __most_frequent__ that takes a string and prints the letters in decreasing order of frequency. Find text samples from several different languages and see how letter frequency varies between languages. Compare your results with the tables at http://en.wikipedia.org/wiki/Letter_frequencies. Solution: http://thinkpython.com/code/most_frequent.py.
 
 ### Exercise 4  
 More anagrams!

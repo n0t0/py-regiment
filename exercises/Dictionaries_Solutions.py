@@ -102,4 +102,39 @@ def invert_dict(d):
 print invert_dict(d)
     
 
+print '\nExercise 6\n'
+# Exercise 6
+
+def fibonacci_01 (n):
+    if n == 0:
+        return 0
+    elif  n == 1:
+        return 1
+    else:
+        return fibonacci_01(n-1) + fibonacci_01(n-2)
+print fibonacci_01(21)
+
+known = {0:0, 1:1}
+
+def fibonacci_02(n):
+    if n in known:
+        return known[n]
+
+    res = fibonacci_02(n-1) + fibonacci_02(n-2)
+    known[n] = res
+    return res
+print fibonacci_02(21)
+
+import time 
+
+start_time = time.time()
+t = fibonacci_01(21)
+elapsed_time = time.time() - start_time
+print elapsed_time, 'seconds'
+
+start_time = time.time()
+t = fibonacci_02(21)
+elapsed_time = time.time() - start_time
+print elapsed_time, 'seconds'
+
 

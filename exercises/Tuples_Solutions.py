@@ -51,8 +51,7 @@ if __name__ == '__main__':
 
 print '\nExercise 3\n'
 # Exercise 3
-# s = 'today is a good day because the dog doesn\'t bark'
-s = 'do double gg'
+s = 'today is a good day because the dog doesn\'t bark'
 # TODO: fix: print repeated chars only once -- DONE
 # TODO: replace first for loop with list comprehention -- DONE
 
@@ -60,7 +59,7 @@ s = 'do double gg'
 def most_frequent(s):
     lt = [(s.count(l), l) for l in s]
     uniq = set(lt)
-    for elem in sorted(uniq):
+    for elem in sorted(uniq, reverse=True):
         print elem
 most_frequent(s)
 

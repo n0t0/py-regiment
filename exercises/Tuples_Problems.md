@@ -34,7 +34,7 @@ def sort_by_length(words):
 ```
 
 ### Exercise 3  
-Write a function called __most_frequent__ that takes a string and prints the letters in decreasing order of frequency. Find text samples from several different languages and see how letter frequency varies between languages. Compare your results with the tables at http://en.wikipedia.org/wiki/Letter_frequencies. Solution: http://thinkpython.com/code/most_frequent.py.
+Write a function called _most_frequent_ that takes a string and prints the letters in decreasing order of frequency. Find text samples from several different languages and see how letter frequency varies between languages. Compare your results with the tables at http://en.wikipedia.org/wiki/Letter_frequencies. Solution: http://thinkpython.com/code/most_frequent.py.
 
 ### Exercise 4  
 More anagrams!

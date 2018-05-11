@@ -69,8 +69,35 @@ print '\nExercise 4\n'
 WORD_LIST = "Z:\python\w.txt"
 wordlist = open(WORD_LIST).readlines()
 wordlist = [word.lower().strip() for word in wordlist]
-print wordlist
+
+my_words = [elt.strip() for elt in open('Z:\python\w.txt', 'r').readlines()]
+
+# print my_words
+
+import string
+import time
+
+set = string.ascii_lowercase
+print set
+d = {}
+
+
+for l in set:
+    d.setdefault(set, my_words) 
+    d.setdefault(l, None) 
+print d
 
 
 def themuru():
     pass
+
+
+
+
+
+
+
+
+
+
+

@@ -65,3 +65,12 @@ most_frequent(s)
 
 print '\nExercise 4\n'
 # Exercise 4
+
+WORD_LIST = "Z:\python\w.txt"
+wordlist = open(WORD_LIST).readlines()
+wordlist = [word.lower().strip() for word in wordlist]
+print wordlist
+
+
+def themuru():
+    pass

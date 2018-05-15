@@ -28,4 +28,3 @@ print f1.read()
 # def sed(string, r_string, f1, f2):
 #     open('file1.txt')
 #     open('file2.txt', 'w')
-

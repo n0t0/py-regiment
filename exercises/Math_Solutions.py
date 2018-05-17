@@ -62,6 +62,3 @@ def is_palindrome(word):
     else: 
         print "Try another word"
 is_palindrome(word)
-
-
-

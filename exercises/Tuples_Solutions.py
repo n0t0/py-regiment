@@ -92,7 +92,8 @@ def themuru():
     pass
 
 
-
+print '\nExercise 5\n'
+# Exercise 5
 
 
 

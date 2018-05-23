@@ -96,6 +96,8 @@ print '\nExercise 5\n'
 # Exercise 5
 
 
+print '\nExercise 6\n'
+# Exercise 6
 
 
 

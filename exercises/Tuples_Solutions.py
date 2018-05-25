@@ -101,6 +101,9 @@ def func1():
 print '\nExercise 6\n'
 # Exercise 6
 
+def func2():
+    pass
+
 
 
 

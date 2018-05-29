@@ -1,5 +1,5 @@
-# Exercise 1 
-# print '\nExercise 1\n'
+print '\nExercise \1\n'
+# Exercise 1
 # import os
 
 # cwd = os.getcwd()
@@ -28,3 +28,6 @@ print f1.read()
 # def sed(string, r_string, f1, f2):
 #     open('file1.txt')
 #     open('file2.txt', 'w')
+
+print '\nExercise \2\n'
+# Exercise 2

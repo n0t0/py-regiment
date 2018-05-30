@@ -31,3 +31,7 @@ print f1.read()
 
 print '\nExercise \2\n'
 # Exercise 2
+
+
+print '\nExercise \3\n'
+# Exercise 3

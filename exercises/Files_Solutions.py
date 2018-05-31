@@ -35,3 +35,7 @@ print '\nExercise \2\n'
 
 print '\nExercise \3\n'
 # Exercise 3
+
+
+print '\nExercise \4\n'
+# Exercise 4

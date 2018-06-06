@@ -201,3 +201,19 @@ print p
 
 print '\n Exercise 11\n'
 # Exercise 11
+
+class Point(object):
+    """
+    Represent a point in 2D space
+    """
+
+    def __init__(self, x=0.0, y=0.0):
+        self.x = x
+        self.y = y
+
+    def __str__(self):
+        return '{},{}'.format(self.x, self.y)
+
+    
+    def add(self):
+        pass

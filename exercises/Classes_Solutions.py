@@ -199,7 +199,7 @@ p = Point(3.0, 4.0)
 print p
 
 
-print '\n Exercise 11\n'
+print '\n Exercise 11\n' 
 # Exercise 11
 
 class Point(object):

@@ -1,7 +1,5 @@
 print '\n Exercise 1\n'
 # Exercise 1
-# Write a function called _distance_between_points_ that takes two _Points_
-# as arguments and returns the distance between them.
 
 from math import sqrt
 
@@ -10,7 +8,7 @@ class Point(object):
     """
     represents a point in 2D space
     """
-
+    
 blank = Point()
 blank.x = 3.0
 blank.y = 4.0
@@ -24,10 +22,6 @@ distance_between_points(blank.x, blank.y)
 
 print '\n Exercise 2\n'
 # Exercise 2
-# Write a function named move_rectangle that takes a Rectangle and two numbers
-# named dx and dy. It should change the location of the rectangle by adding dx
-# to the x coordinate of corner and adding dy to the y coordinate of corner.
-
 
 class Rectangle(object):
     """
@@ -51,6 +45,9 @@ def move_rectangle(rect, dx, dy):
     point = p.x, p.y
     print point
 move_rectangle(box, box.corner.x, box.corner.y)
+print '\n Exercise 3\n'
+# Exercise 3
+
 
 print '\n Exercise 4\n'
 # Exercise 4

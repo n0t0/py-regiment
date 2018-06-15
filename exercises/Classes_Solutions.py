@@ -48,6 +48,11 @@ move_rectangle(box, box.corner.x, box.corner.y)
 print '\n Exercise 3\n'
 # Exercise 3
 
+import copy 
+
+
+
+
 
 print '\n Exercise 4\n'
 # Exercise 4

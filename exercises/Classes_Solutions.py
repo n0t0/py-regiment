@@ -47,10 +47,24 @@ def move_rectangle(rect, dx, dy):
 move_rectangle(box, box.corner.x, box.corner.y)
 print '\n Exercise 3\n'
 # Exercise 3
-
+# Write a version of move_rectangle that creates 
+# and returns a new Rectangle instead of modifying the old one.
 import copy 
 
+# box2 = copy.deepcopy(box)
 
+def mod_move_rectangle(rect, dx, dy):
+    box2 = copy.deepcopy(box)
+    box2.corner.x +=4 
+    box2.corner.y +=6
+    t = ()
+    a = (box2.corner.x,) 
+    b = box2.corner.y
+    point = a + (b, )
+    print point
+    print box == box2 
+mod_move_rectangle(box, box.corner.x, box.corner.y)
+    
 
 
 

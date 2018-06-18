@@ -13,6 +13,7 @@ blank = Point()
 blank.x = 3.0
 blank.y = 4.0
 
+
 def distance_between_points(p1, p2):
     distance = sqrt(p1 ** 2 + p2 ** 2)
     print distance
@@ -45,10 +46,12 @@ def move_rectangle(rect, dx, dy):
     point = p.x, p.y
     print point
 move_rectangle(box, box.corner.x, box.corner.y)
+
+
 print '\n Exercise 3\n'
 # Exercise 3
-# Write a version of move_rectangle that creates 
-# and returns a new Rectangle instead of modifying the old one.
+
+
 import copy 
 
 # box2 = copy.deepcopy(box)
@@ -66,10 +69,10 @@ def mod_move_rectangle(rect, dx, dy):
 mod_move_rectangle(box, box.corner.x, box.corner.y)
     
 
-
-
 print '\n Exercise 4\n'
 # Exercise 4
+
+
 class Time(object):
     """
     Represents the time of the day.
@@ -86,6 +89,16 @@ def print_time(t):
     print '{}:{}:{}'.format(t.hour, t.minute, t.second)
 print_time(t)
 
+print '\n Exercise 5\n'
+# Exercise 5
+
+t2 = copy.copy(t)
+# print t2
+
+def is_after(t1, t2):
+    print print_time(t) is print_time(t2)
+is_after(print_time, t2)
+    
 
 print '\n Exercise 6\n'
 # Exercise 6
@@ -151,6 +164,12 @@ def increment(time, seconds):
 
     print_time(start)
 increment(start, 411)
+
+print '\n Exercise 7\n'
+# Exercise 7
+
+def pure_increment(time, seconds):
+    print_time(start)
 
 
 print '\n Exercise 8\n'

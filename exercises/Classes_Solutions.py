@@ -127,7 +127,12 @@ def add_time(t1, t2):
         sum.minute -= 60
         sum.hour += 1
 
-    return sum
+    print_time(sum)
+print 'x'
+# done = add_time(start, duration)
+done = add_time(start, duration)
+print done
+print 'x'
 # done = add_time(start, duration)
 # print_time(done)
 
@@ -169,7 +174,18 @@ print '\n Exercise 7\n'
 # Exercise 7
 
 def pure_increment(time, seconds):
+    sum = Time()
+    sum.hour = t1.hour + t2.hour 
+    sum.minute = t1.minute + t2.minute
+    sum.second = t1.second + t2.second
     print_time(start)
+
+
+
+
+pure_increment(start, 112)
+
+
 
 
 print '\n Exercise 8\n'

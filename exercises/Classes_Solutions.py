@@ -111,7 +111,7 @@ start.second = 0
 duration = Time()
 duration.hour = 1
 duration.minute = 43
-duration.second = 47
+duration.second = 140
 
 def add_time(t1, t2):
     sum = Time()
@@ -128,13 +128,9 @@ def add_time(t1, t2):
         sum.hour += 1
 
     print_time(sum)
-print 'x'
 # done = add_time(start, duration)
-done = add_time(start, duration)
-print done
-print 'x'
-# done = add_time(start, duration)
-# print_time(done)
+add_time(start, duration)
+
 
 # divide seconds until >60
 import math
@@ -173,22 +169,41 @@ increment(start, 411)
 print '\n Exercise 7\n'
 # Exercise 7
 
-def pure_increment(time, seconds):
-    sum = Time()
-    sum.hour = t1.hour + t2.hour 
-    sum.minute = t1.minute + t2.minute
-    sum.second = t1.second + t2.second
-    print_time(start)
+time = copy.deepcopy(start)
 
 
+def time_to_int(time):
+    minutes = time.hour * 60 + time.minute
+    seconds = minutes * 60 + time.second
+    return seconds
+    print seconds
+time_to_int(time)
 
 
-pure_increment(start, 112)
+def int_to_time(seconds):
+    time = copy.deepcopy(start)
+    minutes, time.seconds = divmod(seconds, 60)
+    time.hour, time.minute = divmod(minutes, 60)
+    print_time(time)
+    return time
+int_to_time(31011)
 
 
+# def pure_increment(time, seconds):
+#     print_time(start)
+
+#     # add_time(time, seconds)
+
+# print pure_increment(start, 121)
 
 
 print '\n Exercise 8\n'
+
+
+def convert_increment(time, seconds):
+    time_to_int(time)
+    int_to_time(time)
+convert_increment(start, 31011)
 
 # t = Time()
 # t.hour = '%.2d' % 14

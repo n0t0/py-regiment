@@ -131,7 +131,6 @@ def add_time(t1, t2):
 # done = add_time(start, duration)
 add_time(start, duration)
 
-
 # divide seconds until >60
 import math
 # from decimal import *
@@ -166,6 +165,8 @@ def increment(time, seconds):
     print_time(start)
 increment(start, 411)
 
+print_time(start)
+
 
 print '\n Exercise 7\n'
 # Exercise 7
@@ -180,10 +181,11 @@ def time_to_int(time):
     print seconds
 time_to_int(time)
 
+print 'x'
 
 def int_to_time(seconds):
     time = copy.deepcopy(start)
-    minutes, time.seconds = divmod(seconds, 60)
+    minutes, time.second = divmod(seconds, 60)
     time.hour, time.minute = divmod(minutes, 60)
     print_time(time)
     return time
@@ -200,41 +202,14 @@ int_to_time(31011)
 
 print '\n Exercise 8\n'
 
-print_time(start)
-print_time(duration)
-
 
 def convert_increment(time, seconds):
     print_time(start) 
     done = time_to_int(start) + seconds
     int_to_time(done)
-    # print_time(done) 
-convert_increment(start, 414)
+convert_increment(start, 431)
 
 
-
-# t = Time()
-# t.hour = '%.2d' % 14
-# t.minute = '%.2d' % 9
-# t.second = '%.2d' % 23
-#
-# class Time(object):
-#     """
-#     Represents the time of the day.
-#
-#     attributes: hour, minute, second
-#     """
-#     def __init__
-#     # def print_time(self):
-#     #     print '{}:{}:{}'.format(self.hour, self.minute, self.second)
-#     # print_time(t)
-#
-#     def time_to_int(self):
-#         minutes = self.hour * 60 + self.minute
-#         seconds = minutes * 60 + self.second
-#         return seconds
-#
-# t.time_to_int()
 print '\n Exercise 9\n'
 
 class Point(object):

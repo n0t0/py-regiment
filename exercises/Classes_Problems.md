@@ -57,8 +57,7 @@ def int_to_time(seconds):
     return time
 ```
 
-
-### Exercise 7  
+### Exercise 9
 
 The datetime module provides *date* and *time* objects that are similar to the *Date* and *Time* objects in this chapter, but they provide a rich set of methods and operators. Read the documentation at http://docs.python.org/2/library/datetime.html.
 
@@ -68,18 +67,18 @@ The datetime module provides *date* and *time* objects that are similar to the *
 4. For a little more challenge, write the more general version that computes the day when one person is n times older than the other.
 
 
-### Exercise 8
+### Exercise 10
 
 Rewrite _time_to_int_ as a method. It is probably not appropriate to rewrite *int_to_time* as a method; what object you would invoke it on?
 
-### Exercise 9
+### Exercise 11
 
 Write an _init_ method for the **Point** class that takes _x_ and *y* as optional parameters and assigns them to the corresponding attributes.
 
-### Exercise 10
+### Exercise 12
 
 Write a _str_ method for the **Point** class. Create a _Point_ object and print it.
 
-### Exercise 11
+### Exercise 13
 
 Write an _add_ method for the **Point** class.

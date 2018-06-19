@@ -166,6 +166,7 @@ def increment(time, seconds):
     print_time(start)
 increment(start, 411)
 
+
 print '\n Exercise 7\n'
 # Exercise 7
 
@@ -199,11 +200,18 @@ int_to_time(31011)
 
 print '\n Exercise 8\n'
 
+print_time(start)
+print_time(duration)
+
 
 def convert_increment(time, seconds):
-    time_to_int(time)
-    int_to_time(time)
-convert_increment(start, 31011)
+    print_time(start) 
+    done = time_to_int(start) + seconds
+    int_to_time(done)
+    # print_time(done) 
+convert_increment(start, 414)
+
+
 
 # t = Time()
 # t.hour = '%.2d' % 14

@@ -210,6 +210,22 @@ def convert_increment(time, seconds):
 convert_increment(start, 431)
 
 
+
+
+
+def check(x):
+    if x < 5:
+        print 'x is smaller than', x
+        return False
+check(5)
+
+if not check(4):
+    raise ValueError('invalid')
+
+
+
+
+
 print '\n Exercise 9\n'
 
 class Point(object):

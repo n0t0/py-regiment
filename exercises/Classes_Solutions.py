@@ -282,3 +282,6 @@ class Point(object):
     
     def add(self):
         pass
+
+print '\n Exercise 12\n' 
+# Exercise 12

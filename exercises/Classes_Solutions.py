@@ -181,7 +181,7 @@ def time_to_int(time):
     print seconds
 time_to_int(time)
 
-print 'x'
+print 'pure'
 
 def int_to_time(seconds):
     time = copy.deepcopy(start)
@@ -201,32 +201,44 @@ int_to_time(31011)
 
 
 print '\n Exercise 8\n'
+# Exercise 8
+
+
+s = Time()
+s.hour = 1
+s.minute = 52
+s.second = 40
+
 
 
 def convert_increment(time, seconds):
-    print_time(start) 
-    done = time_to_int(start) + seconds
+    print_time(s) 
+    done = time_to_int(s) + seconds
     int_to_time(done)
-convert_increment(start, 431)
+convert_increment(start, 300)
 
 
 
 
 
-def check(x):
-    if x < 5:
-        print 'x is smaller than', x
-        return False
-check(5)
+# def check(x):
+#     if x < 5:
+#         print 'x is smaller than', x
+#         return False
+# check(5)
 
-if not check(4):
-    raise ValueError('invalid')
-
-
-
+# if not check(4):
+#     raise ValueError('invalid')
 
 
 print '\n Exercise 9\n'
+# Exercise 9
+
+
+
+
+
+print '\n Exercise x\n'
 
 class Point(object):
     """
@@ -245,7 +257,7 @@ blank = Point()
 blank = Point(2.0)
 blank.print_point()
 
-print '\n Exercise 10\n'
+print '\n Exercise y\n'
 
 class Point(object):
     """

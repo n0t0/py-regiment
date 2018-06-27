@@ -259,8 +259,6 @@ print '\n Exercise 11\n'
 # Exercise 11
 
 
-print '\n Exercise x\n'
-
 class Point(object):
     """
     Represent a point in 2D space
@@ -278,7 +276,8 @@ blank = Point()
 blank = Point(2.0)
 blank.print_point()
 
-print '\n Exercise y\n'
+print '\n Exercise 12\n'
+# Exercise 12
 
 class Point(object):
     """
@@ -297,8 +296,8 @@ p = Point(3.0, 4.0)
 print p
 
 
-print '\n Exercise 11\n' 
-# Exercise 11
+print '\n Exercise 13\n' 
+# Exercise 13
 
 class Point(object):
     """
@@ -316,5 +315,3 @@ class Point(object):
     def add(self):
         pass
 
-print '\n Exercise 12\n' 
-# Exercise 12

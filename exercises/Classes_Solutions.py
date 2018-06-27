@@ -181,7 +181,6 @@ def time_to_int(time):
     print seconds
 time_to_int(time)
 
-print 'pure'
 
 def int_to_time(seconds):
     time = copy.deepcopy(start)
@@ -192,12 +191,11 @@ def int_to_time(seconds):
 int_to_time(31011)
 
 
-# def pure_increment(time, seconds):
-#     print_time(start)
-
-#     # add_time(time, seconds)
-
-# print pure_increment(start, 121)
+def pure_increment(time, seconds):
+    seconds += time_to_int(time)
+    return int_to_time(seconds)
+    # add_time(time, seconds)
+print pure_increment(start, 120)
 
 
 print '\n Exercise 8\n'
@@ -218,9 +216,6 @@ def convert_increment(time, seconds):
 convert_increment(start, 300)
 
 
-
-
-
 # def check(x):
 #     if x < 5:
 #         print 'x is smaller than', x
@@ -235,7 +230,33 @@ print '\n Exercise 9\n'
 # Exercise 9
 
 
+print '\n Exercise 10\n'
+# Exercise 10
 
+
+class Clock(object):
+    
+
+    def print_time(time):
+        print '{}:{}:{}'.format(time.hour, time.minute, time.second)
+    
+    def time_to_int(time):
+        minutes = time.hour * 60 + time.minute
+        seconds = minutes * 60 + time.second
+        return seconds
+        print seconds
+
+time = Clock()
+time.hour = 1
+time.minute = 40
+time.second = 52
+
+print time.print_time()
+print time.time_to_int()
+
+
+print '\n Exercise 11\n'
+# Exercise 11
 
 
 print '\n Exercise x\n'

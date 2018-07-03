@@ -201,12 +201,10 @@ print pure_increment(start, 120)
 print '\n Exercise 8\n'
 # Exercise 8
 
-
 s = Time()
 s.hour = 1
 s.minute = 52
 s.second = 40
-
 
 
 def convert_increment(time, seconds):
@@ -216,18 +214,13 @@ def convert_increment(time, seconds):
 convert_increment(start, 300)
 
 
-# def check(x):
-#     if x < 5:
-#         print 'x is smaller than', x
-#         return False
-# check(5)
-
-# if not check(4):
-#     raise ValueError('invalid')
-
-
 print '\n Exercise 9\n'
 # Exercise 9
+
+import datetime
+
+# print datetime.today()
+
 
 
 print '\n Exercise 10\n'
@@ -267,13 +260,14 @@ class Point(object):
     def __init__(self, x=0.0, y=0.0):
         self.x = x
         self.y = y
+        
 
     def print_point(self):
         print '{}, {}'.format(self.x, self.y)
     # print_point(blank)
 
 blank = Point()
-blank = Point(2.0)
+blank = Point(2.0, 4.0)
 blank.print_point()
 
 print '\n Exercise 12\n'
@@ -289,7 +283,7 @@ class Point(object):
         self.y = y
 
     def __str__(self):
-        return '{},{}'.format(self.x, self.y)
+        return '{}, {}'.format(self.x, self.y)
 
 
 p = Point(3.0, 4.0)
@@ -298,6 +292,11 @@ print p
 
 print '\n Exercise 13\n' 
 # Exercise 13
+
+
+p2 = copy.deepcopy(p)
+print p2
+p2 = Point(4.0, 5.0)
 
 class Point(object):
     """
@@ -311,7 +310,9 @@ class Point(object):
     def __str__(self):
         return '{},{}'.format(self.x, self.y)
 
-    
-    def add(self):
-        pass
+    def __add__(self, other):
+        sides = self.p + other.blank 
+        print sides
+        
+        
 

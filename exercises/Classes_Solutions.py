@@ -295,8 +295,12 @@ print '\n Exercise 13\n'
 
 
 p2 = copy.deepcopy(p)
-print p2
+print p
 p2 = Point(4.0, 5.0)
+print p2
+
+# print sum(p + p2)
+# print p2
 
 class Point(object):
     """
@@ -308,11 +312,21 @@ class Point(object):
         self.y = y
 
     def __str__(self):
-        return '{},{}'.format(self.x, self.y)
+        return '{}, {}'.format(self.x, self.y)
 
-    def __add__(self, other):
-        sides = self.p + other.blank 
-        print sides
+    # def print_point(self):
+    #     return '{},{}'.format(self.x, self.y)
+    
+    # def __add__(self, other):
+    #     sides = self.p() + other.p2()
+    #     print sides
+
+A = Point(3.3, 4.4)
+print A
+B = Point(2.2, 1.1)
+print B
+
+
         
         
 

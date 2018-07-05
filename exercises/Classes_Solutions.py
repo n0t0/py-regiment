@@ -302,6 +302,12 @@ print p2
 # print sum(p + p2)
 # print p2
 
+A = Point(3.3, 4.4)
+print A
+B = Point(2.2, 1.1)
+print B
+
+
 class Point(object):
     """
     Represent a point in 2D space
@@ -314,17 +320,17 @@ class Point(object):
     def __str__(self):
         return '{}, {}'.format(self.x, self.y)
 
-    # def print_point(self):
-    #     return '{},{}'.format(self.x, self.y)
+    def print_point(self):
+        return '{}, {}'.format(self.x, self.y)
     
-    # def __add__(self, other):
-    #     sides = self.p() + other.p2()
-    #     print sides
+    def __add__(self, other):
+        sides = self.print_point() + other.print_point()
+        return sides
 
-A = Point(3.3, 4.4)
-print A
-B = Point(2.2, 1.1)
-print B
+
+lenght = Point(3.3, 4.4)
+widht = Point(2.2, 1.1)
+print lenght + widht 
 
 
         

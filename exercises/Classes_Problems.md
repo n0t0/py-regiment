@@ -61,7 +61,7 @@ def int_to_time(seconds):
 
 The _datetime_ module provides *date* and *time* objects that are similar to the *Date* and *Time* objects in this chapter, but they provide a rich set of methods and operators. Read the documentation at http://docs.python.org/2/library/datetime.html.
 
-1. Use the datetime module to write a program that gets the current date and prints the day of the week.
+1. Use the _datetime_ module to write a program that gets the current date and prints the day of the week.
 2. Write a program that takes a birthday as input and prints the user’s age and the number of days, hours, minutes and seconds until their next birthday.
 3. For two people born on different days, there is a day when one is twice as old as the other. That’s their Double Day. Write a program that takes two birthdays and computes their Double Day.
 4. For a little more challenge, write the more general version that computes the day when one person is n times older than the other.

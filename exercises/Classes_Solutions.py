@@ -19,7 +19,6 @@ def distance_between_points(p1, p2):
     print distance
 distance_between_points(blank.x, blank.y)
 
-# TODO: define a functions within a class Point/s(object)
 
 print '\n Exercise 2\n'
 # Exercise 2
@@ -51,10 +50,8 @@ move_rectangle(box, box.corner.x, box.corner.y)
 print '\n Exercise 3\n'
 # Exercise 3
 
-
 import copy 
 
-# box2 = copy.deepcopy(box)
 
 def mod_move_rectangle(rect, dx, dy):
     box2 = copy.deepcopy(box)
@@ -71,7 +68,6 @@ mod_move_rectangle(box, box.corner.x, box.corner.y)
 
 print '\n Exercise 4\n'
 # Exercise 4
-
 
 class Time(object):
     """
@@ -106,7 +102,7 @@ print '\n Exercise 6\n'
 start = Time()
 start.hour = 8
 start.minute = 30
-start.second = 0
+start.second = 1
 
 duration = Time()
 duration.hour = 1
@@ -128,7 +124,6 @@ def add_time(t1, t2):
         sum.hour += 1
 
     print_time(sum)
-# done = add_time(start, duration)
 add_time(start, duration)
 
 # divide seconds until >60
@@ -194,8 +189,7 @@ int_to_time(31011)
 def pure_increment(time, seconds):
     seconds += time_to_int(time)
     return int_to_time(seconds)
-    # add_time(time, seconds)
-print pure_increment(start, 120)
+pure_increment(start, 120)
 
 
 print '\n Exercise 8\n'
@@ -218,10 +212,67 @@ print '\n Exercise 9\n'
 # Exercise 9
 
 import datetime
+from datetime import date
+from datetime import timedelta
 
-# print datetime.today()
+import time
+import calendar
 
 
+#1 
+print date.today()
+
+class Date(object):
+      
+    
+    def __init__(self, weekday=0):
+        self.weekday = weekday
+        
+
+    def print_weekday(self):
+        d = {
+            'Monday':0,
+            'Tuesday':1,
+            'Wednesday':2,
+            'Thirsday':3,
+            'Friday':4,
+            'Saturday':5,
+            'Sunday':6
+            }
+
+        for k, v in d.iteritems():
+            if v == day.today:
+                print k
+
+
+    def next_birthday(self, birthday):
+        # year = timedelta(days=365)
+        # another_year = timedelta(week)
+        age = date.today() - birthday
+        print age
+        print age.total_seconds()
+        print age.total_seconds() / 86400 
+
+        # for n in age:
+        #     print age / 60 
+
+        
+        
+day = Date()
+day.today = date.today().weekday()
+print day.print_weekday()
+
+birthday = datetime.date(1987,4,17)
+print day.next_birthday(birthday)
+
+
+
+    # def print_weekDay(self, weekday, weekend):
+    #     self.
+# today = datetime.date(2018, 7, 6)
+# print today
+# print datetime.time()
+# print date.fromtimestamp(time.time())
 
 print '\n Exercise 10\n'
 # Exercise 10

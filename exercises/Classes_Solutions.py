@@ -229,6 +229,10 @@ class Date(object):
         self.weekday = weekday
         
 
+    def __str__(self, weekday=0):
+        self.weekday = weekday
+
+
     def print_weekday(self):
         d = {
             'Monday':0,
@@ -256,8 +260,6 @@ class Date(object):
         # for n in age:
         #     print age / 60 
 
-        
-        
 day = Date()
 day.today = date.today().weekday()
 print day.print_weekday()
@@ -266,17 +268,8 @@ birthday = datetime.date(1987,4,17)
 print day.next_birthday(birthday)
 
 
-
-    # def print_weekDay(self, weekday, weekend):
-    #     self.
-# today = datetime.date(2018, 7, 6)
-# print today
-# print datetime.time()
-# print date.fromtimestamp(time.time())
-
 print '\n Exercise 10\n'
 # Exercise 10
-
 
 class Clock(object):
     
@@ -298,10 +291,8 @@ time.second = 52
 print time.print_time()
 print time.time_to_int()
 
-
 print '\n Exercise 11\n'
 # Exercise 11
-
 
 class Point(object):
     """
@@ -343,21 +334,6 @@ print p
 
 print '\n Exercise 13\n' 
 # Exercise 13
-
-
-# p2 = copy.deepcopy(p)
-# print p
-# p2 = Point(4.0, 5.0)
-# print p2
-
-# print sum(p + p2)
-# print p2
-
-# A = Point(3.3, 4.4)
-# print A
-# B = Point(2.2, 1.1)
-# print B
-
 
 class Point(object):
     """

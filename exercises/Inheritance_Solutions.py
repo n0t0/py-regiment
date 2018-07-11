@@ -2,6 +2,8 @@ print '\n Exercise 1 \n'
 
 class Clock(object):
     
+    cities = ['New York', 'London', 'Dubai', 'Tokyo']
+    timezones = ['UTC']
 
     def __init__(self, hour=0, minute=0, second=0):
         self.hour = hour
@@ -43,4 +45,6 @@ t1.print_time()
 t2.print_time()
    
 print t1 > t2 
+
+print '\n Exercise 1 \n'
 

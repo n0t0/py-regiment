@@ -121,3 +121,76 @@ print deck
 
 print '\n Exercise 3 \n'
 
+import random
+
+class Deck(object):
+
+
+    def __init__(self):
+        self.cards = []
+        for suit in range(4):
+            for rank in range(14):
+                card = Card(suit, rank)
+                self.cards.append(card)
+
+
+    def __str__(self):
+        res = []
+        for card in self.cards:
+            res.append(str(card))
+        return '\n'.join(res)
+
+
+    def pop_card(self):
+        return self.cards.pop()
+
+
+    def add_card(self, card):
+        self.cards.append(card)
+
+
+    def shuffle(self):
+        random.shuffle(self.cards)
+
+
+    def move_cards(self, hand, num):
+        for i in range(num):
+            hand.add_card(self.pop_card())
+
+
+    def deal_hands(self, hands_num, cards_num):
+        hands = []
+        for elmt in range(hands_num):
+            elmt = Hand('some hand')
+            print elmt.label
+            hands.append(elmt)
+        for item in hands:
+            for i in range(cards_num):
+                hand.add_card(self.pop_card())
+        return hands   
+         
+deck = Deck()
+import itertools
+
+class Hand(Deck):
+    """Represents a hand of playing cards."""
+    # newid = itertools.count().next
+    # class_counter = 0
+    def __init__(self, label=""):
+        # self.id = Hand().newid
+        self.cards = []
+        self.label = label
+        # self.id = Hand.class_counter
+        # Hand.class_counter += 1 
+
+hand = Hand('new_hand')
+print hand.cards
+print hand.label
+
+card = deck.pop_card()
+hand.add_card(card)
+print hand
+
+hands = deck.deal_hands(4, 5)
+print hands
+

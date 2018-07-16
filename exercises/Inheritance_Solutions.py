@@ -194,3 +194,7 @@ print hand
 hands = deck.deal_hands(4, 5)
 print hands
 
+
+print '\n Exercise 3 \n'
+
+

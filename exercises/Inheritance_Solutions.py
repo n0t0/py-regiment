@@ -198,3 +198,4 @@ print hands
 print '\n Exercise 3 \n'
 
 
+print '\n Exercise 4 \n'

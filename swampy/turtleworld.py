@@ -45,11 +45,11 @@ square(bob, 150)
 # polygon(bob, 30, 70)
 
 def polygon(t, lenght, n):
-    angle = 360 / n 
+    angle = 360.0 / n 
     for elt in range(n):
         fd(t, lenght)
-        lt(t, n)
-polygon(bob, lenght=30, n=9)
+        lt(t, angle)
+polygon(bob, lenght=30, n=7)
 
 # exercise 4
 

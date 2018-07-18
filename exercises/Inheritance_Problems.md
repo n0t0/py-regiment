@@ -8,3 +8,5 @@ Write a _Deck_ method named _sort_ that uses the list method _sort_ to sort the 
 Write a Deck method called _deal_hands_ that takes two parameters, the number of hands and the number of cards per hand, and that creates new Hand objects, deals the appropriate number of cards per hand, and returns a list of Hand objects.
 
 
+
+

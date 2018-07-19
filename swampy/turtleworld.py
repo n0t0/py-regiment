@@ -49,23 +49,57 @@ def polygon(t, lenght, n):
     for elt in range(n):
         fd(t, lenght)
         lt(t, angle)
-polygon(bob, lenght=30, n=7)
+# polygon(bob, lenght=30, n=7)
 
 # exercise 4
 
-# C =  2 * 3.14 * r
-# A = 
-# bob.delay = 0.01 
+import math
 
-# def circle(t, r):
-#     polygon(t, 2, 1)
-# # circle(bob, 20)
+bob.delay = 0.01 
+
+
+def circle(t, r):
+    C = 2 * math.pi * r 
+    n = int(C / 2) + 1
+    lenght = C / n
+    polygon(t, lenght, n)
+# circle(bob, 50)
         
-# # exercise 5
+# exercise 5
+# Refactoring 
 
-# def arc(angle):
-#     for angle in circle(bob, 5):
-#         if angle
-# arc(180)
-    
+def arc(t, lenght, angle):
+    arc_lenght = 2 * math.pi * angle / 360 
+    n = int(arc_lenght / 3) + 1 
+    step_lenght = arc_lenght / n
+    step_angle = float(angle) / n 
+
+    for elt in range(n):
+        fd(t, step_lenght)
+        lt(t, step_angle)
+
+
+def polyline(t, n, lenght, angle):
+    for i in range(n):
+        fd(t, lenght)
+        lt(t, angle)
+
+
+def polygon(t, lenght, n):
+    angle = 360.0 / n 
+    polyline(t, n, lenght, angle)
+
+
+def arc(t, lenght, angle):
+    arc_lenght = 2 * math.pi * angle / 360 
+    n = int(arc_lenght / 3) + 1 
+    step_lenght = arc_lenght / n
+    step_angle = float(angle) / n 
+    polyline(t, n, lenght, angle)
+
+
+def circle(t, r):
+    arc(t, r, 360)
+
+
 wait_for_user()

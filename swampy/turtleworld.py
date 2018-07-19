@@ -96,10 +96,18 @@ def arc(t, lenght, angle):
     step_lenght = arc_lenght / n
     step_angle = float(angle) / n 
     polyline(t, n, lenght, angle)
+# arc(bob, 30, 45)
 
 
 def circle(t, r):
     arc(t, r, 360)
+
+
+def flower_01():
+    for elt in range(2):
+        arc(bob, 60, 45)
+flower_01()
+
 
 
 wait_for_user()

@@ -1,3 +1,5 @@
+from __future__ import division
+
 fin = open('Z:\python\words.txt')
 
 # exercise 1
@@ -17,13 +19,14 @@ word_list = open('Z:\python\words.txt').readlines()
 #             print word
 # has_no_e()
 
+
 def has_no_e():
     has_no_e = []
     for word in word_list:
         if 'e' not in word:
             has_no_e.append(word)
-    p = float(len(has_no_e) / len(word_list))
-    print float(p)
+    p = len(has_no_e) / len(word_list)
+    print '{:.2f}'.format(p), '%'
 has_no_e()
 
     

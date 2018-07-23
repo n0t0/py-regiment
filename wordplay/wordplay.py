@@ -30,3 +30,13 @@ def has_no_e():
 has_no_e()
 
     
+# exercise 3
+
+def avoids(w, s):
+    # s = 'eb'
+    for w in word_list:
+        if s not in w:
+            print w
+
+    # return w 
+avoids(w, 's')    

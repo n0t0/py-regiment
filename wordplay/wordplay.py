@@ -12,6 +12,7 @@ for line in fin:
 # exercise 2 
 word_list = open('Z:\python\words.txt').readlines()
 
+# print word_list
 # def has_no_e():
 #     for line in fin:
 #         word = line.strip()
@@ -36,4 +37,24 @@ def avoids(w, s):
     for w in word_list:
         if s not in w:
             print w
-avoids(has_no_e(), raw_input('enter forbbiden letters: '))    
+# avoids(has_no_e(), raw_input('enter forbbiden letters: '))    
+
+# exercise 4
+
+s = 'asta'
+for l in s:
+    print l
+
+def uses_only(word, required_letters):
+    # l = []
+    for l in required_letters:
+        if l in word:
+            print 'ok'
+
+
+    # for s in raw_input('enter allowed letters: '):
+    #     l.append(s)
+    # print l
+uses_only(fin, 'sa')
+
+

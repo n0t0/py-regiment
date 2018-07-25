@@ -46,11 +46,22 @@ def uses_only(word, required_letters):
         if l in word:
             print 'ok'
         else:
-            print required_letters, 'not found in', word
+            print 'letters:', required_letters, 'not found in word:', word
 
 uses_only('dp', 'sa')
 
 
+# exercise 5
 
 
+def uses_all(word_list, required_letters):
+    
+    for word in word_list:
+        if required_letters in word:
+            print word
 
+
+uses_all(word_list, 'brother')
+    
+
+# exercise 6

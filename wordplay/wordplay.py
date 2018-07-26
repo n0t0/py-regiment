@@ -41,9 +41,8 @@ def avoids(w, s):
 
 
 def uses_only(word, required_letters):
-    # l = []
-    for l in required_letters:
-        if l in word:
+    for letter in required_letters:
+        if letter in word:
             print 'ok'
         else:
             print 'letters:', required_letters, 'not found in word:', word
@@ -62,6 +61,35 @@ def uses_all(word_list, required_letters):
 
 
 uses_all(word_list, 'brother')
+
+def uses_all_impr(word_list, required):
+    return uses_only(word, required)
+uses_all_impr(word_list, 'bro')
     
 
 # exercise 6
+
+
+def is_abecedarian(word_list):
+    previous = word[0]
+    for c in word:
+        if c < previous:
+            return False
+        previous = c 
+    return True
+
+
+def is_abecedarian_im(word):
+    i = 0 
+    while i < len(word) - 1:
+        if word[i + 1] < word[i]:
+            return False
+        i = i + 1 
+    return True
+
+is_abecedarian_im(word)
+
+
+    
+    
+    

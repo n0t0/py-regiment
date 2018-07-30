@@ -7,3 +7,5 @@ for i in old_list:
         new_list.append(expressions(i))
 
 new_list = [expression(i)] for i in old_list if filter(i)]
+
+comprendo = []

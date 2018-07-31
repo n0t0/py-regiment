@@ -77,7 +77,7 @@ Write a function called _bisect_ that takes a sorted list and a target value and
 Or you could read the documentation of the bisect module and use that! 
 
 ### Exercise 12  
-Two words are a “reverse pair” if each is the reverse of the other. Write a program that finds all the reverse pairs in the word list. Solution: http://thinkpython.com/code/reverse_pair.py.
+Two words are a “reverse pair” if each is the reverse of the other. Write a program that finds all the reverse pairs in the word list. 
 
 ### Exercise 13  
 Two words “interlock” if taking alternating letters from each forms a new word. For example, “shoe” and “cold” interlock to form “schooled.”  Credit: This exercise is inspired by an example at http://puzzlers.org.

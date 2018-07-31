@@ -63,7 +63,7 @@ Write a function called _remove_duplicates_ that takes a list and returns a new 
 ### Exercise 10  
 Write a function that reads the file words.txt and builds a list with one element per word. Write two versions of this function, one using the append method and the other using the idiom t = t + [x]. Which one takes longer to run? Why?
 
-Hint: use the time module to measure elapsed time. Solution: http://thinkpython.com/code/wordlist.py.
+Hint: use the time module to measure elapsed time. 
 
 ### Exercise 11  
 To check whether a word is in the word list, you could use the in operator, but it would be slow because it searches through the words in order.

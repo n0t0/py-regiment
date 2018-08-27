@@ -2,7 +2,6 @@
 The os module provides a function called _walk_. Read the documentation and use
 it to print the names of the files in a given directory and its subdirectories.
 
-
 # Exercise 2
 Write a function called _sed_ that takes as arguments a pattern string,
 a replacement string, and two filenames; it should read the first file and

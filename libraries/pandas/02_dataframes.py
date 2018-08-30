@@ -50,7 +50,7 @@ print(df.loc[['A','B'],['W','Y']])
 # print(df[df['W']>0]['Y','X'])
 
 # Multiple Conditions 
-print('8' * 40)
+print('8' * 80)
 print(df[(df['W']>0) & (df['Y']> 1)])
 print(df[(df['W']>0) | (df['Y']> 1)])
 

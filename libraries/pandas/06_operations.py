@@ -20,7 +20,7 @@ def times2(x):
     return x*2
 
 # apply()
-
+print('8'*80)
 print(df['col1'].apply(times2))
 print(df['col3'].apply(len))
 print(df['col2'].apply(lambda x: x*2))

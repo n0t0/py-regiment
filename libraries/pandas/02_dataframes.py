@@ -67,6 +67,8 @@ print(df)
 print(df.set_index('States'))
 
 # Index Levels
+print('8' * 80)
+
 outside = ['G1','G1','G1','G2','G2','G2']
 inside = [1,2,3,1,2,3]
 hier_index = list(zip(outside,inside))

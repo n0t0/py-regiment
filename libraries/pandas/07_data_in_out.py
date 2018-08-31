@@ -3,6 +3,8 @@
 # pip install html5lib
 # pip install BeautifulSoup4
 
+#* pip install xlrd 
+
 import numpy as np
 import pandas as pd
 

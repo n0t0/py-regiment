@@ -6,6 +6,11 @@ np.random.seed(101)
 
 df = pd.DataFrame(randn(5,4),['A','B','C','D','E'],['W','X','Y','Z'])
 print(df)
+print('8' * 80)
+print('8' * 80)
+print('8' * 80)
+print('8' * 80)
+
 
 print(df['W'])
 print(type(df['W']))
@@ -22,13 +27,19 @@ print(df)
 
 print(df.drop('E'))
 
+print('8' * 80)
+print('8' * 80)
 print(df.shape)
 
 # Selecting Rows
-
+print('8' * 80)
+print('8' * 80)
+print('8' * 80)
 print(df.loc['A'])
 print(df.iloc[2])
 
+print('8' * 80)
+print('8' * 80)
 print(df.loc['B','Y'])
 print(df.loc[['A','B'],['W','Y']])
 
@@ -50,12 +61,13 @@ print(df.loc[['A','B'],['W','Y']])
 # print(df[df['W']>0]['Y','X'])
 
 # Multiple Conditions 
-print('8' * 80)
+print('6' * 80)
 print(df[(df['W']>0) & (df['Y']> 1)])
+print('6' * 80)
 print(df[(df['W']>0) | (df['Y']> 1)])
 
 # Reset Index 
-
+print('5' * 80)
 print(df.reset_index())
 
 # Setting an Index

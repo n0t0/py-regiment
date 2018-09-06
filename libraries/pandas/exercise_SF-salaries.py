@@ -38,9 +38,9 @@ print('8'*80)
 byYear = df.groupby('Year')
 print (byYear.mean()['BasePay'])
 
-print('8'*80)
+print('9'*80)
 
-print (df['JobTitle'].nunique())
+print (df['JobTitle'].unique())
 
 print('8'*80)
 

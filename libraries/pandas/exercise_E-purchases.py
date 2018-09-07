@@ -4,7 +4,7 @@ import re
 
 
 ecom = pd.read_csv('Ecommerce Purchases')
-# print(ecom)
+print(ecom)
 
 print(ecom.head())
 
@@ -30,21 +30,11 @@ print(ecom[ecom['Credit Card'] == 4926535242672853]['Email'])
 print('8'*80)
 print(ecom[(ecom['CC Provider'] == 'American Express') & (ecom['Purchase Price'] > 95)].count())
 print('8'*80)
+print(sum(ecom['CC Exp Date'].apply(lambda exp: exp[3:] == '25' )))
+print('8'*80)
+print (ecom['Email'].apply(lambda email: email.split('@')[1]).value_counts().head())
 
-year = '10/25'
 
-# match = re.match('([0-9])(.*)', s, flags=0)
-# if match:
-#     print 'Match: ', match.groups() # returns a tuple
-
-# match = re.match('(\d{2}/25)', year, flags=0)
-# if match:
-#     print ('Match: ', match.group()) # returns a tuple
-
-# # def exp(card):
-    
-# print (ecom[ecom['CC Exp Date'] == '01/25'].count())
-# print (sum(ecom[ecom['CC Exp Date'] == '25']['JobTitle'].value_counts() == 1))
 
 
 

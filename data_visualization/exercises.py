@@ -10,9 +10,8 @@ df3 = pd.read_csv('df3')
 
 # df3.plot.scatter(x='a',y='b',
 #                  figsize=(12,3),
-#                  color='red',
-#                  marker='o',
-#                  markeredgewidth=2)
+#                  c='red',
+#                  s=50)
 # plt.savefig('ex_01')
 
 # Exercise 2 
@@ -23,8 +22,8 @@ df3 = pd.read_csv('df3')
 
 # Exercise 3 
 
-# df3['a','b'].plot.box()
-# plt.savefig('ex_03')
+df3[['a','b']].plot.box()
+plt.savefig('ex_03')
 
 # Exercise 4
 
@@ -38,5 +37,5 @@ df3 = pd.read_csv('df3')
 
 # Exercise 6
 
-df3.plot.area(alpha=0.4).ix[[30]]
-plt.savefig('ex_06')
+# df3.plot.area(alpha=0.4).ix[[30]]
+# plt.savefig('ex_06')

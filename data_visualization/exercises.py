@@ -22,8 +22,8 @@ df3 = pd.read_csv('df3')
 
 # Exercise 3 
 
-df3[['a','b']].plot.box()
-plt.savefig('ex_03')
+# df3[['a','b']].plot.box()
+# plt.savefig('ex_03')
 
 # Exercise 4
 
@@ -37,5 +37,11 @@ plt.savefig('ex_03')
 
 # Exercise 6
 
-# df3.plot.area(alpha=0.4).ix[[30]]
+# df3.ix[:30].plot.area(alpha=0.4)
 # plt.savefig('ex_06')
+
+# Exercise 6
+f = plt.figure()
+df3.ix[:30].plot.area(alpha=0.4)
+plt.legend(loc='center left', bbox_to_anchor=(1.0, 0.5))
+plt.savefig('ex_06a')

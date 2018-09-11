@@ -18,15 +18,18 @@ titanic = sns.load_dataset('titanic')
 # Exercise 2 
  
 # sns.distplot(titanic['fare'],
-#              color='orange',
-#              kde=False)
+#              color='red',
+#              kde=False,
+#              bins=30)
 # plt.savefig('ex_02')
+# plt.savefig('ex_02a')
 
 
 # Exercise 3 
 
-# sns.boxplot(x='class',y='age',data=titanic)
+# sns.boxplot(x='class',y='age',data=titanic,palette='rainbow')
 # plt.savefig('ex_03')
+# plt.savefig('ex_03a')
 
 # Exercise 4 
 
@@ -41,12 +44,15 @@ titanic = sns.load_dataset('titanic')
 # Exercise 6 
 
 # tc = titanic.corr()
-# sns.heatmap(tc)
+# sns.heatmap(tc,cmap='coolwarm')
+# plt.title('titanic.corr()')
 # plt.savefig('ex_06')
+# plt.savefig('ex_06a')
 
 # Exercise 6 
 
 g = sns.FacetGrid(data=titanic,col='sex')
-g.map(sns.distplot, 'age')
-
-plt.savefig('ex_07')
+# g.map(sns.distplot, 'age')
+g.map(plt.hist, 'age')
+# plt.savefig('ex_07')
+plt.savefig('ex_07a')

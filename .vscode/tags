@@ -1,0 +1,972 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+01_Python_Arithmetic.py	../01_Python_Arithmetic.py	1;"	kind:file	line:1
+01_basics.py	../libraries/matplotlib/01_basics.py	1;"	kind:file	line:1
+01_distribution_plots.py	../libraries/seaborn/01_distribution_plots.py	1;"	kind:file	line:1
+01_numpy.py	../libraries/numpy/01_numpy.py	1;"	kind:file	line:1
+01_panda_viz.py	../data_visualization/01_panda_viz.py	1;"	kind:file	line:1
+01_pandas.py	../libraries/pandas/01_pandas.py	1;"	kind:file	line:1
+02_Variables.py	../02_Variables.py	1;"	kind:file	line:1
+02_categorical_plots.py	../libraries/seaborn/02_categorical_plots.py	1;"	kind:file	line:1
+02_dataframes.py	../libraries/pandas/02_dataframes.py	1;"	kind:file	line:1
+02_fig_size_DPI.py	../libraries/matplotlib/02_fig_size_DPI.py	1;"	kind:file	line:1
+02_ind_sel.py	../libraries/numpy/02_ind_sel.py	1;"	kind:file	line:1
+03_Functions.py	../03_Functions.py	1;"	kind:file	line:1
+03_matrix._plots.py	../libraries/seaborn/03_matrix._plots.py	1;"	kind:file	line:1
+03_missing_data.py	../libraries/pandas/03_missing_data.py	1;"	kind:file	line:1
+03_operations.py	../libraries/numpy/03_operations.py	1;"	kind:file	line:1
+03_plot_appearance.py	../libraries/matplotlib/03_plot_appearance.py	1;"	kind:file	line:1
+04_Conditionals.py	../04_Conditionals.py	1;"	kind:file	line:1
+04_grids.py	../libraries/seaborn/04_grids.py	1;"	kind:file	line:1
+04_group_by.py	../libraries/pandas/04_group_by.py	1;"	kind:file	line:1
+05_Recursion.py	../05_Recursion.py	1;"	kind:file	line:1
+05_merg_join_cat.py	../libraries/pandas/05_merg_join_cat.py	1;"	kind:file	line:1
+05_regression_plots.py	../libraries/seaborn/05_regression_plots.py	1;"	kind:file	line:1
+06_Iteration.py	../06_Iteration.py	1;"	kind:file	line:1
+06_operations.py	../libraries/pandas/06_operations.py	1;"	kind:file	line:1
+06_style_color.py	../libraries/seaborn/06_style_color.py	1;"	kind:file	line:1
+07_Strings.py	../07_Strings.py	1;"	kind:file	line:1
+07_data_in_out.py	../libraries/pandas/07_data_in_out.py	1;"	kind:file	line:1
+08_Lists.py	../08_Lists.py	1;"	kind:file	line:1
+09_Dictionaries.py	../09_Dictionaries.py	1;"	kind:file	line:1
+10_Tuples.py	../10_Tuples.py	1;"	kind:file	line:1
+11_Files.py	../11_Files.py	1;"	kind:file	line:1
+12_Classes.py	../12_Classes.py	1;"	kind:file	line:1
+13_Classes_Functions.py	../13_Classes_Functions.py	1;"	kind:file	line:1
+14_Classes_Methods.py	../14_Classes_Methods.py	1;"	kind:file	line:1
+15_Inheritance.py	../15_Inheritance.py	1;"	kind:file	line:1
+Arithmetics.py	../exercises/Arithmetics.py	1;"	kind:file	line:1
+C	../a03_Lambda.py	/^C = map(celsious, F)$/;"	kind:variable	line:113
+C	../a03_Lambda.py	/^C = map(lambda x: (float(5) \/ 9) * (x-32), Fahrenheit)$/;"	kind:variable	line:119
+Car	../a01_Formatting.py	/^class Car(object):$/;"	kind:class	line:106
+Car	../a01_Formatting.py	/^class Car(object):$/;"	kind:class	line:112
+Card	../15_Inheritance.py	/^class Card(object):$/;"	kind:class	line:1
+Card	../exercises/Inheritance_Solutions.py	/^class Card(object):$/;"	kind:class	line:54
+Celsius	../a03_Lambda.py	/^Celsius = [39.2, 36.5, 37.2, 37.8]$/;"	kind:variable	line:115
+Classes_Solutions.py	../exercises/Classes_Solutions.py	1;"	kind:file	line:1
+Clock	../exercises/Classes_Solutions.py	/^class Clock(object):$/;"	kind:class	line:274
+Clock	../exercises/Inheritance_Solutions.py	/^class Clock(object):$/;"	kind:class	line:3
+Conditionals_Solutions.py	../exercises/Conditionals_Solutions.py	1;"	kind:file	line:1
+DataStructure_Solutions.py	../exercises/DataStructure_Solutions.py	1;"	kind:file	line:1
+Date	../exercises/Classes_Solutions.py	/^class Date(object):$/;"	kind:class	line:225
+Deck	../15_Inheritance.py	/^class Deck(object):$/;"	kind:class	line:44
+Deck	../exercises/Inheritance_Solutions.py	/^class Deck(object):$/;"	kind:class	line:126
+Deck	../exercises/Inheritance_Solutions.py	/^class Deck(object):$/;"	kind:class	line:77
+Dictionaries_Solutions.py	../exercises/Dictionaries_Solutions.py	1;"	kind:file	line:1
+F	../a03_Lambda.py	/^F = map(fahrenheit, temp)$/;"	kind:variable	line:112
+Fahrenheit	../a03_Lambda.py	/^Fahrenheit = map(lambda x : (float(9) \/ 5) * x + 32, Celsius)$/;"	kind:variable	line:116
+Files_Solutions.py	../exercises/Files_Solutions.py	1;"	kind:file	line:1
+Functions_Solutions.py	../exercises/Functions_Solutions.py	1;"	kind:file	line:1
+Hand	../15_Inheritance.py	/^class Hand(Deck):$/;"	kind:class	line:96
+Hand	../exercises/Inheritance_Solutions.py	/^class Hand(Deck):$/;"	kind:class	line:175
+Inheritance_Solutions.py	../exercises/Inheritance_Solutions.py	1;"	kind:file	line:1
+Iteration_Solutions.py	../exercises/Iteration_Solutions.py	1;"	kind:file	line:1
+Lists_Solutions.py	../exercises/Lists_Solutions.py	1;"	kind:file	line:1
+Math_Solutions.py	../exercises/Math_Solutions.py	1;"	kind:file	line:1
+Point	../12_Classes.py	/^blank = Point() # instantination; blank is an instance of the class Point()$/;"	kind:class	line:12
+Point	../12_Classes.py	/^class Point(object):$/;"	kind:class	line:5
+Point	../exercises/Classes_Solutions.py	/^class Point(object):$/;"	kind:class	line:297
+Point	../exercises/Classes_Solutions.py	/^class Point(object):$/;"	kind:class	line:318
+Point	../exercises/Classes_Solutions.py	/^class Point(object):$/;"	kind:class	line:338
+Point	../exercises/Classes_Solutions.py	/^class Point(object):$/;"	kind:class	line:7
+Rectangle	../12_Classes.py	/^class Rectangle(object):$/;"	kind:class	line:39
+Rectangle	../exercises/Classes_Solutions.py	/^class Rectangle(object):$/;"	kind:class	line:26
+Recursion_Solutions.py	../exercises/Recursion_Solutions.py	1;"	kind:file	line:1
+Strings_Solutions.py	../exercises/Strings_Solutions.py	1;"	kind:file	line:1
+Time	../13_Classes_Functions.py	/^class Time(object):$/;"	kind:class	line:1
+Time	../14_Classes_Methods.py	/^class Time(object):$/;"	kind:class	line:1
+Time	../14_Classes_Methods.py	/^class Time(object):$/;"	kind:class	line:34
+Time	../exercises/Classes_Solutions.py	/^class Time(object):$/;"	kind:class	line:72
+Tuples_Solutions.py	../exercises/Tuples_Solutions.py	1;"	kind:file	line:1
+Variables_Solutions.py	../exercises/Variables_Solutions.py	1;"	kind:file	line:1
+WORD_LIST	../exercises/Lists_Solutions.py	/^WORD_LIST = "Z:\\python\\w.txt"$/;"	kind:variable	line:181
+WORD_LIST	../exercises/Tuples_Solutions.py	/^WORD_LIST = "Z:\\python\\w.txt"$/;"	kind:variable	line:69
+WordPlay_Solutions.py	../exercises/WordPlay_Solutions.py	1;"	kind:file	line:1
+__add__	../exercises/Classes_Solutions.py	/^    def __add__(self, other):$/;"	kind:member	line:353
+__cmp__	../15_Inheritance.py	/^    def __cmp__(self, other):$/;"	kind:member	line:31
+__cmp__	../exercises/Inheritance_Solutions.py	/^    def __cmp__(self, other):$/;"	kind:member	line:37
+__cmp__	../exercises/Inheritance_Solutions.py	/^    def __cmp__(self, other):$/;"	kind:member	line:71
+__init__	../14_Classes_Methods.py	/^    def __init__(self, hour=0, minute=0, second=0):$/;"	kind:member	line:40
+__init__	../15_Inheritance.py	/^    def __init__(self):$/;"	kind:member	line:47
+__init__	../15_Inheritance.py	/^    def __init__(self, label=""):$/;"	kind:member	line:100
+__init__	../15_Inheritance.py	/^    def __init__(self, suit=0, rank=2):$/;"	kind:member	line:8
+__init__	../exercises/Classes_Solutions.py	/^    def __init__(self, weekday=0):$/;"	kind:member	line:228
+__init__	../exercises/Classes_Solutions.py	/^    def __init__(self, x=0.0, y=0.0):$/;"	kind:member	line:302
+__init__	../exercises/Classes_Solutions.py	/^    def __init__(self, x=0.0, y=0.0):$/;"	kind:member	line:323
+__init__	../exercises/Classes_Solutions.py	/^    def __init__(self, x=0.0, y=0.0):$/;"	kind:member	line:344
+__init__	../exercises/Inheritance_Solutions.py	/^    def __init__(self):$/;"	kind:member	line:129
+__init__	../exercises/Inheritance_Solutions.py	/^    def __init__(self):$/;"	kind:member	line:80
+__init__	../exercises/Inheritance_Solutions.py	/^    def __init__(self, hour=0, minute=0, second=0):$/;"	kind:member	line:8
+__init__	../exercises/Inheritance_Solutions.py	/^    def __init__(self, label=""):$/;"	kind:member	line:179
+__init__	../exercises/Inheritance_Solutions.py	/^    def __init__(self, suit=0, rank=2):$/;"	kind:member	line:61
+__str__	../14_Classes_Methods.py	/^    def __str__(self):$/;"	kind:member	line:45
+__str__	../15_Inheritance.py	/^    def __str__(self):$/;"	kind:member	line:14
+__str__	../15_Inheritance.py	/^    def __str__(self):$/;"	kind:member	line:55
+__str__	../exercises/Classes_Solutions.py	/^    def __str__(self):$/;"	kind:member	line:327
+__str__	../exercises/Classes_Solutions.py	/^    def __str__(self):$/;"	kind:member	line:349
+__str__	../exercises/Classes_Solutions.py	/^    def __str__(self, weekday=0):$/;"	kind:member	line:232
+__str__	../exercises/Inheritance_Solutions.py	/^    def __str__(self):$/;"	kind:member	line:137
+__str__	../exercises/Inheritance_Solutions.py	/^    def __str__(self):$/;"	kind:member	line:67
+__str__	../exercises/Inheritance_Solutions.py	/^    def __str__(self):$/;"	kind:member	line:88
+a	../02_Variables.py	/^a = 2$/;"	kind:variable	line:3
+a	../03_Functions.py	/^import math # importing a module$/;"	kind:namespace	line:22
+a	../04_Conditionals.py	/^a = 4$/;"	kind:variable	line:34
+a	../06_Iteration.py	/^a = 4.0$/;"	kind:variable	line:45
+a	../08_Lists.py	/^a = 'giraffe'$/;"	kind:variable	line:124
+a	../08_Lists.py	/^a = [1, 2, 3]$/;"	kind:variable	line:129
+a	../08_Lists.py	/^a = [1, 2, 3]$/;"	kind:variable	line:137
+a	../08_Lists.py	/^a = [7,17,27]$/;"	kind:variable	line:44
+a	../11_Files.py	/^import pickle # translates object types into a string and the back to objects$/;"	kind:namespace	line:79
+a	../a03_Lambda.py	/^a = None$/;"	kind:variable	line:63
+a	../a03_Lambda.py	/^a = [4, 5, 6, 7]$/;"	kind:variable	line:123
+a	../exercises/Conditionals_Solutions.py	/^a = 1$/;"	kind:variable	line:13
+a	../exercises/Functions_Solutions.py	/^a = '+'$/;"	kind:variable	line:146
+a	../exercises/Functions_Solutions.py	/^a = '+'$/;"	kind:variable	line:265
+a	../exercises/Tuples_Solutions.py	/^a = [1,2,3,4,5,6]$/;"	kind:variable	line:4
+a	../exercises/Variables_Solutions.py	/^a = width\/2$/;"	kind:variable	line:19
+a	../modules/a06_MATH_module.py	/^import math # importing a module$/;"	kind:namespace	line:1
+a01_Formatting.py	../a01_Formatting.py	1;"	kind:file	line:1
+a02_Functions.py	../a02_Functions.py	1;"	kind:file	line:1
+a03_Lambda.py	../a03_Lambda.py	1;"	kind:file	line:1
+a04_Importing_Modules.py	../modules/a04_Importing_Modules.py	1;"	kind:file	line:1
+a04_String_Methods.py	../a04_String_Methods.py	1;"	kind:file	line:1
+a05_List_Methods.py	../a05_List_Methods.py	1;"	kind:file	line:1
+a05_RE_module.py	../modules/a05_RE_module.py	1;"	kind:file	line:1
+a06_File_Reading.py	../a06_File_Reading.py	1;"	kind:file	line:1
+a06_MATH_module.py	../modules/a06_MATH_module.py	1;"	kind:file	line:1
+a07_List_Comprehensions.py	../a07_List_Comprehensions.py	1;"	kind:file	line:1
+absolute_value	../a02_Functions.py	/^def absolute_value(x):$/;"	kind:function	line:12
+accepts	../11_Files.py	/^import anydbm # accepts only strings$/;"	kind:namespace	line:66
+ack	../a02_Functions.py	/^def ack(m, n):$/;"	kind:function	line:122
+add_all	../08_Lists.py	/^def add_all(t):$/;"	kind:function	line:73
+add_card	../15_Inheritance.py	/^    def add_card(self, card):$/;"	kind:member	line:66
+add_card	../exercises/Inheritance_Solutions.py	/^    def add_card(self, card):$/;"	kind:member	line:148
+add_card	../exercises/Inheritance_Solutions.py	/^    def add_card(self, card):$/;"	kind:member	line:99
+add_time	../13_Classes_Functions.py	/^def add_time(t1, t2): # prototype$/;"	kind:function	line:19
+add_time	../13_Classes_Functions.py	/^def add_time(t1, t2):$/;"	kind:function	line:41
+add_time	../exercises/Classes_Solutions.py	/^def add_time(t1, t2):$/;"	kind:function	line:112
+addr	../10_Tuples.py	/^addr = 'mika@na.na'$/;"	kind:variable	line:51
+and	../11_Files.py	/^import pickle # translates object types into a string and the back to objects$/;"	kind:namespace	line:79
+anydbm	../11_Files.py	/^import anydbm # accepts only strings$/;"	kind:namespace	line:66
+arc	../swampy/turtleworld.py	/^def arc(t, lenght, angle):$/;"	kind:function	line:71
+arc	../swampy/turtleworld.py	/^def arc(t, lenght, angle):$/;"	kind:function	line:93
+area	../a02_Functions.py	/^def area(radius):$/;"	kind:function	line:4
+area	../a02_Functions.py	/^def area(radius):$/;"	kind:function	line:8
+arr	../libraries/numpy/01_numpy.py	/^arr = np.arange(25)$/;"	kind:variable	line:35
+arr	../libraries/numpy/01_numpy.py	/^arr = np.array(my_list)$/;"	kind:variable	line:6
+arr	../libraries/numpy/02_ind_sel.py	/^arr = np.arange(0, 11)$/;"	kind:variable	line:3
+arr	../libraries/numpy/02_ind_sel.py	/^arr = np.arange(1,11)$/;"	kind:variable	line:38
+arr	../libraries/numpy/03_operations.py	/^arr = np.arange(0,11)$/;"	kind:variable	line:3
+arr	../libraries/pandas/01_pandas.py	/^arr = np.array(my_data)$/;"	kind:variable	line:8
+arr_2d	../libraries/numpy/02_ind_sel.py	/^arr_2d = np.arange(50).reshape(5,10)$/;"	kind:variable	line:47
+arr_2d	../libraries/numpy/02_ind_sel.py	/^arr_2d = np.array([[5,10,15],[20,25,30],[35,40,45]])$/;"	kind:variable	line:24
+arr_2d	../libraries/numpy/exercises.py	/^arr_2d = np.arange(0.01, 1.01, .01).reshape(10,10)$/;"	kind:variable	line:35
+arr_2d	../libraries/numpy/exercises.py	/^arr_2d = np.arange(9).reshape(3,3)$/;"	kind:variable	line:22
+arr_copy	../libraries/numpy/02_ind_sel.py	/^arr_copy = arr.copy()$/;"	kind:variable	line:17
+avoids	../wordplay/wordplay.py	/^def avoids(w, s):$/;"	kind:function	line:34
+ax	../libraries/matplotlib/02_fig_size_DPI.py	/^ax = fig.add_axes([0,0,1,1])$/;"	kind:variable	line:18
+ax	../libraries/matplotlib/03_plot_appearance.py	/^ax = fig.add_axes([0,0,1,1])$/;"	kind:variable	line:12
+b	../02_Variables.py	/^b = 'command'$/;"	kind:variable	line:4
+b	../08_Lists.py	/^b = 'giraffe'$/;"	kind:variable	line:125
+b	../08_Lists.py	/^b = [1, 2, 3]$/;"	kind:variable	line:130
+b	../08_Lists.py	/^b = [3, 13, 23]$/;"	kind:variable	line:45
+b	../08_Lists.py	/^b = a$/;"	kind:variable	line:138
+b	../a03_Lambda.py	/^b = [14, 17, 21, 17]$/;"	kind:variable	line:124
+b	../exercises/Conditionals_Solutions.py	/^b = 1$/;"	kind:variable	line:14
+b	../exercises/Functions_Solutions.py	/^b = '-'$/;"	kind:variable	line:147
+b	../exercises/Functions_Solutions.py	/^b = '-'$/;"	kind:variable	line:266
+b	../exercises/Variables_Solutions.py	/^b = width\/2.0$/;"	kind:variable	line:20
+back	../11_Files.py	/^import pickle # translates object types into a string and the back to objects$/;"	kind:namespace	line:79
+back_for_breakfast	../exercises/Variables_Solutions.py	/^back_for_breakfast = left_the_house + tempo      # in seconds$/;"	kind:variable	line:67
+backward	../exercises/Strings_Solutions.py	/^def backward(x):$/;"	kind:function	line:9
+bandwidth	../libraries/seaborn/01_distribution_plots.py	/^bandwidth = ((4*dataset.std()**5)\/(3*len(dataset)))**.2$/;"	kind:variable	line:53
+birthday	../exercises/Classes_Solutions.py	/^birthday = datetime.date(1987,4,17)$/;"	kind:variable	line:267
+birthdays	../exercises/Lists_Solutions.py	/^birthdays = []$/;"	kind:variable	line:137
+bisect	../exercises/Lists_Solutions.py	/^def bisect(sor_list, target_v):$/;"	kind:function	line:234
+blank	../12_Classes.py	/^blank = Point() # instantination; blank is an instance of the class Point()$/;"	kind:variable	line:12
+blank	../exercises/Classes_Solutions.py	/^blank = Point()$/;"	kind:variable	line:12
+blank	../exercises/Classes_Solutions.py	/^blank = Point()$/;"	kind:variable	line:311
+blank	../exercises/Classes_Solutions.py	/^blank = Point(2.0, 4.0)$/;"	kind:variable	line:312
+bob	../swampy/turtleworld.py	/^bob = Turtle()$/;"	kind:variable	line:4
+book	../exercises/Variables_Solutions.py	/^book = 24.95 * 0.60 # %100 - %40 = %60; convert to decimal --> 0.60$/;"	kind:variable	line:55
+bool_arr	../libraries/numpy/02_ind_sel.py	/^bool_arr = arr > 5 $/;"	kind:variable	line:41
+bottomStroke	../modules/a06_MATH_module.py	/^bottomStroke = 'x'$/;"	kind:variable	line:35
+box	../12_Classes.py	/^box = Rectangle()$/;"	kind:variable	line:45
+box	../exercises/Classes_Solutions.py	/^box = Rectangle()$/;"	kind:variable	line:33
+box	../exercises/Functions_Solutions.py	/^def box():$/;"	kind:function	line:252
+box	../exercises/Functions_Solutions.py	/^def box():$/;"	kind:function	line:284
+box2	../12_Classes.py	/^box2 = copy.copy(box)$/;"	kind:variable	line:95
+box3	../12_Classes.py	/^box3 = copy.deepcopy(box)$/;"	kind:variable	line:105
+buildBox	../exercises/Functions_Solutions.py	/^def buildBox(a, b):$/;"	kind:function	line:304
+build_square	../exercises/Functions_Solutions.py	/^def build_square(x, y):$/;"	kind:function	line:214
+byComp	../libraries/pandas/04_group_by.py	/^byComp = df.groupby('Company')$/;"	kind:variable	line:12
+byYear	../libraries/pandas/exercise_SF-salaries.py	/^byYear = df.groupby('Year')$/;"	kind:variable	line:38
+c	../08_Lists.py	/^c = a + b$/;"	kind:variable	line:46
+c	../a03_Lambda.py	/^c = [0, -2, 4, 55]$/;"	kind:variable	line:125
+c	../exercises/Conditionals_Solutions.py	/^c = 3$/;"	kind:variable	line:15
+c	../exercises/Functions_Solutions.py	/^c = '|'$/;"	kind:variable	line:148
+c	../exercises/Functions_Solutions.py	/^c = '|'$/;"	kind:variable	line:267
+c	../exercises/Variables_Solutions.py	/^c = height\/3$/;"	kind:variable	line:21
+calendar	../exercises/Classes_Solutions.py	/^import calendar$/;"	kind:namespace	line:219
+camels	../11_Files.py	/^camels = 42$/;"	kind:variable	line:25
+capitalize_all	../exercises/Lists_Solutions.py	/^def capitalize_all(t):$/;"	kind:function	line:28
+capitalized_nested	../exercises/Lists_Solutions.py	/^def capitalized_nested(nested_t):$/;"	kind:function	line:36
+car	../07_Strings.py	/^car = 'mercedes'$/;"	kind:variable	line:3
+car	../07_Strings.py	/^car = 'mercedes'$/;"	kind:variable	line:36
+card	../15_Inheritance.py	/^card = deck.pop_card()$/;"	kind:variable	line:108
+card	../exercises/Inheritance_Solutions.py	/^card = deck.pop_card()$/;"	kind:variable	line:190
+card1	../15_Inheritance.py	/^card1 = Card(2, 11)$/;"	kind:variable	line:40
+cat_repeat	../03_Functions.py	/^def cat_repeat(part1, part2):$/;"	kind:function	line:97
+cc	../modules/a06_MATH_module.py	/^cc = 1000$/;"	kind:variable	line:37
+celsious	../a03_Lambda.py	/^def celsious(t):$/;"	kind:function	line:108
+center	../12_Classes.py	/^center = find_center(box)$/;"	kind:variable	line:59
+check	../exercises/Math_Solutions.py	/^def check():$/;"	kind:function	line:19
+check_fermat	../exercises/Conditionals_Solutions.py	/^def check_fermat(a, b, c, n):$/;"	kind:function	line:19
+check_fermat	../exercises/Conditionals_Solutions.py	/^def check_fermat(a, b, c, n):$/;"	kind:function	line:30
+check_val_type	../exercises/Variables_Solutions.py	/^def check_val_type(x):$/;"	kind:function	line:25
+chief_string	../libraries/pandas/exercise_SF-salaries.py	/^def chief_string(title):$/;"	kind:function	line:51
+chop	../exercises/Lists_Solutions.py	/^def chop(l):$/;"	kind:function	line:86
+circle	../swampy/turtleworld.py	/^def circle(t, r):$/;"	kind:function	line:102
+circle	../swampy/turtleworld.py	/^def circle(t, r):$/;"	kind:function	line:61
+circle_area	../a02_Functions.py	/^def circle_area(xc, yc, xp, yp):$/;"	kind:function	line:43
+circle_area	../a02_Functions.py	/^def circle_area(xc, yc, xp, yp):$/;"	kind:function	line:49
+cities	../exercises/Inheritance_Solutions.py	/^    cities = ['New York', 'London', 'Dubai', 'Tokyo']$/;"	kind:variable	line:5
+cmd	../11_Files.py	/^cmd = 'ls -l'$/;"	kind:variable	line:89
+cmd	../11_Files.py	/^cmd ='md5sum ' + filename$/;"	kind:variable	line:100
+combustionChamber	../modules/a06_MATH_module.py	/^combustionChamber = 'x'$/;"	kind:variable	line:34
+compare	../exercises/Math_Solutions.py	/^def compare(x, y):$/;"	kind:function	line:9
+comprendo	../a07_List_Comprehensions.py	/^comprendo = []/;"	kind:variable	line:11
+convert_increment	../exercises/Classes_Solutions.py	/^def convert_increment(time, seconds):$/;"	kind:function	line:204
+copy	../12_Classes.py	/^import copy$/;"	kind:namespace	line:86
+copy	../exercises/Classes_Solutions.py	/^import copy $/;"	kind:namespace	line:53
+count	../07_Strings.py	/^count = 0$/;"	kind:variable	line:64
+count	../exercises/Strings_Solutions.py	/^        count = count + 1$/;"	kind:variable	line:137
+count	../exercises/Strings_Solutions.py	/^count = 0$/;"	kind:variable	line:134
+count	../exercises/Strings_Solutions.py	/^def count(*args):$/;"	kind:function	line:161
+count	../exercises/Strings_Solutions.py	/^def count(find):$/;"	kind:function	line:100
+count	../exercises/Strings_Solutions.py	/^def count(string, letter):$/;"	kind:function	line:120
+count	../exercises/Strings_Solutions.py	/^def count(string, letter):$/;"	kind:function	line:144
+countdown	../05_Recursion.py	/^def countdown(n):$/;"	kind:function	line:3
+countdown	../06_Iteration.py	/^def countdown(n):$/;"	kind:function	line:8
+create_engine	../libraries/pandas/07_data_in_out.py	/^from sqlalchemy import create_engine$/;"	kind:namespace	line:27
+cum	../exercises/Lists_Solutions.py	/^def cum(numbers):$/;"	kind:function	line:55
+customer	../a01_Formatting.py	/^customer = {'first': 'Happy', 'last': 'Customer'}$/;"	kind:variable	line:98
+cwd	../11_Files.py	/^cwd = os.getcwd()$/;"	kind:variable	line:34
+cwd	../exercises/Files_Solutions.py	/^cwd = os.getcwd()$/;"	kind:variable	line:22
+cwd	../modules/os_module.py	/^cwd = os.getcwd()$/;"	kind:variable	line:3
+cylinder	../modules/a06_MATH_module.py	/^cylinder = 'x'$/;"	kind:variable	line:33
+d	../08_Lists.py	/^d = ' '$/;"	kind:variable	line:118
+d	../09_Dictionaries.py	/^d = {'do':'C', 'mi':'E', 'sol':'G'}$/;"	kind:variable	line:3
+d	../10_Tuples.py	/^d = dict()$/;"	kind:variable	line:126
+d	../10_Tuples.py	/^d = dict(t) # creating a dictionary from tuples$/;"	kind:variable	line:110
+d	../10_Tuples.py	/^d = dict(zip('abc', range(3))) # dict() + zip()$/;"	kind:variable	line:113
+d	../10_Tuples.py	/^d = {'a':0, 'b':1, 'c':2}$/;"	kind:variable	line:106
+d	../a01_Formatting.py	/^d = {'given': 'Mila', 'last': 'Varta'}$/;"	kind:variable	line:90
+d	../exercises/Dictionaries_Solutions.py	/^d = {'b': 1, 'g': 1, 'z': 0, 'o': 1, 'z': 2}$/;"	kind:variable	line:64
+d	../exercises/Functions_Solutions.py	/^d = ' '$/;"	kind:variable	line:149
+d	../exercises/Functions_Solutions.py	/^d = ' '$/;"	kind:variable	line:268
+d	../exercises/Tuples_Solutions.py	/^d = {}$/;"	kind:variable	line:82
+d	../exercises/Variables_Solutions.py	/^d = 1 + 2 * 5$/;"	kind:variable	line:22
+d	../libraries/pandas/01_pandas.py	/^d = {'a': 10, 'b': 20, 'c': 30}$/;"	kind:variable	line:9
+d	../libraries/pandas/03_missing_data.py	/^d = {'A': [1,2,np.nan], 'B': [5,np.nan,np.nan], 'C': [1,2,3]}$/;"	kind:variable	line:4
+data	../libraries/pandas/04_group_by.py	/^data = {'Company':['GOOG','GOOG','MSFT','MSFT','FB','FB'],$/;"	kind:variable	line:5
+data	../libraries/pandas/06_operations.py	/^data = {'A':['foo','foo','foo','bar','bar','bar'],$/;"	kind:variable	line:38
+data	../libraries/pandas/07_data_in_out.py	/^data = pd.read_html('https:\/\/www.fdic.gov\/bank\/individual\/failed\/banklist.html')$/;"	kind:variable	line:22
+dataset	../libraries/seaborn/01_distribution_plots.py	/^dataset = np.random.randn(25)$/;"	kind:variable	line:38
+date	../exercises/Classes_Solutions.py	/^from datetime import date$/;"	kind:namespace	line:215
+datetime	../exercises/Classes_Solutions.py	/^import datetime$/;"	kind:namespace	line:214
+day	../exercises/Classes_Solutions.py	/^day = Date()$/;"	kind:variable	line:263
+db	../11_Files.py	/^db = anydbm.open('database.db', 'c') # create a database$/;"	kind:variable	line:68
+deal_hands	../15_Inheritance.py	/^    def deal_hands(self, hand_num):$/;"	kind:member	line:79
+deal_hands	../exercises/Inheritance_Solutions.py	/^    def deal_hands(self, hands_num, cards_num):$/;"	kind:member	line:161
+deck	../15_Inheritance.py	/^deck = Deck()$/;"	kind:variable	line:91
+deck	../exercises/Inheritance_Solutions.py	/^deck = Deck()$/;"	kind:variable	line:115
+deck	../exercises/Inheritance_Solutions.py	/^deck = Deck()$/;"	kind:variable	line:172
+delete_head	../08_Lists.py	/^def delete_head(t):$/;"	kind:function	line:149
+delimeter	../08_Lists.py	/^delimeter = '-'$/;"	kind:variable	line:113
+delimiter	../exercises/Variables_Solutions.py	/^delimiter = '.'$/;"	kind:variable	line:17
+df	../libraries/pandas/02_dataframes.py	/^df = pd.DataFrame(randn(5,4),['A','B','C','D','E'],['W','X','Y','Z'])$/;"	kind:variable	line:7
+df	../libraries/pandas/02_dataframes.py	/^df = pd.DataFrame(randn(6,2),hier_index,['A','B'])$/;"	kind:variable	line:89
+df	../libraries/pandas/03_missing_data.py	/^df = pd.DataFrame(d)$/;"	kind:variable	line:5
+df	../libraries/pandas/04_group_by.py	/^df = pd.DataFrame(data)$/;"	kind:variable	line:9
+df	../libraries/pandas/06_operations.py	/^df = pd.DataFrame(data)$/;"	kind:variable	line:43
+df	../libraries/pandas/06_operations.py	/^df = pd.DataFrame({'col1':[1,2,3,np.nan],$/;"	kind:variable	line:4
+df	../libraries/pandas/07_data_in_out.py	/^df = pd.read_csv('example.csv')$/;"	kind:variable	line:11
+df	../libraries/pandas/exercise_SF-salaries.py	/^df = pd.read_csv('Salaries.csv')$/;"	kind:variable	line:3
+df1	../data_visualization/01_panda_viz.py	/^df1 = pd.read_csv('df1',index_col=0)$/;"	kind:variable	line:7
+df1	../libraries/pandas/05_merg_join_cat.py	/^df1 = pd.DataFrame({'A': ['A0', 'A1', 'A2', 'A3'],$/;"	kind:variable	line:4
+df2	../data_visualization/01_panda_viz.py	/^df2 = pd.read_csv('df2')$/;"	kind:variable	line:8
+df2	../libraries/pandas/05_merg_join_cat.py	/^df2 = pd.DataFrame({'A': ['A4', 'A5', 'A6', 'A7'],$/;"	kind:variable	line:11
+df3	../data_visualization/01_panda_viz.py	/^df3 = pd.read_csv('df3')$/;"	kind:variable	line:9
+df3	../data_visualization/exercises.py	/^df3 = pd.read_csv('df3')$/;"	kind:variable	line:7
+df3	../libraries/pandas/05_merg_join_cat.py	/^df3 = pd.DataFrame({'A': ['A8', 'A9', 'A10', 'A11'],$/;"	kind:variable	line:18
+digits	../a01_Formatting.py	/^digits = [10,20,33,40,50]$/;"	kind:variable	line:101
+distance	../12_Classes.py	/^distance = sqrt(blank.x ** 2 + blank.y ** 2)$/;"	kind:variable	line:27
+distance	../a02_Functions.py	/^def distance(x1, y1, x2, y2):$/;"	kind:function	line:19
+distance_between_points	../exercises/Classes_Solutions.py	/^def distance_between_points(p1, p2):$/;"	kind:function	line:17
+division	../exercises/Iteration_Solutions.py	/^from __future__ import division $/;"	kind:namespace	line:1
+division	../wordplay/wordplay.py	/^from __future__ import division$/;"	kind:namespace	line:1
+do_four	../exercises/Functions_Solutions.py	/^def do_four(op, trop):$/;"	kind:function	line:112
+do_n	../exercises/Recursion_Solutions.py	/^def do_n(f_obj, n):$/;"	kind:function	line:10
+do_n	../exercises/Recursion_Solutions.py	/^def do_n(move, steps):$/;"	kind:function	line:26
+do_twice	../exercises/Functions_Solutions.py	/^def do_twice(a,b):$/;"	kind:function	line:279
+do_twice	../exercises/Functions_Solutions.py	/^def do_twice(f):$/;"	kind:function	line:55
+do_twice	../exercises/Functions_Solutions.py	/^def do_twice(f, v):$/;"	kind:function	line:71
+do_twice	../exercises/Functions_Solutions.py	/^def do_twice(f, v):$/;"	kind:function	line:93
+do_twice	../exercises/Functions_Solutions.py	/^def do_twice(func, b):$/;"	kind:function	line:247
+done	../13_Classes_Functions.py	/^done = add_time(start, duration)$/;"	kind:variable	line:36
+done	../13_Classes_Functions.py	/^done = add_time(start, duration)$/;"	kind:variable	line:57
+draw_b	../04_Conditionals.py	/^def draw_b(a):$/;"	kind:function	line:74
+duration	../13_Classes_Functions.py	/^duration = Time()$/;"	kind:variable	line:31
+duration	../exercises/Classes_Solutions.py	/^duration = Time()$/;"	kind:variable	line:107
+e	../exercises/Variables_Solutions.py	/^e = delimiter * 5$/;"	kind:variable	line:23
+easy_pace	../exercises/Variables_Solutions.py	/^easy_pace = 8 * 60 + 15                          # 8 min and 15 sec in seconds$/;"	kind:variable	line:63
+ecom	../libraries/pandas/exercise_E-purchases.py	/^ecom = pd.read_csv('Ecommerce Purchases')$/;"	kind:variable	line:6
+elapsed_time	../exercises/Dictionaries_Solutions.py	/^elapsed_time = time.time() - start_time$/;"	kind:variable	line:132
+elapsed_time	../exercises/Dictionaries_Solutions.py	/^elapsed_time = time.time() - start_time$/;"	kind:variable	line:137
+elapsed_time	../exercises/Lists_Solutions.py	/^elapsed_time = time.time() - start_time$/;"	kind:variable	line:207
+elapsed_time	../exercises/Lists_Solutions.py	/^elapsed_time = time.time() - start_time$/;"	kind:variable	line:215
+elapsed_time	../exercises/Lists_Solutions.py	/^elapsed_time = time.time() - start_time$/;"	kind:variable	line:223
+engine	../libraries/pandas/07_data_in_out.py	/^engine = create_engine('sqlite:\/\/\/:memory:')$/;"	kind:variable	line:29
+epsilon	../exercises/Iteration_Solutions.py	/^epsilon = 0.0000001$/;"	kind:variable	line:38
+exercise_E-purchases.py	../libraries/pandas/exercise_E-purchases.py	1;"	kind:file	line:1
+exercise_SF-salaries.py	../libraries/pandas/exercise_SF-salaries.py	1;"	kind:file	line:1
+exercises.py	../data_visualization/exercises.py	1;"	kind:file	line:1
+exercises.py	../libraries/matplotlib/exercises.py	1;"	kind:file	line:1
+exercises.py	../libraries/numpy/exercises.py	1;"	kind:file	line:1
+exercises.py	../libraries/seaborn/exercises.py	1;"	kind:file	line:1
+f	../a03_Lambda.py	/^f = lambda a, b : a + b $/;"	kind:variable	line:96
+f	../data_visualization/exercises.py	/^f = plt.figure()$/;"	kind:variable	line:44
+f	../exercises/Functions_Solutions.py	/^f = (a + (d + b)*4 + d) * 2 + a$/;"	kind:variable	line:238
+f	../exercises/Functions_Solutions.py	/^f = (a + (d + b)*4 + d) * 4 + a$/;"	kind:variable	line:270
+f1	../a03_Lambda.py	/^f1 = map(lambda x : x ** 2, l)$/;"	kind:variable	line:102
+f1	../exercises/Files_Solutions.py	/^f1 = open('Files_file1.txt', 'r')$/;"	kind:variable	line:25
+f2	../a03_Lambda.py	/^f2 = reduce(lambda x, y : x + y, fib)$/;"	kind:variable	line:136
+f3	../a03_Lambda.py	/^f3 = lambda a, b : a if (a > b) else b$/;"	kind:variable	line:142
+f_obj	../exercises/Recursion_Solutions.py	/^def f_obj():$/;"	kind:function	line:7
+factorial	../a02_Functions.py	/^def factorial(n):$/;"	kind:function	line:106
+factorial	../a02_Functions.py	/^def factorial(n):$/;"	kind:function	line:76
+fahrenheit	../a03_Lambda.py	/^def fahrenheit(t):$/;"	kind:function	line:106
+fib	../a03_Lambda.py	/^fib = [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55]$/;"	kind:variable	line:131
+fibonacci	../a02_Functions.py	/^def fibonacci(n):$/;"	kind:function	line:93
+fibonacci_01	../exercises/Dictionaries_Solutions.py	/^def fibonacci_01 (n):$/;"	kind:function	line:108
+fibonacci_02	../exercises/Dictionaries_Solutions.py	/^def fibonacci_02(n):$/;"	kind:function	line:119
+fig	../libraries/matplotlib/02_fig_size_DPI.py	/^fig = plt.figure()$/;"	kind:variable	line:17
+fig	../libraries/matplotlib/03_plot_appearance.py	/^fig = plt.figure()$/;"	kind:variable	line:10
+fig	../libraries/seaborn/01_distribution_plots.py	/^fig = plt.plot(x_axis,sum_of_kde,color='indianred')$/;"	kind:variable	line:81
+filename	../11_Files.py	/^filename = 'book.tex'$/;"	kind:variable	line:99
+fin	../11_Files.py	/^    fin = open('bad_file')$/;"	kind:variable	line:57
+fin	../a06_File_Reading.py	/^fin = open('z:\/python\/words.txt') # no path needed if file is in same dir$/;"	kind:variable	line:3
+fin	../exercises/DataStructure_Solutions.py	/^fin = open('z:\/python\/wordlist.txt', 'r')$/;"	kind:variable	line:25
+fin	../exercises/Dictionaries_Solutions.py	/^fin = open('z:\/python\/words.txt')$/;"	kind:variable	line:3
+fin	../exercises/WordPlay_Solutions.py	/^fin = open('z:\/python\/words.txt') # no path needed if file is in same dir$/;"	kind:variable	line:5
+fin	../wordplay/wordplay.py	/^fin = open('Z:\\python\\words.txt')$/;"	kind:variable	line:3
+find	../07_Strings.py	/^def find(word, letter): # the opposite of [] operator; return an index number$/;"	kind:function	line:50
+find	../exercises/Strings_Solutions.py	/^def find(word, letter):$/;"	kind:function	line:63
+find	../exercises/Strings_Solutions.py	/^def find(word, letter, start):$/;"	kind:function	line:79
+find_center	../12_Classes.py	/^def find_center(rect):$/;"	kind:function	line:53
+first	../03_Functions.py	/^def first():$/;"	kind:function	line:63
+first	../10_Tuples.py	/^first = 'Bego'$/;"	kind:variable	line:125
+firstweekday	../modules/a04_Importing_Modules.py	/^from calendar import firstweekday$/;"	kind:namespace	line:22
+flights	../libraries/seaborn/03_matrix._plots.py	/^flights = sns.load_dataset('flights')$/;"	kind:variable	line:10
+flower_01	../swampy/turtleworld.py	/^def flower_01():$/;"	kind:function	line:106
+fourth	../03_Functions.py	/^def fourth():$/;"	kind:function	line:74
+fout	../11_Files.py	/^fout = open('output.txt', 'w')$/;"	kind:variable	line:3
+fp	../11_Files.py	/^fp = os.popen(cmd)$/;"	kind:variable	line:101
+fp	../11_Files.py	/^fp = os.popen(cmd)$/;"	kind:variable	line:90
+fp	../libraries/seaborn/03_matrix._plots.py	/^fp = flights.pivot_table(index='month',columns='year',values='passengers')$/;"	kind:variable	line:17
+func1	../exercises/Tuples_Solutions.py	/^def func1():$/;"	kind:function	line:98
+func2	../exercises/Tuples_Solutions.py	/^def func2():$/;"	kind:function	line:104
+g	../exercises/Functions_Solutions.py	/^g = (c + 9*d)*2 + c$/;"	kind:variable	line:239
+g	../exercises/Functions_Solutions.py	/^g = (c + 9*d)*4 + c$/;"	kind:variable	line:271
+g	../libraries/seaborn/exercises.py	/^g = sns.FacetGrid(data=titanic,col='sex')$/;"	kind:variable	line:54
+grow_rectangle	../12_Classes.py	/^def grow_rectangle(rect, dwidth, dheight):$/;"	kind:function	line:68
+h	../exercises/Dictionaries_Solutions.py	/^h = his('a')$/;"	kind:variable	line:29
+h	../exercises/Dictionaries_Solutions.py	/^h = {'v': 1, 'a': 2, 'r': 1, 'd': 1, 'a': 1, 'r': 2}$/;"	kind:variable	line:44
+hand	../15_Inheritance.py	/^hand = Hand('new_hand')$/;"	kind:variable	line:104
+hand	../exercises/Inheritance_Solutions.py	/^hand = Hand('new_hand')$/;"	kind:variable	line:186
+hands	../15_Inheritance.py	/^hands = deck.deal_hands(4)$/;"	kind:variable	line:112
+hands	../exercises/Inheritance_Solutions.py	/^hands = deck.deal_hands(4, 5)$/;"	kind:variable	line:194
+has_duplicates	../exercises/Lists_Solutions.py	/^def has_duplicates(birthdays):$/;"	kind:function	line:144
+has_no_e	../wordplay/wordplay.py	/^def has_no_e():$/;"	kind:function	line:20
+height	../exercises/Variables_Solutions.py	/^height = 12.0$/;"	kind:variable	line:16
+hier_index	../libraries/pandas/02_dataframes.py	/^hier_index = list(zip(outside,inside))$/;"	kind:variable	line:86
+hier_index	../libraries/pandas/02_dataframes.py	/^hier_index = pd.MultiIndex.from_tuples(hier_index)$/;"	kind:variable	line:87
+his	../exercises/Dictionaries_Solutions.py	/^def his(s):$/;"	kind:function	line:21
+histogram	../exercises/Dictionaries_Solutions.py	/^def histogram(s):$/;"	kind:function	line:34
+hypotenuse	../exercises/Math_Solutions.py	/^def hypotenuse(l1, l2):$/;"	kind:function	line:32
+i	../03_Functions.py	/^i = 1$/;"	kind:variable	line:12
+i	../a03_Lambda.py	/^            i = t$/;"	kind:variable	line:40
+i	../a03_Lambda.py	/^        i = t$/;"	kind:variable	line:42
+i	../a03_Lambda.py	/^i = None$/;"	kind:variable	line:35
+i	../modules/a05_RE_module.py	/^i = 'To find out more about X and Y go to Chapter #2 of the Book'$/;"	kind:variable	line:56
+importing	../03_Functions.py	/^import math # importing a module$/;"	kind:namespace	line:22
+importing	../modules/a06_MATH_module.py	/^import math # importing a module$/;"	kind:namespace	line:1
+in_both	../07_Strings.py	/^def in_both(word1, word2):$/;"	kind:function	line:75
+increment	../13_Classes_Functions.py	/^def increment(time, seconds):$/;"	kind:function	line:63
+increment	../14_Classes_Methods.py	/^    def increment(self, seconds):$/;"	kind:member	line:57
+increment	../exercises/Classes_Solutions.py	/^def increment(time, seconds):$/;"	kind:function	line:134
+index	../07_Strings.py	/^index = 0$/;"	kind:variable	line:23
+index	../libraries/pandas/05_merg_join_cat.py	/^                         index=[4, 5, 6, 7]) $/;"	kind:variable	line:15
+index	../libraries/pandas/05_merg_join_cat.py	/^                        index=[0, 1, 2, 3])$/;"	kind:variable	line:8
+index	../libraries/pandas/05_merg_join_cat.py	/^                        index=[8, 9, 10, 11])$/;"	kind:variable	line:22
+index	../libraries/pandas/05_merg_join_cat.py	/^                      index=['K0', 'K1', 'K2']) $/;"	kind:variable	line:58
+index	../libraries/pandas/05_merg_join_cat.py	/^                      index=['K0', 'K2', 'K3'])$/;"	kind:variable	line:62
+inside	../libraries/pandas/02_dataframes.py	/^inside = [1,2,3,1,2,3]$/;"	kind:variable	line:85
+int_to_time	../13_Classes_Functions.py	/^def int_to_time(s):$/;"	kind:function	line:94
+int_to_time	../14_Classes_Methods.py	/^def int_to_time(s):$/;"	kind:function	line:24
+int_to_time	../exercises/Classes_Solutions.py	/^def int_to_time(seconds):$/;"	kind:function	line:180
+interlock	../exercises/Lists_Solutions.py	/^def interlock():$/;"	kind:function	line:252
+into	../11_Files.py	/^import pickle # translates object types into a string and the back to objects$/;"	kind:namespace	line:79
+invert_dict	../09_Dictionaries.py	/^def invert_dict(d):$/;"	kind:function	line:44
+invert_dict	../exercises/Dictionaries_Solutions.py	/^def invert_dict(d):$/;"	kind:function	line:81
+invert_dict	../exercises/Dictionaries_Solutions.py	/^def invert_dict(d):$/;"	kind:function	line:93
+iris	../libraries/seaborn/04_grids.py	/^iris = sns.load_dataset('iris')$/;"	kind:variable	line:8
+is_abecedarian	../wordplay/wordplay.py	/^def is_abecedarian(word_list):$/;"	kind:function	line:73
+is_abecedarian_im	../wordplay/wordplay.py	/^def is_abecedarian_im(word):$/;"	kind:function	line:82
+is_after	../exercises/Classes_Solutions.py	/^def is_after(t1, t2):$/;"	kind:function	line:94
+is_anagram	../exercises/Lists_Solutions.py	/^def is_anagram(s1, s2):$/;"	kind:function	line:119
+is_between	../exercises/Math_Solutions.py	/^def is_between(x, y, z):$/;"	kind:function	line:42
+is_divisible	../a02_Functions.py	/^def is_divisible(x ,y):$/;"	kind:function	line:67
+is_divisible	../a02_Functions.py	/^def is_divisible(x, y):$/;"	kind:function	line:57
+is_palindrome	../exercises/Math_Solutions.py	/^def is_palindrome(word):$/;"	kind:function	line:59
+is_sorted	../exercises/Lists_Solutions.py	/^def is_sorted(l):$/;"	kind:function	line:98
+is_triangle	../exercises/Conditionals_Solutions.py	/^def is_triangle(a, b, c):$/;"	kind:function	line:75
+is_triangle	../exercises/Conditionals_Solutions.py	/^def is_triangle(a, b, c):$/;"	kind:function	line:85
+itertools	../exercises/Inheritance_Solutions.py	/^import itertools$/;"	kind:namespace	line:173
+k	../exercises/Dictionaries_Solutions.py	/^k = reverse_lookup(d, 1)$/;"	kind:variable	line:73
+kernel	../libraries/seaborn/01_distribution_plots.py	/^    kernel = kernel * .4$/;"	kind:variable	line:68
+kernel	../libraries/seaborn/01_distribution_plots.py	/^    kernel = kernel \/ kernel.max()$/;"	kind:variable	line:67
+kernel	../libraries/seaborn/01_distribution_plots.py	/^    kernel = stats.norm(data_point,bandwidth).pdf(x_axis)$/;"	kind:variable	line:63
+kernel_list	../libraries/seaborn/01_distribution_plots.py	/^kernel_list = []$/;"	kind:variable	line:57
+known	../exercises/Dictionaries_Solutions.py	/^known = {0:0, 1:1}$/;"	kind:variable	line:117
+l	../08_Lists.py	/^l = [40,50,60]$/;"	kind:variable	line:7
+l	../a03_Lambda.py	/^l = [1,2,3,4]$/;"	kind:variable	line:1
+l	../a03_Lambda.py	/^l = [4, 5, 6, 7]$/;"	kind:variable	line:100
+l	../a04_String_Methods.py	/^    l = []$/;"	kind:variable	line:59
+l	../a04_String_Methods.py	/^l = []$/;"	kind:variable	line:45
+l	../a04_String_Methods.py	/^l = []$/;"	kind:variable	line:67
+l	../a05_List_Methods.py	/^l = ['classical', 'rock', 'pop', 'techno']$/;"	kind:variable	line:5
+l	../a05_List_Methods.py	/^l = ['do','re','mi','fa','sol','sol','ti','do']$/;"	kind:variable	line:24
+l	../exercises/Lists_Solutions.py	/^l = [2, 3, 4, 2, 2, 2, 5, 6, 6, 6, 18]$/;"	kind:variable	line:164
+l	../exercises/Lists_Solutions.py	/^l = [3,4,9,7,8]$/;"	kind:variable	line:95
+l	../exercises/Lists_Solutions.py	/^l = list(s)$/;"	kind:variable	line:83
+l	../exercises/Strings_Solutions.py	/^l = 'i'$/;"	kind:variable	line:141
+l2	../08_Lists.py	/^l2 = ['uno', 'dos', 'tres']$/;"	kind:variable	line:8
+l3	../08_Lists.py	/^l3 = [2,3.0,'four',[5,6]] # a list within another list is nested$/;"	kind:variable	line:9
+l4	../08_Lists.py	/^l4 = [] # empty list$/;"	kind:variable	line:12
+labels	../libraries/pandas/01_pandas.py	/^labels = ['a', 'b', 'c']$/;"	kind:variable	line:6
+last	../07_Strings.py	/^last = car[lenght-1]$/;"	kind:variable	line:15
+last	../10_Tuples.py	/^last = 'Vardar'$/;"	kind:variable	line:124
+left	../libraries/pandas/05_merg_join_cat.py	/^left = pd.DataFrame({'A': ['A0', 'A1', 'A2'],$/;"	kind:variable	line:56
+left	../libraries/pandas/05_merg_join_cat.py	/^left = pd.DataFrame({'key': ['K0', 'K1', 'K2', 'K3'],$/;"	kind:variable	line:29
+left	../libraries/pandas/05_merg_join_cat.py	/^left = pd.DataFrame({'key1': ['K0', 'K0', 'K1', 'K2'],$/;"	kind:variable	line:41
+left_the_house	../exercises/Variables_Solutions.py	/^left_the_house = 3600 * 6 + (52 * 60)            # 6:52 am in seconds$/;"	kind:variable	line:66
+lenght	../07_Strings.py	/^lenght = len(car)$/;"	kind:variable	line:14
+lenght	../exercises/Classes_Solutions.py	/^lenght = Point(3.3, 4.4)$/;"	kind:variable	line:359
+letter	../07_Strings.py	/^    letter = car[index]$/;"	kind:variable	line:25
+letter	../07_Strings.py	/^letter = car[1] # indexing; computers count from 0$/;"	kind:variable	line:4
+letter	../exercises/Strings_Solutions.py	/^letter = 'a'$/;"	kind:variable	line:159
+letter	../exercises/Strings_Solutions.py	/^letter = 'a'$/;"	kind:variable	line:98
+letter	../exercises/Strings_Solutions.py	/^letter = 'e'$/;"	kind:variable	line:76
+letters	../08_Lists.py	/^letters = ['a', 'b', 'c']$/;"	kind:variable	line:152
+letters	../08_Lists.py	/^letters = ['a', 'b', 'c']$/;"	kind:variable	line:171
+line	../06_Iteration.py	/^    line = raw_input('> ')$/;"	kind:variable	line:34
+line	../a06_File_Reading.py	/^line = fin.readline()$/;"	kind:variable	line:15
+line1	../03_Functions.py	/^line1 = 'King of the land! King of the land!'$/;"	kind:variable	line:103
+line1	../11_Files.py	/^line1 = 'This here is the wattle,\\n'$/;"	kind:variable	line:6
+line2	../03_Functions.py	/^line2 = 'Beast of the jungle say he is so grand!'$/;"	kind:variable	line:104
+line2	../11_Files.py	/^line2 = 'the emblem of our land.\\n'$/;"	kind:variable	line:10
+linecount	../11_Files.py	/^def linecount(filename):$/;"	kind:function	line:108
+lines	../exercises/Functions_Solutions.py	/^def lines(line):$/;"	kind:function	line:300
+ln	../exercises/Lists_Solutions.py	/^ln = s2 $/;"	kind:variable	line:117
+location	../a01_Formatting.py	/^location = 'San Diego'$/;"	kind:variable	line:27
+lt	../10_Tuples.py	/^lt = [('d', 4), ('e', 5)] # update() method$/;"	kind:variable	line:116
+lyrics	../03_Functions.py	/^def lyrics():$/;"	kind:function	line:38
+lyrics	../10_Tuples.py	/^lyrics = 'All we need is just a little patience'$/;"	kind:variable	line:57
+m	../04_Conditionals.py	/^m = 4$/;"	kind:variable	line:23
+make	../a01_Formatting.py	/^    make = [{'Lada': 'Niva'}, {'Jeep': 'Wrangler'}]$/;"	kind:variable	line:114
+mat	../libraries/numpy/exercises.py	/^mat = [[0,1,2],[3,4,5],[6,7,8]]$/;"	kind:variable	line:20
+mat	../libraries/numpy/exercises.py	/^mat = np.arange(1,26).reshape(5,5)$/;"	kind:variable	line:43
+match	../modules/a05_RE_module.py	/^match = re.match('([0-9])(.*)', s, flags=0)$/;"	kind:variable	line:10
+match	../modules/a05_RE_module.py	/^match = re.match('spot', s, re.I|re.M)$/;"	kind:variable	line:42
+match	../modules/a05_RE_module.py	/^match= re.match('^this is (.) (.*)' , s, re.I|re.M)$/;"	kind:variable	line:17
+math	../03_Functions.py	/^import math # importing a module$/;"	kind:namespace	line:22
+math	../a02_Functions.py	/^import math$/;"	kind:namespace	line:2
+math	../exercises/Classes_Solutions.py	/^import math$/;"	kind:namespace	line:130
+math	../modules/a04_Importing_Modules.py	/^import math$/;"	kind:namespace	line:3
+math	../modules/a06_MATH_module.py	/^import math # importing a module$/;"	kind:namespace	line:1
+math	../swampy/turtleworld.py	/^import math$/;"	kind:namespace	line:56
+matplotlib	../data_visualization/01_panda_viz.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:4
+matplotlib	../data_visualization/exercises.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:4
+matplotlib	../libraries/matplotlib/01_basics.py	/^import matplotlib.pyplot as plt $/;"	kind:namespace	line:1
+matplotlib	../libraries/matplotlib/02_fig_size_DPI.py	/^import matplotlib.pyplot as plt $/;"	kind:namespace	line:1
+matplotlib	../libraries/matplotlib/03_plot_appearance.py	/^import matplotlib.pyplot as plt $/;"	kind:namespace	line:1
+matplotlib	../libraries/matplotlib/exercises.py	/^import matplotlib.image as mpimg$/;"	kind:namespace	line:2
+matplotlib	../libraries/matplotlib/exercises.py	/^import matplotlib.pyplot as plt $/;"	kind:namespace	line:1
+matplotlib	../libraries/seaborn/01_distribution_plots.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:2
+matplotlib	../libraries/seaborn/02_categorical_plots.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:2
+matplotlib	../libraries/seaborn/03_matrix._plots.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:2
+matplotlib	../libraries/seaborn/04_grids.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:2
+matplotlib	../libraries/seaborn/05_regression_plots.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:2
+matplotlib	../libraries/seaborn/06_style_color.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:2
+matplotlib	../libraries/seaborn/exercises.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:2
+message	../02_Variables.py	/^message = 'The system is shutting down in 10 minutes'$/;"	kind:variable	line:25
+middle	../exercises/Lists_Solutions.py	/^def middle(t):$/;"	kind:function	line:74
+min_max	../10_Tuples.py	/^def min_max(t):$/;"	kind:function	line:71
+mod_move_rectangle	../exercises/Classes_Solutions.py	/^def mod_move_rectangle(rect, dx, dy):$/;"	kind:function	line:56
+module	../03_Functions.py	/^import math # importing a module$/;"	kind:namespace	line:22
+module	../modules/a06_MATH_module.py	/^import math # importing a module$/;"	kind:namespace	line:1
+more_than	../a06_File_Reading.py	/^def more_than(f):$/;"	kind:function	line:29
+more_than	../exercises/WordPlay_Solutions.py	/^def more_than(f):$/;"	kind:function	line:8
+most_frequent	../exercises/Tuples_Solutions.py	/^def most_frequent(s):$/;"	kind:function	line:59
+move	../exercises/Recursion_Solutions.py	/^def move():$/;"	kind:function	line:23
+move_cards	../15_Inheritance.py	/^    def move_cards(self, hand, num):$/;"	kind:member	line:74
+move_cards	../exercises/Inheritance_Solutions.py	/^    def move_cards(self, hand, num):$/;"	kind:member	line:107
+move_cards	../exercises/Inheritance_Solutions.py	/^    def move_cards(self, hand, num):$/;"	kind:member	line:156
+move_rectangle	../exercises/Classes_Solutions.py	/^def move_rectangle(rect, dx, dy):$/;"	kind:function	line:41
+mpimg	../libraries/matplotlib/exercises.py	/^import matplotlib.image as mpimg$/;"	kind:namespace	line:2
+mpl	../libraries/matplotlib/exercises.py	/^import matplotlib as mpl$/;"	kind:namespace	line:3
+mus_alphabet	../a05_List_Methods.py	/^mus_alphabet = ['a', 'g', 'f', 'd', 'c', 'b', 'e']$/;"	kind:variable	line:41
+my_data	../libraries/pandas/01_pandas.py	/^my_data = [10,20,30]$/;"	kind:variable	line:7
+my_list	../libraries/numpy/01_numpy.py	/^my_list = [1,2,3]$/;"	kind:variable	line:3
+my_mat	../libraries/numpy/01_numpy.py	/^my_mat = [[1,2,3], [4,5,6], [7,8,9]]$/;"	kind:variable	line:8
+my_words	../exercises/Tuples_Solutions.py	/^my_words = [elt.strip() for elt in open('Z:\\python\\w.txt', 'r').readlines()]$/;"	kind:variable	line:73
+n	../04_Conditionals.py	/^n = 6$/;"	kind:variable	line:24
+n	../04_Conditionals.py	/^n = 9$/;"	kind:variable	line:37
+n	../a03_Lambda.py	/^n = map(lambda v : v * 5, l)$/;"	kind:variable	line:5
+n	../exercises/Conditionals_Solutions.py	/^n = 3$/;"	kind:variable	line:16
+name	../05_Recursion.py	/^name = raw_input("What's your name?\\n")$/;"	kind:variable	line:30
+nested_sum	../exercises/Lists_Solutions.py	/^def nested_sum(t):$/;"	kind:function	line:7
+nested_t	../exercises/Lists_Solutions.py	/^nested_t = ['string1', ['String2', 'string3'], 'string4',['string5']]$/;"	kind:variable	line:34
+new_list	../a07_List_Comprehensions.py	/^new_list = []$/;"	kind:variable	line:4
+new_list	../a07_List_Comprehensions.py	/^new_list = [expression(i)] for i in old_list if filter(i)]$/;"	kind:variable	line:9
+newind	../libraries/pandas/02_dataframes.py	/^newind = 'CA NY WY OR CO'.split()$/;"	kind:variable	line:75
+next_birthday	../exercises/Classes_Solutions.py	/^    def next_birthday(self, birthday):$/;"	kind:member	line:252
+normal_tempo	../exercises/Variables_Solutions.py	/^normal_tempo = 7 * 60 + 12                       # 7 min and 12 sec in seconds$/;"	kind:variable	line:64
+np	../data_visualization/01_panda_viz.py	/^import numpy as np$/;"	kind:namespace	line:1
+np	../data_visualization/exercises.py	/^import numpy as np$/;"	kind:namespace	line:1
+np	../libraries/matplotlib/01_basics.py	/^import numpy as np $/;"	kind:namespace	line:2
+np	../libraries/matplotlib/02_fig_size_DPI.py	/^import numpy as np $/;"	kind:namespace	line:2
+np	../libraries/matplotlib/03_plot_appearance.py	/^import numpy as np $/;"	kind:namespace	line:2
+np	../libraries/matplotlib/exercises.py	/^import numpy as np $/;"	kind:namespace	line:4
+np	../libraries/numpy/01_numpy.py	/^import numpy as np$/;"	kind:namespace	line:1
+np	../libraries/numpy/02_ind_sel.py	/^import numpy as np$/;"	kind:namespace	line:1
+np	../libraries/numpy/03_operations.py	/^import numpy as np$/;"	kind:namespace	line:1
+np	../libraries/numpy/exercises.py	/^import numpy as np$/;"	kind:namespace	line:2
+np	../libraries/pandas/01_pandas.py	/^import numpy as np$/;"	kind:namespace	line:1
+np	../libraries/pandas/02_dataframes.py	/^import numpy as np$/;"	kind:namespace	line:1
+np	../libraries/pandas/03_missing_data.py	/^import numpy as np$/;"	kind:namespace	line:1
+np	../libraries/pandas/04_group_by.py	/^import numpy as np$/;"	kind:namespace	line:1
+np	../libraries/pandas/06_operations.py	/^import numpy as np$/;"	kind:namespace	line:1
+np	../libraries/pandas/07_data_in_out.py	/^import numpy as np$/;"	kind:namespace	line:8
+np	../libraries/pandas/exercise_E-purchases.py	/^import numpy as np$/;"	kind:namespace	line:2
+np	../libraries/seaborn/01_distribution_plots.py	/^import numpy as np$/;"	kind:namespace	line:3
+np	../libraries/seaborn/02_categorical_plots.py	/^import numpy as np$/;"	kind:namespace	line:3
+np	../libraries/seaborn/03_matrix._plots.py	/^import numpy as np$/;"	kind:namespace	line:3
+np	../libraries/seaborn/04_grids.py	/^import numpy as np$/;"	kind:namespace	line:3
+np	../libraries/seaborn/05_regression_plots.py	/^import numpy as np$/;"	kind:namespace	line:3
+np	../libraries/seaborn/06_style_color.py	/^import numpy as np$/;"	kind:namespace	line:3
+np	../libraries/seaborn/exercises.py	/^import numpy as np$/;"	kind:namespace	line:3
+numbers	../08_Lists.py	/^numbers = [20,30]$/;"	kind:variable	line:21
+numbers	../exercises/Lists_Solutions.py	/^numbers = [1, 2, 3]$/;"	kind:variable	line:52
+object	../11_Files.py	/^import pickle # translates object types into a string and the back to objects$/;"	kind:namespace	line:79
+objects	../11_Files.py	/^import pickle # translates object types into a string and the back to objects$/;"	kind:namespace	line:79
+only	../11_Files.py	/^import anydbm # accepts only strings$/;"	kind:namespace	line:66
+only_capital	../a04_String_Methods.py	/^def only_capital(s3):$/;"	kind:function	line:96
+only_upper	../a03_Lambda.py	/^def only_upper(s):$/;"	kind:function	line:89
+only_upper	../a04_String_Methods.py	/^def only_upper(s3):$/;"	kind:function	line:85
+os	../11_Files.py	/^import os$/;"	kind:namespace	line:32
+os	../exercises/Files_Solutions.py	/^import os$/;"	kind:namespace	line:20
+os	../modules/os_module.py	/^import os$/;"	kind:namespace	line:1
+os_module.py	../modules/os_module.py	1;"	kind:file	line:1
+outside	../libraries/pandas/02_dataframes.py	/^outside = ['G1','G1','G1','G2','G2','G2']$/;"	kind:variable	line:84
+p	../exercises/Classes_Solutions.py	/^p = Point(3.0, 4.0)$/;"	kind:variable	line:331
+p1	../12_Classes.py	/^p1 = Point()$/;"	kind:variable	line:82
+p2	../12_Classes.py	/^p2 = copy.copy(p1)$/;"	kind:variable	line:88
+pd	../data_visualization/01_panda_viz.py	/^import pandas as pd $/;"	kind:namespace	line:3
+pd	../data_visualization/exercises.py	/^import pandas as pd $/;"	kind:namespace	line:3
+pd	../libraries/pandas/01_pandas.py	/^import pandas as pd$/;"	kind:namespace	line:2
+pd	../libraries/pandas/02_dataframes.py	/^import pandas as pd$/;"	kind:namespace	line:2
+pd	../libraries/pandas/03_missing_data.py	/^import pandas as pd$/;"	kind:namespace	line:2
+pd	../libraries/pandas/04_group_by.py	/^import pandas as pd$/;"	kind:namespace	line:2
+pd	../libraries/pandas/05_merg_join_cat.py	/^import pandas as pd$/;"	kind:namespace	line:1
+pd	../libraries/pandas/06_operations.py	/^import pandas as pd$/;"	kind:namespace	line:2
+pd	../libraries/pandas/07_data_in_out.py	/^import pandas as pd$/;"	kind:namespace	line:9
+pd	../libraries/pandas/exercise_E-purchases.py	/^import pandas as pd $/;"	kind:namespace	line:1
+pd	../libraries/pandas/exercise_SF-salaries.py	/^import pandas as pd $/;"	kind:namespace	line:1
+pickle	../11_Files.py	/^import pickle # translates object types into a string and the back to objects$/;"	kind:namespace	line:79
+piston	../modules/a06_MATH_module.py	/^piston = 'x'$/;"	kind:variable	line:32
+plt	../data_visualization/01_panda_viz.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:4
+plt	../data_visualization/exercises.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:4
+plt	../libraries/matplotlib/01_basics.py	/^import matplotlib.pyplot as plt $/;"	kind:namespace	line:1
+plt	../libraries/matplotlib/02_fig_size_DPI.py	/^import matplotlib.pyplot as plt $/;"	kind:namespace	line:1
+plt	../libraries/matplotlib/03_plot_appearance.py	/^import matplotlib.pyplot as plt $/;"	kind:namespace	line:1
+plt	../libraries/matplotlib/exercises.py	/^import matplotlib.pyplot as plt $/;"	kind:namespace	line:1
+plt	../libraries/seaborn/01_distribution_plots.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:2
+plt	../libraries/seaborn/02_categorical_plots.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:2
+plt	../libraries/seaborn/03_matrix._plots.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:2
+plt	../libraries/seaborn/04_grids.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:2
+plt	../libraries/seaborn/05_regression_plots.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:2
+plt	../libraries/seaborn/06_style_color.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:2
+plt	../libraries/seaborn/exercises.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:2
+polygon	../swampy/turtleworld.py	/^def polygon(t, lenght, n):$/;"	kind:function	line:47
+polygon	../swampy/turtleworld.py	/^def polygon(t, lenght, n):$/;"	kind:function	line:88
+polyline	../swampy/turtleworld.py	/^def polyline(t, n, lenght, angle):$/;"	kind:function	line:82
+pop_card	../15_Inheritance.py	/^    def pop_card(self):$/;"	kind:member	line:62
+pop_card	../exercises/Inheritance_Solutions.py	/^    def pop_card(self):$/;"	kind:member	line:144
+pop_card	../exercises/Inheritance_Solutions.py	/^    def pop_card(self):$/;"	kind:member	line:95
+prefixes	../exercises/Strings_Solutions.py	/^prefixes = 'JKLMNOPQ'$/;"	kind:variable	line:23
+print_content	../exercises/Functions_Solutions.py	/^def print_content():$/;"	kind:function	line:231
+print_hist	../exercises/Dictionaries_Solutions.py	/^def print_hist(h):$/;"	kind:function	line:48
+print_hist	../exercises/Dictionaries_Solutions.py	/^def print_hist(h):$/;"	kind:function	line:54
+print_n	../05_Recursion.py	/^def print_n(s, n):$/;"	kind:function	line:12
+print_n	../05_Recursion.py	/^def print_n(s, n):$/;"	kind:function	line:21
+print_n	../06_Iteration.py	/^def print_n(s, n):$/;"	kind:function	line:26
+print_n	../exercises/Iteration_Solutions.py	/^def print_n(s, n):$/;"	kind:function	line:13
+print_n	../exercises/Iteration_Solutions.py	/^def print_n(s, n):$/;"	kind:function	line:5
+print_point	../12_Classes.py	/^def print_point(p):$/;"	kind:function	line:30
+print_point	../exercises/Classes_Solutions.py	/^    def print_point(self):$/;"	kind:member	line:307
+print_spam	../exercises/Functions_Solutions.py	/^def print_spam():$/;"	kind:function	line:62
+print_spam	../exercises/Functions_Solutions.py	/^def print_spam(v):$/;"	kind:function	line:76
+print_time	../13_Classes_Functions.py	/^def print_time(t):$/;"	kind:function	line:13
+print_time	../14_Classes_Methods.py	/^    def print_time(self):$/;"	kind:member	line:48
+print_time	../14_Classes_Methods.py	/^    def print_time(t):$/;"	kind:member	line:4
+print_time	../exercises/Classes_Solutions.py	/^    def print_time(time):$/;"	kind:member	line:277
+print_time	../exercises/Classes_Solutions.py	/^def print_time(t):$/;"	kind:function	line:84
+print_time	../exercises/Inheritance_Solutions.py	/^    def print_time(self):$/;"	kind:member	line:34
+print_topBottom	../exercises/Functions_Solutions.py	/^def print_topBottom():$/;"	kind:function	line:228
+print_twice	../exercises/Functions_Solutions.py	/^def print_twice(a):$/;"	kind:function	line:242
+print_twice	../exercises/Functions_Solutions.py	/^def print_twice(a):$/;"	kind:function	line:274
+print_twice	../exercises/Functions_Solutions.py	/^def print_twice(krakra):$/;"	kind:function	line:108
+print_twice	../exercises/Functions_Solutions.py	/^def print_twice(krakra):$/;"	kind:function	line:84
+print_twice	../exercises/Functions_Solutions.py	/^def print_twice(krakra):$/;"	kind:function	line:98
+print_weekday	../exercises/Classes_Solutions.py	/^    def print_weekday(self):$/;"	kind:member	line:236
+printall	../10_Tuples.py	/^def printall(*args):$/;"	kind:function	line:80
+prompt	../05_Recursion.py	/^prompt = 'What was your speed?\\n'$/;"	kind:variable	line:33
+pure_increment	../exercises/Classes_Solutions.py	/^def pure_increment(time, seconds):$/;"	kind:function	line:189
+queen_of_diamonds	../15_Inheritance.py	/^queen_of_diamonds = Card(1, 12) # creates a card $/;"	kind:variable	line:37
+r	../exercises/Variables_Solutions.py	/^r = 5$/;"	kind:variable	line:50
+radius	../a02_Functions.py	/^radius = distance(xc, yc, xp, yp)$/;"	kind:variable	line:39
+ran_arr	../libraries/numpy/01_numpy.py	/^ran_arr = np.random.randint(0, 50, 10)$/;"	kind:variable	line:36
+randn	../libraries/pandas/02_dataframes.py	/^from numpy.random import randn$/;"	kind:namespace	line:4
+random	../exercises/Inheritance_Solutions.py	/^import random $/;"	kind:namespace	line:51
+random	../exercises/Inheritance_Solutions.py	/^import random$/;"	kind:namespace	line:124
+random	../exercises/Lists_Solutions.py	/^import random$/;"	kind:namespace	line:133
+random	../exercises/Tuples_Solutions.py	/^import random$/;"	kind:namespace	line:14
+random	../modules/a04_Importing_Modules.py	/^import random$/;"	kind:namespace	line:25
+rank_names	../15_Inheritance.py	/^    rank_names = [None, 'Ace', '2', '3', '4', '5', '6', '7',$/;"	kind:variable	line:5
+rank_names	../exercises/Inheritance_Solutions.py	/^    rank_names = [None, 'Ace', '2', '3', '4', '5', '6', '7',$/;"	kind:variable	line:58
+re	../libraries/pandas/exercise_E-purchases.py	/^import re$/;"	kind:namespace	line:3
+re	../modules/a05_RE_module.py	/^import re$/;"	kind:namespace	line:1
+reader	../exercises/DataStructure_Solutions.py	/^def reader(words):$/;"	kind:function	line:29
+remove_duplicates	../exercises/Lists_Solutions.py	/^def remove_duplicates(l):$/;"	kind:function	line:166
+repeat	../03_Functions.py	/^def repeat(x): # argument asiggned to a parameter inside the function$/;"	kind:function	line:85
+repl	../modules/a05_RE_module.py	/^repl = re.sub('X|Y', 'AB', i) # | either or$/;"	kind:variable	line:73
+repl	../modules/a05_RE_module.py	/^repl = re.sub('[A-Z]', '!', i) # [A-Z] - upper only$/;"	kind:variable	line:70
+repl	../modules/a05_RE_module.py	/^repl = re.sub('\\#', 'No.', i) # \\ cancels special character$/;"	kind:variable	line:58
+repl	../modules/a05_RE_module.py	/^repl = re.sub('\\D', '-', i) # \\D is the same as [^0-9]$/;"	kind:variable	line:64
+repl	../modules/a05_RE_module.py	/^repl = re.sub('\\d', '3', i) # \\d is the same as [0-9]$/;"	kind:variable	line:61
+repl	../modules/a05_RE_module.py	/^repl = re.sub(r'\\s', '.', i) # \\s matches whitespace character$/;"	kind:variable	line:67
+res	../11_Files.py	/^res = fp.read()$/;"	kind:variable	line:102
+res	../11_Files.py	/^res = fp.read()$/;"	kind:variable	line:92
+rest	../08_Lists.py	/^rest = tail(letters)$/;"	kind:variable	line:172
+result	../a02_Functions.py	/^result = area(radius)$/;"	kind:variable	line:40
+result	../a03_Lambda.py	/^result = filter(lambda x : x % 2, fib)$/;"	kind:variable	line:133
+reverse_lookup	../09_Dictionaries.py	/^def reverse_lookup(d, v):$/;"	kind:function	line:36
+reverse_lookup	../exercises/Dictionaries_Solutions.py	/^def reverse_lookup(d, v):$/;"	kind:function	line:67
+reverse_pair	../exercises/Lists_Solutions.py	/^def reverse_pair():$/;"	kind:function	line:242
+right	../libraries/pandas/05_merg_join_cat.py	/^right = pd.DataFrame({'C': ['C0', 'C2', 'C3'],$/;"	kind:variable	line:60
+right	../libraries/pandas/05_merg_join_cat.py	/^right = pd.DataFrame({'key': ['K0', 'K1', 'K2', 'K3'],$/;"	kind:variable	line:33
+right	../libraries/pandas/05_merg_join_cat.py	/^right = pd.DataFrame({'key1': ['K0', 'K1', 'K1', 'K2'],$/;"	kind:variable	line:46
+right_justify	../exercises/Functions_Solutions.py	/^def right_justify(s):$/;"	kind:function	line:15
+run	../exercises/Variables_Solutions.py	/^run = (back_for_breakfast - left_the_house) \/ 60 # in minutes$/;"	kind:variable	line:71
+s	../01_Python_Arithmetic.py	/^s = 'String'$/;"	kind:variable	line:30
+s	../03_Functions.py	/^s = 'string'$/;"	kind:variable	line:15
+s	../05_Recursion.py	/^s = 'Hello'$/;"	kind:variable	line:20
+s	../08_Lists.py	/^s = 'string'$/;"	kind:variable	line:103
+s	../08_Lists.py	/^s = 'today is a good day'$/;"	kind:variable	line:108
+s	../08_Lists.py	/^s = 'today-is-a-good-day'$/;"	kind:variable	line:112
+s	../10_Tuples.py	/^s = 'abc'$/;"	kind:variable	line:93
+s	../11_Files.py	/^s = pickle.dumps(t1) # dump an object into a string$/;"	kind:variable	line:82
+s	../13_Classes_Functions.py	/^s = '{}:{}:{}'.format(t.hour, t.minute, t.second)$/;"	kind:variable	line:85
+s	../a01_Formatting.py	/^s = "10 spaces to the right"$/;"	kind:variable	line:37
+s	../a01_Formatting.py	/^s = "Sralo %s na pateche. Koi go qde? - %s" % ('meche', 'Ti')$/;"	kind:variable	line:6
+s	../a01_Formatting.py	/^s = 'Sralo {1} na pateche. Koi go qde? - {0}'.format('meche', 'Ti')$/;"	kind:variable	line:13
+s	../a01_Formatting.py	/^s = 'Sralo {} na pateche. Koi go qde? - {}'.format('meche', 'Ti')$/;"	kind:variable	line:11
+s	../a01_Formatting.py	/^s = 2.5235235252$/;"	kind:variable	line:77
+s	../a03_Lambda.py	/^s = 'SomE arE UppER sOMe Are LOWEr'$/;"	kind:variable	line:87
+s	../a04_String_Methods.py	/^s = 'Boogie-Woogie-Boom'$/;"	kind:variable	line:113
+s	../a04_String_Methods.py	/^s = 'Subject'$/;"	kind:variable	line:104
+s	../a04_String_Methods.py	/^s = 'This is a string'$/;"	kind:variable	line:1
+s	../a04_String_Methods.py	/^s = 'This\\t is\\t too\\t much\\t tabs'$/;"	kind:variable	line:110
+s	../a04_String_Methods.py	/^s = 'today is a good day'$/;"	kind:variable	line:119
+s	../a04_String_Methods.py	/^s = s.strip()$/;"	kind:variable	line:120
+s	../exercises/Classes_Solutions.py	/^s = Time()$/;"	kind:variable	line:198
+s	../exercises/Functions_Solutions.py	/^s = 'signature'$/;"	kind:variable	line:12
+s	../exercises/Lists_Solutions.py	/^s = 'hubbabubba'$/;"	kind:variable	line:82
+s	../exercises/Strings_Solutions.py	/^s = 'Today is raining'$/;"	kind:variable	line:140
+s	../exercises/Strings_Solutions.py	/^s = 'abracadabra.puff'$/;"	kind:variable	line:185
+s	../exercises/Strings_Solutions.py	/^s = 'radar'$/;"	kind:variable	line:208
+s	../exercises/Tuples_Solutions.py	/^s = 'today is a good day because the dog doesn\\'t bark'$/;"	kind:variable	line:54
+s	../modules/a05_RE_module.py	/^s = '01-test'$/;"	kind:variable	line:9
+s	../modules/a05_RE_module.py	/^s = 'Can you spot the difference?'$/;"	kind:variable	line:41
+s	../modules/a05_RE_module.py	/^s = 'This is a test'$/;"	kind:variable	line:16
+s	../modules/a05_RE_module.py	/^s = 'This is only a test'$/;"	kind:variable	line:26
+s1	../exercises/Lists_Solutions.py	/^s1 = 'listen'$/;"	kind:variable	line:112
+s2	../a01_Formatting.py	/^s2 = '%d, %d, %d, %d' % (1, 2, 3, 4)$/;"	kind:variable	line:18
+s2	../a01_Formatting.py	/^s2 = '{3}, {2}, {1}, {0}'.format(1, 2, 3, 4)$/;"	kind:variable	line:22
+s2	../a01_Formatting.py	/^s2 = '{}, {}, {}, {}'.format(1, 2, 3, 4)$/;"	kind:variable	line:20
+s2	../a04_String_Methods.py	/^s2 = 'This is also a string'$/;"	kind:variable	line:2
+s2	../exercises/Lists_Solutions.py	/^s2 = 'silent'$/;"	kind:variable	line:114
+s3	../a04_String_Methods.py	/^s3 = 'ThIs stRIng S madE oF UppEr aND LOwer caSE chaRactErS'$/;"	kind:variable	line:3
+s4	../a04_String_Methods.py	/^s4 = 'Abracadabra'$/;"	kind:variable	line:35
+s5	../a04_String_Methods.py	/^s5 = "Creating a LIST from a string"$/;"	kind:variable	line:39
+s6	../a04_String_Methods.py	/^s6 = s5.split()$/;"	kind:variable	line:41
+scale	../08_Lists.py	/^scale = ['C','D','E','F','G','A','B','C']$/;"	kind:variable	line:55
+search	../modules/a05_RE_module.py	/^search = re.search('^this is (.*) (.) (.*)', s, re.I|re.M)$/;"	kind:variable	line:27
+search	../modules/a05_RE_module.py	/^search = re.search('spot', s, re.I|re.M)$/;"	kind:variable	line:48
+second	../03_Functions.py	/^def second():$/;"	kind:function	line:67
+sequence	../06_Iteration.py	/^def sequence(n):$/;"	kind:function	line:16
+ser1	../libraries/pandas/01_pandas.py	/^ser1 = pd.Series([1,2,3,4],['USA','Germany','USSR','Japan'])$/;"	kind:variable	line:21
+ser2	../libraries/pandas/01_pandas.py	/^ser2 = pd.Series([1,2,5,4], ['USA','Germany','Italy','Japan'])$/;"	kind:variable	line:24
+ser3	../libraries/pandas/01_pandas.py	/^ser3 = pd.Series(data=labels)$/;"	kind:variable	line:27
+set	../exercises/Tuples_Solutions.py	/^set = string.ascii_lowercase$/;"	kind:variable	line:80
+shipping	../exercises/Variables_Solutions.py	/^shipping = 1 * 3 + 59 * 0.75$/;"	kind:variable	line:56
+shuffle	../15_Inheritance.py	/^    def shuffle(self):$/;"	kind:member	line:70
+shuffle	../exercises/Inheritance_Solutions.py	/^    def shuffle(self):$/;"	kind:member	line:103
+shuffle	../exercises/Inheritance_Solutions.py	/^    def shuffle(self):$/;"	kind:member	line:152
+sns	../data_visualization/01_panda_viz.py	/^import seaborn as sns$/;"	kind:namespace	line:2
+sns	../data_visualization/exercises.py	/^import seaborn as sns$/;"	kind:namespace	line:2
+sns	../libraries/seaborn/01_distribution_plots.py	/^import seaborn as sns$/;"	kind:namespace	line:1
+sns	../libraries/seaborn/02_categorical_plots.py	/^import seaborn as sns$/;"	kind:namespace	line:1
+sns	../libraries/seaborn/03_matrix._plots.py	/^import seaborn as sns$/;"	kind:namespace	line:1
+sns	../libraries/seaborn/04_grids.py	/^import seaborn as sns$/;"	kind:namespace	line:1
+sns	../libraries/seaborn/05_regression_plots.py	/^import seaborn as sns$/;"	kind:namespace	line:1
+sns	../libraries/seaborn/06_style_color.py	/^import seaborn as sns$/;"	kind:namespace	line:1
+sns	../libraries/seaborn/exercises.py	/^import seaborn as sns$/;"	kind:namespace	line:1
+sort_by_lenght	../10_Tuples.py	/^def sort_by_lenght(words):$/;"	kind:function	line:141
+sort_by_length	../exercises/Tuples_Solutions.py	/^def sort_by_length(words):$/;"	kind:function	line:18
+sort_by_random	../exercises/Tuples_Solutions.py	/^def sort_by_random(words):$/;"	kind:function	line:32
+sort_cards	../exercises/Inheritance_Solutions.py	/^    def sort_cards(self):$/;"	kind:member	line:111
+speed	../05_Recursion.py	/^speed = raw_input(prompt)$/;"	kind:variable	line:34
+sqldf	../libraries/pandas/07_data_in_out.py	/^sqldf = pd.read_sql('my_table',con=engine)$/;"	kind:variable	line:33
+sqrt	../12_Classes.py	/^from math import sqrt$/;"	kind:namespace	line:3
+sqrt	../exercises/Classes_Solutions.py	/^from math import sqrt$/;"	kind:namespace	line:4
+sqrt	../exercises/Math_Solutions.py	/^from math import sqrt$/;"	kind:namespace	line:30
+square	../exercises/Functions_Solutions.py	/^def square():$/;"	kind:function	line:152
+square_root	../exercises/Iteration_Solutions.py	/^def square_root(a, x):$/;"	kind:function	line:43
+start	../13_Classes_Functions.py	/^start = Time()$/;"	kind:variable	line:26
+start	../14_Classes_Methods.py	/^start = Time()$/;"	kind:variable	line:8
+start	../exercises/Classes_Solutions.py	/^start = Time()$/;"	kind:variable	line:102
+start	../exercises/Strings_Solutions.py	/^start = 1$/;"	kind:variable	line:160
+start	../exercises/Strings_Solutions.py	/^start = 1$/;"	kind:variable	line:77
+start	../exercises/Strings_Solutions.py	/^start = 4$/;"	kind:variable	line:99
+start_time	../exercises/Dictionaries_Solutions.py	/^start_time = time.time()$/;"	kind:variable	line:130
+start_time	../exercises/Dictionaries_Solutions.py	/^start_time = time.time()$/;"	kind:variable	line:135
+start_time	../exercises/Lists_Solutions.py	/^start_time = time.time()$/;"	kind:variable	line:205
+start_time	../exercises/Lists_Solutions.py	/^start_time = time.time()$/;"	kind:variable	line:213
+start_time	../exercises/Lists_Solutions.py	/^start_time = time.time()$/;"	kind:variable	line:221
+stat	../11_Files.py	/^stat = fp.close()$/;"	kind:variable	line:103
+stat	../11_Files.py	/^stat = fp.close()$/;"	kind:variable	line:94
+stats	../libraries/seaborn/01_distribution_plots.py	/^from scipy import stats$/;"	kind:namespace	line:4
+stats	../libraries/seaborn/02_categorical_plots.py	/^from scipy import stats$/;"	kind:namespace	line:4
+stats	../libraries/seaborn/03_matrix._plots.py	/^from scipy import stats$/;"	kind:namespace	line:4
+stats	../libraries/seaborn/04_grids.py	/^from scipy import stats$/;"	kind:namespace	line:4
+stats	../libraries/seaborn/05_regression_plots.py	/^from scipy import stats$/;"	kind:namespace	line:4
+stats	../libraries/seaborn/06_style_color.py	/^from scipy import stats$/;"	kind:namespace	line:4
+stats	../libraries/seaborn/exercises.py	/^from scipy import stats$/;"	kind:namespace	line:4
+steps	../exercises/Recursion_Solutions.py	/^steps = 5$/;"	kind:variable	line:21
+string	../11_Files.py	/^import pickle # translates object types into a string and the back to objects$/;"	kind:namespace	line:79
+string	../exercises/DataStructure_Solutions.py	/^import string$/;"	kind:namespace	line:2
+string	../exercises/Functions_Solutions.py	/^string = 'today is a good day'$/;"	kind:variable	line:21
+string	../exercises/Strings_Solutions.py	/^string = 'abracadabra'$/;"	kind:variable	line:158
+string	../exercises/Tuples_Solutions.py	/^import string$/;"	kind:namespace	line:77
+string	../exercises/WordPlay_Solutions.py	/^import string$/;"	kind:namespace	line:15
+strings	../11_Files.py	/^import anydbm # accepts only strings$/;"	kind:namespace	line:66
+suffix	../exercises/Strings_Solutions.py	/^suffix = 'ack'$/;"	kind:variable	line:24
+suit_names	../15_Inheritance.py	/^    suit_names = ['Clubs', 'Diamonds', 'Hearts', 'Spades']$/;"	kind:variable	line:4
+suit_names	../exercises/Inheritance_Solutions.py	/^    suit_names = ['Clubs', 'Diamonds', 'Hearts', 'Spades']$/;"	kind:variable	line:57
+sum_of_kde	../libraries/seaborn/01_distribution_plots.py	/^sum_of_kde = np.sum(kernel_list,axis=0)$/;"	kind:variable	line:78
+sumall	../exercises/Tuples_Solutions.py	/^def sumall(*args):$/;"	kind:function	line:7
+t	../08_Lists.py	/^t = ['a', 'b', 'c']$/;"	kind:variable	line:84
+t	../08_Lists.py	/^t = ['a', 'b', 'c']$/;"	kind:variable	line:89
+t	../08_Lists.py	/^t = ['everyone', 'loves', 'music']$/;"	kind:variable	line:117
+t	../08_Lists.py	/^t = ['left', 'right', 'up', 'down', 'forward', 'backward']$/;"	kind:variable	line:96
+t	../08_Lists.py	/^t = [1, 2, 3, 4, 5]$/;"	kind:variable	line:71
+t	../08_Lists.py	/^t = list(s) # list() convert a string into a list$/;"	kind:variable	line:104
+t	../08_Lists.py	/^t = s.split()$/;"	kind:variable	line:109
+t	../08_Lists.py	/^t = s.split(delimeter) # split() can take a delimeter argument$/;"	kind:variable	line:114
+t	../10_Tuples.py	/^t = (' ',) + t[1:4]$/;"	kind:variable	line:40
+t	../10_Tuples.py	/^t = ('do','mi','sol')$/;"	kind:variable	line:3
+t	../10_Tuples.py	/^t = (8,3)$/;"	kind:variable	line:87
+t	../10_Tuples.py	/^t = [('a', 0), ('b', 1), ('c', 2)]$/;"	kind:variable	line:109
+t	../10_Tuples.py	/^t = [('a', 0), ('b', 1), ('c', 2)]$/;"	kind:variable	line:99
+t	../10_Tuples.py	/^t = [0, 1, 2]$/;"	kind:variable	line:94
+t	../10_Tuples.py	/^t = divmod(7, 3) # dev() returns a tuple of two values$/;"	kind:variable	line:63
+t	../10_Tuples.py	/^t = t[:] + ('ta',) # adding a tuple$/;"	kind:variable	line:38
+t	../10_Tuples.py	/^t = tuple('gara')$/;"	kind:variable	line:36
+t	../10_Tuples.py	/^t = tuple('lizzard')    # string$/;"	kind:variable	line:22
+t	../10_Tuples.py	/^t = tuple()$/;"	kind:variable	line:17
+t	../13_Classes_Functions.py	/^t = Time()$/;"	kind:variable	line:8
+t	../13_Classes_Functions.py	/^t = Time()$/;"	kind:variable	line:81
+t	../exercises/Classes_Solutions.py	/^t = Time()$/;"	kind:variable	line:79
+t	../exercises/Dictionaries_Solutions.py	/^t = fibonacci_01(21)$/;"	kind:variable	line:131
+t	../exercises/Dictionaries_Solutions.py	/^t = fibonacci_02(21)$/;"	kind:variable	line:136
+t	../exercises/Lists_Solutions.py	/^t = [1, 2, 3, 4, 5, 6, 7, 8, 9]$/;"	kind:variable	line:72
+t	../exercises/Lists_Solutions.py	/^t = [1, 2, [3, 4], 5, 6, [[7, 8], 9, 10]]$/;"	kind:variable	line:4
+t	../exercises/Lists_Solutions.py	/^t = word_list2()$/;"	kind:variable	line:214
+t	../exercises/Lists_Solutions.py	/^t = word_list3()$/;"	kind:variable	line:222
+t	../exercises/Lists_Solutions.py	/^t = wordlist$/;"	kind:variable	line:206
+t	../exercises/Tuples_Solutions.py	/^    t = sort_by_random(words)$/;"	kind:variable	line:47
+t	../modules/a04_Importing_Modules.py	/^import time as t$/;"	kind:namespace	line:14
+t1	../08_Lists.py	/^t1 = [1, 2]$/;"	kind:variable	line:159
+t1	../11_Files.py	/^t1 = [1, 2, 3]$/;"	kind:variable	line:81
+t1	../exercises/Inheritance_Solutions.py	/^t1 = Clock(11,4,2)$/;"	kind:variable	line:42
+t2	../08_Lists.py	/^t2 = t1.append(3) # append() modifies a list$/;"	kind:variable	line:160
+t2	../10_Tuples.py	/^t2 = ('la',)    # tuple$/;"	kind:variable	line:8
+t2	../10_Tuples.py	/^t2 = tuple([1,2,3,4,])  # list$/;"	kind:variable	line:24
+t2	../11_Files.py	/^t2 = pickle.loads(s) # loads a string into a object$/;"	kind:variable	line:84
+t2	../exercises/Classes_Solutions.py	/^t2 = copy.copy(t)$/;"	kind:variable	line:91
+t2	../exercises/Inheritance_Solutions.py	/^t2 = Clock(11,2,2)$/;"	kind:variable	line:43
+t3	../08_Lists.py	/^t3 = t1 + [4] # + operator creates a list$/;"	kind:variable	line:164
+t3	../10_Tuples.py	/^t3 = ('la','la') # tuple$/;"	kind:variable	line:10
+t3	../10_Tuples.py	/^t3 = tuple(('la','ti','do'))    # tuple$/;"	kind:variable	line:26
+tail	../08_Lists.py	/^def tail(t):$/;"	kind:function	line:168
+temp	../a03_Lambda.py	/^temp = (36.5, 37, 37.5, 39)   $/;"	kind:variable	line:110
+tempo	../exercises/Variables_Solutions.py	/^tempo = easy_pace * 2 + normal_tempo * 3         # both tempos in seconds for 5 miles$/;"	kind:variable	line:65
+the	../11_Files.py	/^import pickle # translates object types into a string and the back to objects$/;"	kind:namespace	line:79
+themuru	../exercises/Tuples_Solutions.py	/^def themuru():$/;"	kind:function	line:91
+third	../03_Functions.py	/^def third():$/;"	kind:function	line:70
+time	../14_Classes_Methods.py	/^time = Time (9, 45)$/;"	kind:variable	line:65
+time	../14_Classes_Methods.py	/^time = Time (9, 45, 32)$/;"	kind:variable	line:67
+time	../14_Classes_Methods.py	/^time = Time()$/;"	kind:variable	line:61
+time	../14_Classes_Methods.py	/^time = Time(9)$/;"	kind:variable	line:63
+time	../exercises/Classes_Solutions.py	/^import time$/;"	kind:namespace	line:218
+time	../exercises/Classes_Solutions.py	/^time = Clock()$/;"	kind:variable	line:286
+time	../exercises/Classes_Solutions.py	/^time = copy.deepcopy(start)$/;"	kind:variable	line:169
+time	../exercises/Dictionaries_Solutions.py	/^import time $/;"	kind:namespace	line:128
+time	../exercises/Lists_Solutions.py	/^import time $/;"	kind:namespace	line:203
+time	../exercises/Tuples_Solutions.py	/^import time$/;"	kind:namespace	line:78
+time_to_int	../13_Classes_Functions.py	/^def time_to_int(t):$/;"	kind:function	line:87
+time_to_int	../14_Classes_Methods.py	/^    def time_to_int(self):$/;"	kind:member	line:51
+time_to_int	../14_Classes_Methods.py	/^def time_to_int(t):$/;"	kind:function	line:19
+time_to_int	../exercises/Classes_Solutions.py	/^    def time_to_int(time):$/;"	kind:member	line:280
+time_to_int	../exercises/Classes_Solutions.py	/^def time_to_int(time):$/;"	kind:function	line:172
+timedelta	../exercises/Classes_Solutions.py	/^from datetime import timedelta$/;"	kind:namespace	line:216
+times2	../libraries/pandas/06_operations.py	/^def times2(x):$/;"	kind:function	line:19
+timezones	../exercises/Inheritance_Solutions.py	/^    timezones = ['UTC']$/;"	kind:variable	line:6
+tips	../libraries/seaborn/01_distribution_plots.py	/^tips = sns.load_dataset('tips')$/;"	kind:variable	line:9
+tips	../libraries/seaborn/02_categorical_plots.py	/^tips = sns.load_dataset('tips')$/;"	kind:variable	line:9
+tips	../libraries/seaborn/03_matrix._plots.py	/^tips = sns.load_dataset('tips')$/;"	kind:variable	line:9
+tips	../libraries/seaborn/04_grids.py	/^tips = sns.load_dataset('tips')$/;"	kind:variable	line:9
+tips	../libraries/seaborn/05_regression_plots.py	/^tips = sns.load_dataset('tips')$/;"	kind:variable	line:8
+tips	../libraries/seaborn/06_style_color.py	/^tips = sns.load_dataset('tips')$/;"	kind:variable	line:8
+titanic	../libraries/seaborn/exercises.py	/^titanic = sns.load_dataset('titanic')$/;"	kind:variable	line:9
+to	../11_Files.py	/^import pickle # translates object types into a string and the back to objects$/;"	kind:namespace	line:79
+topStroke	../modules/a06_MATH_module.py	/^topStroke = 'x'$/;"	kind:variable	line:36
+translates	../11_Files.py	/^import pickle # translates object types into a string and the back to objects$/;"	kind:namespace	line:79
+trop	../exercises/Functions_Solutions.py	/^trop = 'kappa'$/;"	kind:variable	line:107
+tups	../a03_Lambda.py	/^tups = [$/;"	kind:variable	line:29
+turtleworld.py	../swampy/turtleworld.py	1;"	kind:file	line:1
+type	../a01_Formatting.py	/^    type = 'SUV'$/;"	kind:variable	line:113
+type	../a01_Formatting.py	/^    type = 'Sedan'$/;"	kind:variable	line:107
+types	../11_Files.py	/^import pickle # translates object types into a string and the back to objects$/;"	kind:namespace	line:79
+url	../libraries/seaborn/01_distribution_plots.py	/^url = 'http:\/\/en.wikipedia.org\/wiki\/Kernel_density_estimation#Practical_estimation_of_the_bandwidth'$/;"	kind:variable	line:51
+uses_all	../wordplay/wordplay.py	/^def uses_all(word_list, required_letters):$/;"	kind:function	line:56
+uses_all_impr	../wordplay/wordplay.py	/^def uses_all_impr(word_list, required):$/;"	kind:function	line:65
+uses_only	../wordplay/wordplay.py	/^def uses_only(word, required_letters):$/;"	kind:function	line:43
+v	../exercises/Functions_Solutions.py	/^v = 'variable'$/;"	kind:variable	line:70
+vals	../09_Dictionaries.py	/^vals = weekDays.values()$/;"	kind:variable	line:31
+variation	../03_Functions.py	/^def variation():$/;"	kind:function	line:51
+w	../exercises/Strings_Solutions.py	/^w = 'annapolis'$/;"	kind:variable	line:207
+walk	../11_Files.py	/^def walk(dirname):$/;"	kind:function	line:45
+wc	../11_Files.py	/^import wc$/;"	kind:namespace	line:116
+weekDays	../09_Dictionaries.py	/^weekDays = dict()$/;"	kind:variable	line:21
+weekDays	../09_Dictionaries.py	/^weekDays = {'Tuesday': 'martes',$/;"	kind:variable	line:22
+widht	../exercises/Classes_Solutions.py	/^widht = Point(2.2, 2.1)$/;"	kind:variable	line:360
+width	../exercises/Variables_Solutions.py	/^width = 17$/;"	kind:variable	line:15
+wine	../08_Lists.py	/^wine = ['Merlot', 'Pinot Noir', 'Cabernet Souvignon', 'Malbec', 'Zinfandel']$/;"	kind:variable	line:17
+word	../07_Strings.py	/^word = 'abracadabra'$/;"	kind:variable	line:49
+word	../07_Strings.py	/^word = 'coco'$/;"	kind:variable	line:89
+word	../07_Strings.py	/^word = 'harmonica'$/;"	kind:variable	line:63
+word	../a04_String_Methods.py	/^word = 'abracadabra'$/;"	kind:variable	line:22
+word	../a06_File_Reading.py	/^    word = line.strip()$/;"	kind:variable	line:23
+word	../a06_File_Reading.py	/^word = line.strip() # method strip() removes the white space$/;"	kind:variable	line:16
+word	../exercises/Math_Solutions.py	/^word = 'racecar'$/;"	kind:variable	line:57
+word	../exercises/Strings_Solutions.py	/^word = ' abracadabra'$/;"	kind:variable	line:179
+word	../exercises/Strings_Solutions.py	/^word = 'abracadabra'$/;"	kind:variable	line:97
+word	../exercises/Strings_Solutions.py	/^word = 'banana'$/;"	kind:variable	line:133
+word	../exercises/Strings_Solutions.py	/^word = 'exercise'$/;"	kind:variable	line:75
+word	../wordplay/wordplay.py	/^    word = line.strip()$/;"	kind:variable	line:8
+word_list	../wordplay/wordplay.py	/^word_list = [word.lower().strip() for word in word_list]$/;"	kind:variable	line:17
+word_list	../wordplay/wordplay.py	/^word_list = open('Z:\\python\\words.txt').readlines()$/;"	kind:variable	line:16
+word_list2	../exercises/Lists_Solutions.py	/^def word_list2():$/;"	kind:function	line:186
+word_list3	../exercises/Lists_Solutions.py	/^def word_list3():$/;"	kind:function	line:195
+wordlist	../exercises/Lists_Solutions.py	/^wordlist = [word.lower().strip() for word in wordlist]$/;"	kind:variable	line:183
+wordlist	../exercises/Lists_Solutions.py	/^wordlist = open(WORD_LIST).readlines()$/;"	kind:variable	line:182
+wordlist	../exercises/Tuples_Solutions.py	/^wordlist = [word.lower().strip() for word in wordlist]$/;"	kind:variable	line:71
+wordlist	../exercises/Tuples_Solutions.py	/^wordlist = open(WORD_LIST).readlines()$/;"	kind:variable	line:70
+wordplay.py	../wordplay/wordplay.py	1;"	kind:file	line:1
+words	../10_Tuples.py	/^words = ['dog', 'monkey', 'fly', 'crocodile', 'horse']$/;"	kind:variable	line:139
+words	../a04_String_Methods.py	/^    words = word.split()$/;"	kind:variable	line:47
+words	../exercises/DataStructure_Solutions.py	/^words = fin.read()$/;"	kind:variable	line:26
+words	../exercises/Tuples_Solutions.py	/^    words = ['dog', 'monkey', 'fly', 'crocodile', 'horse', 'rhino', 'zebra', 'goose', 'camel']$/;"	kind:variable	line:45
+words	../exercises/Tuples_Solutions.py	/^words = ['dog', 'monkey', 'fly', 'crocodile', 'horse', 'rhino', 'zebra', 'goose', 'camel']$/;"	kind:variable	line:15
+words_keys	../exercises/Dictionaries_Solutions.py	/^def words_keys(fin):$/;"	kind:function	line:6
+world	../swampy/turtleworld.py	/^world = TurtleWorld()$/;"	kind:variable	line:3
+x	../02_Variables.py	/^x = 100$/;"	kind:variable	line:26
+x	../04_Conditionals.py	/^x = 2$/;"	kind:variable	line:40
+x	../04_Conditionals.py	/^x = 2$/;"	kind:variable	line:47
+x	../04_Conditionals.py	/^x = 2$/;"	kind:variable	line:89
+x	../04_Conditionals.py	/^x = 4$/;"	kind:variable	line:64
+x	../04_Conditionals.py	/^x = 5$/;"	kind:variable	line:103
+x	../04_Conditionals.py	/^x = 6$/;"	kind:variable	line:56
+x	../06_Iteration.py	/^    x = y$/;"	kind:variable	line:55
+x	../06_Iteration.py	/^x = 0$/;"	kind:variable	line:3
+x	../06_Iteration.py	/^x = 3.0$/;"	kind:variable	line:46
+x	../06_Iteration.py	/^x = x + 1$/;"	kind:variable	line:4
+x	../07_Strings.py	/^x = 2$/;"	kind:variable	line:6
+x	../08_Lists.py	/^x = t.pop(1) # pop() modifies the list and returns the removed element$/;"	kind:variable	line:85
+x	../10_Tuples.py	/^x = ('single item inside () is not a tuple')      # string$/;"	kind:variable	line:12
+x	../11_Files.py	/^x  = 59$/;"	kind:variable	line:20
+x	../12_Classes.py	/^x = blank.x$/;"	kind:variable	line:21
+x	../a02_Functions.py	/^x = 4$/;"	kind:variable	line:54
+x	../a03_Lambda.py	/^x = [2, 3, 4, 5, 6]$/;"	kind:variable	line:11
+x	../a05_List_Methods.py	/^x = l.pop(2)$/;"	kind:variable	line:31
+x	../exercises/Math_Solutions.py	/^x = 2$/;"	kind:variable	line:6
+x	../exercises/Strings_Solutions.py	/^x = 'unforgiven'$/;"	kind:variable	line:6
+x	../libraries/matplotlib/01_basics.py	/^x = np.linspace(0,5,11)$/;"	kind:variable	line:6
+x	../libraries/matplotlib/02_fig_size_DPI.py	/^x = np.linspace(0,5,11)$/;"	kind:variable	line:6
+x	../libraries/matplotlib/03_plot_appearance.py	/^x = np.linspace(0,5,11)$/;"	kind:variable	line:6
+x	../libraries/matplotlib/exercises.py	/^x = np.arange(0,100)$/;"	kind:variable	line:8
+x_axis	../libraries/seaborn/01_distribution_plots.py	/^x_axis = np.linspace(x_min,x_max,100)$/;"	kind:variable	line:48
+x_max	../libraries/seaborn/01_distribution_plots.py	/^x_max = dataset.max() + 2$/;"	kind:variable	line:45
+x_min	../libraries/seaborn/01_distribution_plots.py	/^x_min = dataset.min() - 2$/;"	kind:variable	line:44
+xc	../a02_Functions.py	/^xc = 2$/;"	kind:variable	line:34
+xp	../a02_Functions.py	/^xp = 4$/;"	kind:variable	line:36
+y	../02_Variables.py	/^y = 200$/;"	kind:variable	line:27
+y	../03_Functions.py	/^y = 3 # variable can be used as an argument$/;"	kind:variable	line:91
+y	../04_Conditionals.py	/^y = 10$/;"	kind:variable	line:41
+y	../04_Conditionals.py	/^y = 2$/;"	kind:variable	line:65
+y	../04_Conditionals.py	/^y = 4$/;"	kind:variable	line:90
+y	../06_Iteration.py	/^    y = (x + a\/x) \/ 2$/;"	kind:variable	line:52
+y	../06_Iteration.py	/^y = (x + a\/x) \/ 2$/;"	kind:variable	line:47
+y	../a02_Functions.py	/^y = 2$/;"	kind:variable	line:55
+y	../a03_Lambda.py	/^y = []$/;"	kind:variable	line:12
+y	../a03_Lambda.py	/^y = map(lambda v : v * 5, filter(lambda u : u % 2, x))$/;"	kind:variable	line:22
+y	../exercises/Math_Solutions.py	/^y = 1$/;"	kind:variable	line:7
+y	../libraries/matplotlib/01_basics.py	/^y = x ** 2 $/;"	kind:variable	line:7
+y	../libraries/matplotlib/02_fig_size_DPI.py	/^y = x ** 2 $/;"	kind:variable	line:7
+y	../libraries/matplotlib/03_plot_appearance.py	/^y = x ** 2 $/;"	kind:variable	line:7
+y	../libraries/matplotlib/exercises.py	/^y = x*2 $/;"	kind:variable	line:9
+yc	../a02_Functions.py	/^yc = 3$/;"	kind:variable	line:35
+year	../a01_Formatting.py	/^year = 2022$/;"	kind:variable	line:28
+yp	../a02_Functions.py	/^yp = 6$/;"	kind:variable	line:37
+z	../a03_Lambda.py	/^z = reduce(lambda i, a: i > a, tups)$/;"	kind:variable	line:60
+z	../a03_Lambda.py	/^z = reduce(lambda t : t * 20, tups[0][1:])$/;"	kind:variable	line:69
+z	../libraries/matplotlib/exercises.py	/^z = x**2$/;"	kind:variable	line:10

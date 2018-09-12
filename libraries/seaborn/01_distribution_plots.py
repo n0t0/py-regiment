@@ -1,3 +1,4 @@
+#%%
 import seaborn as sns
 import matplotlib.pyplot as plt
 import numpy as np
@@ -89,4 +90,5 @@ plt.yticks([])
 # Set title
 plt.suptitle("Sum of the Basis Functions")
 
-plt.savefig('sns_06a')
+# plt.savefig('sns_06a')
+plt.show()

@@ -243,9 +243,11 @@ def print_twice(a):
     print a
     print a
 
-def do_twice(a,b):
-    a(b)
-    a(b)
+
+def do_twice(func, b):
+    func(b)
+    func(b)
+
 
 def box():
     print f
@@ -254,6 +256,7 @@ def box():
     do_twice(print_twice, g)
     print f
 
+    
 box()
 
 # 2.

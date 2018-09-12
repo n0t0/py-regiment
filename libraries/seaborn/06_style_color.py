@@ -1,3 +1,4 @@
+#%%
 import seaborn as sns
 import matplotlib.pyplot as plt
 import numpy as np
@@ -22,5 +23,6 @@ tips = sns.load_dataset('tips')
 
 sns.lmplot(x='total_bill',y='tip',data=tips,hue='sex',palette='seismic')
 
-plt.savefig('style_03')
+# plt.savefig('style_03')
+plt.show()
 

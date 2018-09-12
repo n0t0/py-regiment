@@ -1,4 +1,4 @@
-import numpy as np
+#%%
 import seaborn as sns
 import pandas as pd 
 import matplotlib.pyplot as plt
@@ -16,7 +16,8 @@ df3 = pd.read_csv('df3')
 # df1['A'].plot(kind='hist',bins=30)
 # plt.savefig('viz_01a')
 
-# df2.plot.area(alpha=0.4)
+df2.plot.area(alpha=0.4)
+plt.show()
 # plt.savefig('viz_02a')
 
 # df2.plot.bar(stacked=True)
@@ -34,6 +35,6 @@ df3 = pd.read_csv('df3')
 # df.plot.hexbin(x='a',y='b',gridsize=25,cmap='coolwarm')
 # plt.savefig('viz_06b')
 
-df2['a'].plot.kde()
-df2['a'].plot.denisty()
-df2.plot.plot.denisty()
+# df2['a'].plot.kde()
+# df2['a'].plot.denisty()
+# df2.plot.plot.denisty()

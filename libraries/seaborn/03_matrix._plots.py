@@ -1,5 +1,7 @@
+#%%
 import seaborn as sns
 import matplotlib.pyplot as plt
+import matplotlib as mpl
 import numpy as np
 from scipy import stats
 
@@ -19,4 +21,5 @@ fp = flights.pivot_table(index='month',columns='year',values='passengers')
 # plt.savefig('mtx_02b')
 
 sns.clustermap(fp,cmap='coolwarm',standard_scale=1)
-plt.savefig('mtx_03a')
+# plt.savefig('mtx_03a')
+plt.show()

@@ -1,3 +1,4 @@
+#%%
 import seaborn as sns
 import matplotlib.pyplot as plt
 import numpy as np
@@ -16,12 +17,13 @@ tips = sns.load_dataset('tips')
 
 #### PairGrid
 
-# g = sns.PairGrid(iris)
-# # g.map(plt.scatter)
-# g.map_diag(sns.distplot)
-# g.map_upper(plt.scatter)
-# g.map_lower(sns.kdeplot)
+g = sns.PairGrid(iris)
+# g.map(plt.scatter)
+g.map_diag(sns.distplot)
+g.map_upper(plt.scatter)
+g.map_lower(sns.kdeplot)
 
+plt.show()
 # plt.savefig('grid_02')
 
 #### FacetGrid

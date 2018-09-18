@@ -1,17 +1,18 @@
+#%%
 import seaborn as sns
 import matplotlib.pyplot as plt
+import matplotlib as mpl
 import numpy as np
 from scipy import stats
 
 
-plt.switch_backend('agg')
+# plt.switch_backend('agg')
 
 tips = sns.load_dataset('tips')
 # print(tips.head())
 
 #### Bar Plot 
 # sns.barplot(x='sex',y='total_bill',data=tips,estimator=np.std)
-
 # plt.savefig('sns_07a')
 
 #### Count Plot 
@@ -22,12 +23,13 @@ tips = sns.load_dataset('tips')
 
 # sns.boxplot(x='day',y='total_bill',data=tips,hue='smoker')
 
+# plt.show()
 # plt.savefig('sns_08a')
 
 #### Violin Plot
 
-# sns.violinplot(x='day',y='total_bill',data=tips,hue='sex',split=True)
-
+sns.violinplot(x='day',y='total_bill',data=tips,hue='sex',split=True)
+plt.show()
 # plt.savefig('sns_09a')
 
 #### Strip Plot 
@@ -45,6 +47,7 @@ tips = sns.load_dataset('tips')
 
 #### Factor Plot 
 
-sns.factorplot(x='day',y='total_bill',data=tips, kind='bar')
+# sns.factorplot(x='day',y='total_bill',data=tips, kind='bar')
+# plt.show()
 
-plt.savefig('sns_12')
+

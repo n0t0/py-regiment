@@ -1,3 +1,4 @@
+#%%
 import seaborn as sns
 import matplotlib.pyplot as plt
 import numpy as np
@@ -16,5 +17,5 @@ tips = sns.load_dataset('tips')
 
 sns.lmplot(x='total_bill',y='tip',data=tips,col='day',hue='sex',
           aspect=0.6, size=8)
-
-plt.savefig('regr_02a')
+plt.show()
+# plt.savefig('regr_02a')

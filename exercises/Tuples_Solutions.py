@@ -65,31 +65,39 @@ most_frequent(s)
 
 print '\nExercise 4\n'
 # Exercise 4
+import itertools
 
-WORD_LIST = "Z:\python\w.txt"
-wordlist = open(WORD_LIST).readlines()
+filename = "words.txt"
+wordlist = open(filename).readlines()
 wordlist = [word.lower().strip() for word in wordlist]
 
-my_words = [elt.strip() for elt in open('Z:\python\w.txt', 'r').readlines()]
+my_words = [elt.strip() for elt in open(filename, 'r').readlines()]
 
+anagram = []
+for a, b in itertools.combinations(my_words, 2):
+    if set(a) == set(b):
+        anagram.append(a)
+        print a, b 
+
+# print anagram[1:5]
 # print my_words
 
-import string
-import time
+# import string
+# import time
 
-set = string.ascii_lowercase
-print set
-d = {}
-
-
-for l in set:
-    d.setdefault(set, my_words) 
-    d.setdefault(l, None) 
-print d
+# set = string.ascii_lowercase
+# print set
+# d = {}
 
 
-def themuru():
-    pass
+# for l in set:
+#     d.setdefault(set, my_words) 
+#     d.setdefault(l, None) 
+# print d
+
+
+# def themuru():
+#     pass
 
 
 print '\nExercise 5\n'

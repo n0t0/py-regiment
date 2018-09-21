@@ -67,7 +67,7 @@ print '\nExercise 4\n'
 # Exercise 4
 import itertools
 
-filename = "words.txt"
+filename = "w.txt"
 wordlist = open(filename).readlines()
 wordlist = [word.lower().strip() for word in wordlist]
 
@@ -77,9 +77,10 @@ anagram = []
 for a, b in itertools.combinations(my_words, 2):
     if set(a) == set(b):
         anagram.append(a)
-        print a, b 
+        # print a, b 
 
-# print anagram[1:5]
+for word in my_words:
+    print word[:]
 # print my_words
 
 # import string

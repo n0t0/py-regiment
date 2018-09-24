@@ -72,7 +72,7 @@ import string
 
 #### Read a word list from a file 
 filename = "words.txt"
-wordlist = open(filename).readlines()
+wordlist = open(filename).readlines(10000)
 wordlist = [word.lower().strip() for word in wordlist]
     
 anagram = []
@@ -88,10 +88,19 @@ anagram = []
 for word in wordlist:
     anagram.append(tuple(word))
 
+# for tup in anagram:
+#     # print sorted(tup)
+#     if sorted(tup) in anagram:
+#         print len(tup)
+
 for tup in anagram:
+    for i in tup:
+        i = l
+    # if sorted(tup) in anagram[:]:
+    #     print tup
     # print sorted(tup)
-    if sorted(tup) in anagram:
-        print len(tup)
+    # if sorted(tup) in anagram:
+    #     print len(tup)
 
 
 # def check(anagram, tup):

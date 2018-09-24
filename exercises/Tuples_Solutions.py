@@ -63,42 +63,36 @@ def most_frequent(s):
         print elem
 most_frequent(s)
 
+
+
 print '\nExercise 4\n'
 # Exercise 4
 import itertools
+import string
 
-filename = "w.txt"
-wordlist = open(filename).readlines()
+#### Read a word list from a file 
+filename = "words.txt"
+wordlist = open(filename).readlines(10000)
 wordlist = [word.lower().strip() for word in wordlist]
-
-my_words = [elt.strip() for elt in open(filename, 'r').readlines()]
-
+    
 anagram = []
-for a, b in itertools.combinations(my_words, 2):
-    if set(a) == set(b):
-        anagram.append(a)
-        # print a, b 
 
-for word in my_words:
-    print word[:]
-# print my_words
+# for a, b in itertools.combinations(wordlist, 2):
+    # if tuple(a) == tuple(b) and len(a) == len(b):
+    # if tuple(a) == tuple(b):
+        # anagram.append(a)
+        # anagram.append(b)
+        # print a, b
 
-# import string
-# import time
+# print anagram
 
-# set = string.ascii_lowercase
-# print set
-# d = {}
+for i in wordlist:
+    if wordlist[i] in wordlist:
+        print i
+        
 
+####### filename.close()
 
-# for l in set:
-#     d.setdefault(set, my_words) 
-#     d.setdefault(l, None) 
-# print d
-
-
-# def themuru():
-#     pass
 
 
 print '\nExercise 5\n'

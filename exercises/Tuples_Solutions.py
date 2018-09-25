@@ -74,66 +74,53 @@ import string
 filename = "words.txt"
 wordlist = open(filename).readlines(10000)
 wordlist = [word.lower().strip() for word in wordlist]
-    
-anagram = []
-# for a, b in itertools.combinations(wordlist, 2):
-    # if tuple(a) == tuple(b) and len(a) == len(b):
-    # if tuple(a) == tuple(b):
-        # anagram.append(a)
-        # anagram.append(b)
-        # print a, b
+#### Print all the sets that are anagram 
 
+anagram = []
 
 
 for word in wordlist:
     anagram.append(tuple(word))
 
-# for tup in anagram:
-#     # print sorted(tup)
-#     if sorted(tup) in anagram:
-#         print len(tup)
 
-for tup in anagram:
-    for i in tup:
-        i = l
-    # if sorted(tup) in anagram[:]:
-    #     print tup
-    # print sorted(tup)
-    # if sorted(tup) in anagram:
-    #     print len(tup)
+seen, no_dupes = set(), []
+for t in anagram[:20]:
+    s = tuple(sorted(t))
+    print s
+    if s not in seen:
+        seen.add(s)
+        no_dupes.append(t)
 
-
-# def check(anagram, tup):
-#     anagram = anagram[:]
-#     if tup in anagram:
-#         anagram.remove(tup)
-    
-#     first_vals = [x[0] for x in anagram]
-
-#     if tup[0] not in first_vals:
-#         return True
-
-#     min_val = min([min(x[1:]) for x in anagram])
-
-#     if max(anagram[1:]) < min_val:
-#         return False
-
-#     return True
-
-
-    # seen = ()
-    # if tup in anagram:
-    #     seen.append(tup)
-#     print seen
-    
-
-# print anagram
-print type(anagram)
-
-
+    # print sorted(t)
+    # seen = set()
+    # seen.add(t)
+    # if t in seen:
+    #     print t
         
+print sorted(seen)
+print sorted(no_dupes)
+
+
 
 ####### filename.close()
+
+# for i in range(len(anagram)):
+#     for j in range ( i + 1, len(anagram)):
+#         if anagram[sorted(i)] == anagram[sorted(j)]:
+#             print i
+
+# for a, b in itertools.combinations(anagram, 2):
+#     if sorted(a) == sorted(b) and len(a) == len(b):
+#         anagram.append(a)
+#         anagram.append(b)
+#         print a, b
+
+# seen, no_dupes = set(), []
+# for c in anagram:
+#     s = tuple(sorted(c))
+#     if s not in seen:
+#         seen.add(s)
+#         no_dupes.append(c)
 
 
 

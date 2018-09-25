@@ -78,27 +78,26 @@ wordlist = [word.lower().strip() for word in wordlist]
 
 anagram = []
 
-
 for word in wordlist:
     anagram.append(tuple(word))
 
 
 seen, no_dupes = set(), []
-for t in anagram[:20]:
+for t in anagram[:10]:
     s = tuple(sorted(t))
-    print s
     if s not in seen:
         seen.add(s)
         no_dupes.append(t)
 
-    # print sorted(t)
-    # seen = set()
-    # seen.add(t)
-    # if t in seen:
-    #     print t
-        
-print sorted(seen)
-print sorted(no_dupes)
+for t in anagram[:10]:
+    print t
+print '8'*40
+print seen
+print '8'*40
+print no_dupes
+print '8'*40
+elt = [i for i in seen if i in no_dupes]
+print elt
 
 
 

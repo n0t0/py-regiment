@@ -72,34 +72,33 @@ import string
 
 #### Read a word list from a file 
 filename = "words.txt"
-wordlist = open(filename).readlines(10000)
+wordlist = open(filename).readlines()
 wordlist = [word.lower().strip() for word in wordlist]
 #### Print all the sets that are anagram 
 
 anagram = []
+
 
 for word in wordlist:
     anagram.append(tuple(word))
 
 
 seen, no_dupes = set(), []
-for t in anagram[:10]:
+for t in anagram[:100]:
     s = tuple(sorted(t))
+    if s in anagram:
+        print s
+    # if s in anagram:
+    #     print s
     if s not in seen:
         seen.add(s)
         no_dupes.append(t)
 
-for t in anagram[:10]:
-    print t
-print '8'*40
-print seen
-print '8'*40
-print no_dupes
-print '8'*40
-elt = [i for i in seen if i in no_dupes]
-print elt
-
-
+x = [i for i in seen if i in no_dupes]
+print x
+S1 = set(seen)
+S2 = set(no_dupes)
+print S1.intersection(S2)
 
 ####### filename.close()
 

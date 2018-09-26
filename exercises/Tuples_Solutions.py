@@ -67,59 +67,85 @@ most_frequent(s)
 
 print '\nExercise 4\n'
 # Exercise 4
-import itertools
-import string
 
+
+def signature(s):
+    """Returns the signature of this string, which is a string
+    that contains all of the letters in order.
+    """
+    t = list(s)
+    t.sort()
+    t = ''.join(t)
+    return t
+            
+
+def anagrams_list(filename):
+    """
+    List all anagrams in a list of words.
+    """
 #### Read a word list from a file 
-filename = "words.txt"
-wordlist = open(filename).readlines()
-wordlist = [word.lower().strip() for word in wordlist]
-#### Print all the sets that are anagram 
+    d = {}
+    for line in open(filename):
+        word = line.strip().lower()
+        t = signature(word)
+        if t not in d:
+            d[t] = [word]
+        else:
+            d[t].append(word)
+    return d
 
-anagram = []
+
+def anagrams_print(d):
+    """
+    Prints the anagram sets in d.
+    """
+
+    for v in d.values():
+        if len(v) > 1:
+            print len(v), v
 
 
-for word in wordlist:
-    anagram.append(tuple(word))
+def print_anagram_sets_in_order(d):
+    """Prints the anagram sets in d in decreasing order of size.
+
+    d: map from words to list of their anagrams
+    """
+
+    # make a list of (length, word pairs)
+    t = []
+    for v in d.values():
+        if len(v) > 1:
+            t.append((len(v), v))
+
+    # sort in ascending order of length
+    t.sort()
+
+    # print the sorted list
+    for x in t:
+        print x
 
 
-seen, no_dupes = set(), []
-for t in anagram[:100]:
-    s = tuple(sorted(t))
-    if s in anagram:
-        print s
-    # if s in anagram:
-    #     print s
-    if s not in seen:
-        seen.add(s)
-        no_dupes.append(t)
+def filter_length(d, n):
+    """Select only the words in d that have n letters.
 
-x = [i for i in seen if i in no_dupes]
-print x
-S1 = set(seen)
-S2 = set(no_dupes)
-print S1.intersection(S2)
+    d: map from word to list of anagrams
+    n: integer number of letters
 
-####### filename.close()
+    Returns: new map from word to list of anagrams
+    """
+    res = {}
+    for word, anagrams in d.iteritems():
+        if len(word) == n:
+            res[word] = anagrams
+    return res
 
-# for i in range(len(anagram)):
-#     for j in range ( i + 1, len(anagram)):
-#         if anagram[sorted(i)] == anagram[sorted(j)]:
-#             print i
 
-# for a, b in itertools.combinations(anagram, 2):
-#     if sorted(a) == sorted(b) and len(a) == len(b):
-#         anagram.append(a)
-#         anagram.append(b)
-#         print a, b
+if __name__ == '__main__':
+    d = anagrams_list('words.txt')
+    print_anagram_sets_in_order(d)
 
-# seen, no_dupes = set(), []
-# for c in anagram:
-#     s = tuple(sorted(c))
-#     if s not in seen:
-#         seen.add(s)
-#         no_dupes.append(c)
-
+    eight_letters = filter_length(d, 8)
+    print_anagram_sets_in_order(eight_letters)
 
 
 print '\nExercise 5\n'

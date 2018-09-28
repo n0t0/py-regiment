@@ -64,7 +64,7 @@ def find(word, letter):
     return -1
 print find('exercise','r')
 """
-print '--------'*40
+print '----'*40
 # word = 'exercise'
 # letter = 'e'
 # start = 1
@@ -86,31 +86,33 @@ def find(word, letter, start):
     find(word, letter, start)
     print 'Did not found "' + letter + '" after index: ' + str(start)
 print find('bobona', 'o', 2)
-print '--------'*40
-
+print '----'*40
 
 word = 'abracadabra'
 letter = 'a'
 start = 4
-def count(find):
-    print 'test'
+def count_s(string):
     c = 0
-    if letter in find(word, letter, start):
+    for letter in find(word, letter, start):
         c += 1
         print c
         print letter
         #count(find)
         # return
+    # elif len(letter) > 1:
+    #     letter = s
+    #     if s in find(word, letter, start):
+    #         print s
     else: 
         print 'No no more letters found'
-    print 'test'
     #     c += 1
     #     print letter
     # else:
     #     print 'Letter not found'
     # print str(c), letter + ' found'
-count(find)
+count_s(string)
 
+print '----'*40
 
 def count(string, letter):
     c = 0

@@ -104,6 +104,7 @@ count_s(find(word, letter, start))
 
 print '----'*20
 
+
 def count(string, letter):
     c = 0
     for x in string:

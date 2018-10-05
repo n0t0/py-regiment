@@ -79,24 +79,23 @@ def find(word, letter, start):
             elif word[index] == letter:
                 return index, letter
             index += 1
-    start += 2
-    find(word, letter, start)
+        # start += 2
+    # find(word, letter, start)
     print 'Did not found "' + letter + '" after index: ' + str(start)
 # print find('bobona', 'o', 2)
-print '----'*40
+print '----'*20
 
-print 'exercise 5'
 print 'exercise 5'
 
 word = 'abracadabra'
-letter = 'a'
+letter = 'c'
 start = 0
 
 
 def count_s(f):
     c = 0
     for l in f:
-        c += 1
+        c += 4
     print c, l + '\'s are found'
     # print c
     # print letter

@@ -95,8 +95,9 @@ start = 0
 def count_s(f):
     c = 0
     for l in f:
-        c += 4
-    print c, l + '\'s are found'
+        print l
+        # c += 4
+    # print c, l + '\'s are found'
     # print c
     # print letter
 count_s(find(word, letter, start))

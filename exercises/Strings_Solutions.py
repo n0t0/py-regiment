@@ -82,7 +82,7 @@ def find(word, letter, start):
         # start += 2
     # find(word, letter, start)
     print 'Did not found "' + letter + '" after index: ' + str(start)
-# print find('bobona', 'o', 2)
+find('bobona', 'o', 4)
 print '----'*20
 
 print 'exercise 5'

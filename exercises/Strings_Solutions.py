@@ -65,6 +65,9 @@ def find(word, letter):
 print find('exercise','r')
 """
 
+# word = 'abracadabra'
+# letter = 'b'
+# start = 9
 
 def find(word, letter, start):
     index = 0
@@ -82,25 +85,28 @@ def find(word, letter, start):
         # start += 2
     # find(word, letter, start)
     print 'Did not found "' + letter + '" after index: ' + str(start)
-find('bobona', 'o', 4)
+    return word, letter, start
+
+# find('bobona', 'o', 4)
+
 print '----'*20
 
 print 'exercise 5'
 
-word = 'abracadabra'
-letter = 'c'
-start = 0
 
-
-def count_s(f):
+def count_s(func):
     c = 0
-    for l in f:
-        print l
+    for i in func:
+        print i
+    # for i in find(word, letter, start):
+    #     if i == letter:
+    #         c += 1
+    # print c, letter
         # c += 4
     # print c, l + '\'s are found'
     # print c
     # print letter
-count_s(find(word, letter, start))
+count_s(find('abracadabra', 'b', 9))
 
 print '----'*20
 

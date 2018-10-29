@@ -54,7 +54,7 @@ for l in prefixes:
 
 # NOTE: look <word>.find() for third argument
 
-"""
+'''
 def find(word, letter):
     index = 0
     while index < len(word):
@@ -63,12 +63,9 @@ def find(word, letter):
         index += 1
     return -1
 print find('exercise','r')
-"""
+'''
 
-# word = 'abracadabra'
-# letter = 'b'
-# start = 9
-
+# Version 1 
 def find(word, letter, start):
     index = 0
     for i in word:
@@ -82,12 +79,26 @@ def find(word, letter, start):
             elif word[index] == letter:
                 return index, letter
             index += 1
-        # start += 2
+        # start += 1
     # find(word, letter, start)
     print 'Did not found "' + letter + '" after index: ' + str(start)
-    return word, letter, start
+    return word, letter
+    print word, letter
 
-# find('bobona', 'o', 4)
+# print find('bobona', 'o', 0)
+
+
+# Version 2 
+def find(word, letter, index):
+    while index < len(word):
+        if word[index] == letter:
+            return index, letter
+        index += 1
+    print "Excedeed lenght of word: " + word.upper() 
+    print "Expected starting index: < " + str(len(word))
+    
+print find('exercise','e', 10)
+
 
 print '----'*20
 
@@ -96,8 +107,9 @@ print 'exercise 5'
 
 def count_s(func):
     c = 0
-    for i in func:
-        print i
+    while find()
+    # for i in func:
+    #     print i
     # for i in find(word, letter, start):
     #     if i == letter:
     #         c += 1
@@ -106,7 +118,7 @@ def count_s(func):
     # print c, l + '\'s are found'
     # print c
     # print letter
-count_s(find('abracadabra', 'b', 9))
+# count_s(find('abracadabra', 'b', 1))
 
 print '----'*20
 
@@ -160,7 +172,7 @@ def count(*args):
     else:
         print 'Letter not found'
     print str(c), letter + ' found'
-count(find(string, letter, start))
+# count(find(string, letter, start))
 
 
 print '\nExercise 6\n'

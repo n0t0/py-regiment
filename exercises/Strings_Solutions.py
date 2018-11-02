@@ -1,18 +1,15 @@
-print '\nExercise 1\n'
 # Exercise 1
 # Write a function that takes a string as an argument and displays the letters
 # backward, one per line.
 
 x = 'unforgiven'
 
-
 def backward(x):
     for char in x[::-1]:
         print char
+
 backward(x)
 
-
-print '\nExercise 2\n'
 # Exercise 2
 # Modify the program to fix this error.
 
@@ -23,12 +20,12 @@ print '\nExercise 2\n'
 prefixes = 'JKLMNOPQ'
 suffix = 'ack'
 
-
-# for letter in prefixes:
-#     print letter + suffix
-#     if prefixes == 'O':
-#         print letter + 'u' + suffix
-
+"""
+for letter in prefixes:
+    print letter + suffix
+    if prefixes == 'O':
+        print letter + 'u' + suffix
+"""
 
 # The output is:
 #
@@ -41,7 +38,7 @@ suffix = 'ack'
 # Pack
 # Qack
 # Of course, that's not quite right because "Ouack" and "Quack" are misspelled.
-
+# Modify the program to fix this error.
 
 for l in prefixes:
     if l in prefixes[5]:
@@ -51,15 +48,13 @@ for l in prefixes:
     else:
         print l + suffix
 
-
-print '\nExercise 3\n'
 # Exercise 3
 # Modify find so that it has a third parameter, the index in word
 # where it should start looking.
 
 # NOTE: look <word>.find() for third argument
 
-
+'''
 def find(word, letter):
     index = 0
     while index < len(word):
@@ -68,14 +63,9 @@ def find(word, letter):
         index += 1
     return -1
 print find('exercise','r')
+'''
 
-
-print '\nver.02\n'
-
-word = 'exercise'
-letter = 'e'
-start = 1
-
+# Version 1 
 def find(word, letter, start):
     index = 0
     for i in word:
@@ -89,32 +79,48 @@ def find(word, letter, start):
             elif word[index] == letter:
                 return index, letter
             index += 1
-    start += 2
-    find(word, letter, start)
+        # start += 1
+    # find(word, letter, start)
     print 'Did not found "' + letter + '" after index: ' + str(start)
-print find(word, letter, start)
+    return word, letter
+    print word, letter
 
-word = 'abracadabra'
-letter = 'a'
-start = 4
-def count(find):
-    print 'test'
+# print find('bobona', 'o', 0)
+
+
+# Version 2 
+def find(word, letter, index):
+    while index < len(word):
+        if word[index] == letter:
+            return index, letter
+        index += 1
+    print "Excedeed lenght of word: " + word.upper() 
+    print "Expected starting index: < " + str(len(word))
+    
+print find('exercise','e', 10)
+
+
+print '----'*20
+
+print 'exercise 5'
+
+
+def count_s(func):
     c = 0
-    if letter in find(word, letter, start):
-        c += 1
-        print c
-        print letter
-        #count(find)
-        # return
-    else: 
-        print 'No no more letters found'
-    print 'test'
-    #     c += 1
-    #     print letter
-    # else:
-    #     print 'Letter not found'
-    # print str(c), letter + ' found'
-count(find)
+    while find()
+    # for i in func:
+    #     print i
+    # for i in find(word, letter, start):
+    #     if i == letter:
+    #         c += 1
+    # print c, letter
+        # c += 4
+    # print c, l + '\'s are found'
+    # print c
+    # print letter
+# count_s(find('abracadabra', 'b', 1))
+
+print '----'*20
 
 
 def count(string, letter):
@@ -166,7 +172,7 @@ def count(*args):
     else:
         print 'Letter not found'
     print str(c), letter + ' found'
-count(find(string, letter, start))
+# count(find(string, letter, start))
 
 
 print '\nExercise 6\n'

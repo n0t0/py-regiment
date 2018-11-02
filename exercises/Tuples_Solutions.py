@@ -63,33 +63,89 @@ def most_frequent(s):
         print elem
 most_frequent(s)
 
+
+
 print '\nExercise 4\n'
 # Exercise 4
 
-WORD_LIST = "Z:\python\w.txt"
-wordlist = open(WORD_LIST).readlines()
-wordlist = [word.lower().strip() for word in wordlist]
 
-my_words = [elt.strip() for elt in open('Z:\python\w.txt', 'r').readlines()]
+def signature(s):
+    """Returns the signature of this string, which is a string
+    that contains all of the letters in order.
+    """
+    t = list(s)
+    t.sort()
+    t = ''.join(t)
+    return t
+            
 
-# print my_words
+def anagrams_list(filename):
+    """
+    List all anagrams in a list of words.
+    """
+#### Read a word list from a file 
+    d = {}
+    for line in open(filename):
+        word = line.strip().lower()
+        t = signature(word)
+        if t not in d:
+            d[t] = [word]
+        else:
+            d[t].append(word)
+    return d
 
-import string
-import time
 
-set = string.ascii_lowercase
-print set
-d = {}
+def anagrams_print(d):
+    """
+    Prints the anagram sets in d.
+    """
 
-
-for l in set:
-    d.setdefault(set, my_words) 
-    d.setdefault(l, None) 
-print d
+    for v in d.values():
+        if len(v) > 1:
+            print len(v), v
 
 
-def themuru():
-    pass
+def print_anagram_sets_in_order(d):
+    """Prints the anagram sets in d in decreasing order of size.
+
+    d: map from words to list of their anagrams
+    """
+
+    # make a list of (length, word pairs)
+    t = []
+    for v in d.values():
+        if len(v) > 1:
+            t.append((len(v), v))
+
+    # sort in ascending order of length
+    t.sort()
+
+    # print the sorted list
+    for x in t:
+        print x
+
+
+def filter_length(d, n):
+    """Select only the words in d that have n letters.
+
+    d: map from word to list of anagrams
+    n: integer number of letters
+
+    Returns: new map from word to list of anagrams
+    """
+    res = {}
+    for word, anagrams in d.iteritems():
+        if len(word) == n:
+            res[word] = anagrams
+    return res
+
+
+if __name__ == '__main__':
+    d = anagrams_list('words.txt')
+    print_anagram_sets_in_order(d)
+
+    eight_letters = filter_length(d, 8)
+    print_anagram_sets_in_order(eight_letters)
 
 
 print '\nExercise 5\n'

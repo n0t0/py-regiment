@@ -66,6 +66,7 @@ print find('exercise','r')
 '''
 
 # Version 1 
+'''
 def find(word, letter, start):
     index = 0
     for i in word:
@@ -84,6 +85,7 @@ def find(word, letter, start):
     print 'Did not found "' + letter + '" after index: ' + str(start)
     return word, letter
     print word, letter
+'''
 
 # print find('bobona', 'o', 0)
 
@@ -97,28 +99,32 @@ def find(word, letter, index):
     print "Excedeed lenght of word: " + word.upper() 
     print "Expected starting index: < " + str(len(word))
     
-print find('exercise','e', 10)
-
+print find('exercise','e', 1)
 
 print '----'*20
 
 print 'exercise 5'
 
+word = 'exercise'
+letter = 'e'
+index = 1
 
 def count_s(func):
     c = 0
-    while find()
-    # for i in func:
-    #     print i
-    # for i in find(word, letter, start):
-    #     if i == letter:
-    #         c += 1
+   
+    for i in find(word, letter, index):
+        if i == letter:
+            # call the function again
+            
+    
+    # if i == letter:
+    #     c += 1
     # print c, letter
         # c += 4
     # print c, l + '\'s are found'
     # print c
     # print letter
-# count_s(find('abracadabra', 'b', 1))
+count_s(find(word, letter, index))
 
 print '----'*20
 

@@ -1,6 +1,7 @@
 # Exercise 1
 # Write a function that takes a string as an argument and displays the letters
 # backward, one per line.
+print '\nExercise 1\n'
 
 x = 'unforgiven'
 
@@ -12,12 +13,14 @@ def backward(x):
 
 backward(x)
 
+
 # Exercise 2
 # Modify the program to fix this error.
 
 # In Roberts McCloskey's book 'Make Way for Ducklings', the names of the ducklings
 # are Jack, Kack, Lack, Mack, Nack, Ouack, Pack, and Quack. This loop outputs
 # these names in order:
+print '\nExercise 2\n'
 
 prefixes = 'JKLMNOPQ'
 suffix = 'ack'
@@ -50,9 +53,11 @@ for l in prefixes:
     else:
         print l + suffix
 
+
 # Exercise 3
 # Modify find so that it has a third parameter, the index in word
 # where it should start looking.
+print '\nExercise 3\n'
 
 # NOTE: look <word>.find() for third argument
 
@@ -67,8 +72,7 @@ def find(word, letter):
 print find('exercise','r')
 '''
 
-# Version 1
-'''
+
 def find(word, letter, start):
     index = 0
     for i in word:
@@ -87,77 +91,24 @@ def find(word, letter, start):
     print 'Did not found "' + letter + '" after index: ' + str(start)
     return word, letter
     print word, letter
-'''
-
-# print find('bobona', 'o', 0)
 
 
-word = 'exercise'
-letter = 'e'
-index = 0
-
-# Version 2
+print find('bobona', 'o', 0)
 
 
-def find(word, letter, index):
-    while index < len(word):
-        if word[index] == letter:
-            print index, letter
-            # return index, letter
-        index += 1
-    print index
-    print "Excedeed lenght of word: " + word.upper()
-    print "Expected starting index: < " + str(len(word))
-
-
-print find(word, letter, index)
-func = find('safari', 'a', 1)
-
-print '----'*20
-print 'exercise 5'
-
-
-def count_s(func):
-    print func
-    c = 0
-
-    # if find(word, letter, index):
-    #     c += 1
-    #     print c
-
-    # else:
-    #     print 'ha'
-
-
-count_s(func)
-
-print '----'*20
-
-
-def count(string, letter):
-    c = 0
-    for x in string:
-        if x == letter:
-            c += 1
-    print c, letter + '\'s are found'
-
-
-count('exercise', 'e')
-
-print '\nExercise 4\n'
 # Exercise 4
 # Encapsulate this code in a function named count, and generalize
 # it so that it accepts the string and the letter as arguments.
+print '\nExercise 4\n'
 
+'''
 word = 'banana'
 count = 0
 for letter in word:
     if letter == 'a':
         count = count + 1
 print count
-
-s = 'Today is raining'
-l = 'i'
+'''
 
 
 def count(string, letter):
@@ -171,39 +122,43 @@ def count(string, letter):
 count('exercise', 'e')
 
 
-print '\nExercise 5\n'
 # Exercise 5
 # Rewrite _count_ function so that instead of traversing the string,
 # it uses the three-parameter version of _find_ from the previous section.
-
-string = 'abracadabra'
-letter = 'a'
-start = 1
+print '\nExercise 5\n'
 
 
-def count(*args):
+word = 'exercise'
+letter = 'e'
+index = 0
+
+
+def count_mod(word, letter, index):
     c = 0
-    if find(string, letter, start) > 1:
-        c += 1
-        print letter
-    else:
-        print 'Letter not found'
-    print str(c), letter + ' found'
-# count(find(string, letter, start))
+    while index < len(word):
+        if word[index] == letter:
+            c += 1
+            print index, letter
+            print c, "occurance"
+            # return index, letter
+        index += 1
 
 
-print '\nExercise 6\n'
+count_mod(word, letter, index)
+
+
 # Exercise 6
 # There is a string method called count that is similar to the function
 # in the previous exercise. Read the documentation of this method and
 # write an invocation that counts the number of as in 'abracadabra'.
+print '\nExercise 6\n'
 
 
 word = ' abracadabra'
 print word.count('a')
 
-print '\nExercise 7\n'
 # Exercise 7
+print '\nExercise 7\n'
 
 s = 'abracadabra.puff'
 # str.strip()
@@ -224,8 +179,8 @@ print s.islower()
 # str.split()
 print s.split('ca')
 
-print '\nExercise 8\n'
 # Exercise 8
+print '\nExercise 8\n'
 
 w = 'annapolis'
 s = 'radar'

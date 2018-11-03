@@ -4,9 +4,11 @@
 
 x = 'unforgiven'
 
+
 def backward(x):
     for char in x[::-1]:
         print char
+
 
 backward(x)
 
@@ -65,7 +67,7 @@ def find(word, letter):
 print find('exercise','r')
 '''
 
-# Version 1 
+# Version 1
 '''
 def find(word, letter, start):
     index = 0
@@ -90,41 +92,44 @@ def find(word, letter, start):
 # print find('bobona', 'o', 0)
 
 
-# Version 2 
+word = 'exercise'
+letter = 'e'
+index = 0
+
+# Version 2
+
+
 def find(word, letter, index):
     while index < len(word):
         if word[index] == letter:
-            return index, letter
+            print index, letter
+            # return index, letter
         index += 1
-    print "Excedeed lenght of word: " + word.upper() 
+    print index
+    print "Excedeed lenght of word: " + word.upper()
     print "Expected starting index: < " + str(len(word))
-    
-print find('exercise','e', 1)
+
+
+print find(word, letter, index)
+func = find('safari', 'a', 1)
 
 print '----'*20
-
 print 'exercise 5'
 
-word = 'exercise'
-letter = 'e'
-index = 1
 
 def count_s(func):
+    print func
     c = 0
-   
-    for i in find(word, letter, index):
-        if i == letter:
-            # call the function again
-            
-    
-    # if i == letter:
+
+    # if find(word, letter, index):
     #     c += 1
-    # print c, letter
-        # c += 4
-    # print c, l + '\'s are found'
-    # print c
-    # print letter
-count_s(find(word, letter, index))
+    #     print c
+
+    # else:
+    #     print 'ha'
+
+
+count_s(func)
 
 print '----'*20
 
@@ -135,6 +140,8 @@ def count(string, letter):
         if x == letter:
             c += 1
     print c, letter + '\'s are found'
+
+
 count('exercise', 'e')
 
 print '\nExercise 4\n'
@@ -159,6 +166,8 @@ def count(string, letter):
         if x == letter:
             c += 1
     print c, letter + '\'s are found'
+
+
 count('exercise', 'e')
 
 
@@ -170,6 +179,8 @@ print '\nExercise 5\n'
 string = 'abracadabra'
 letter = 'a'
 start = 1
+
+
 def count(*args):
     c = 0
     if find(string, letter, start) > 1:
@@ -202,7 +213,7 @@ print s.strip('.puff')
 print s.replace('puff', 'paff')
 
 # str.endswith()
-print s.endswith('abra',0, 4)
+print s.endswith('abra', 0, 4)
 
 # str.find()
 print s.find('bra', 2)

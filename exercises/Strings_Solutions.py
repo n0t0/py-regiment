@@ -185,3 +185,13 @@ print '\nExercise 8\n'
 w = 'annapolis'
 s = 'radar'
 print s == s[::-1]
+
+# Exercise 9
+print '\nExercise 9\n'
+
+# Exercise 10
+print '\nExercise 10\n'
+
+
+def rotate_word():
+    pass

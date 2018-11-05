@@ -193,5 +193,10 @@ print '\nExercise 9\n'
 print '\nExercise 10\n'
 
 
-def rotate_word():
-    pass
+def rotate_word(string, int):
+    for i in string:
+        c = ord(i) + int
+        print chr(c),
+
+
+rotate_word('parola', 4)

@@ -22,9 +22,4 @@ fp = flights.pivot_table(index='month',columns='year',values='passengers')
 plt.show()
 
 sns.clustermap(fp,cmap='coolwarm',standard_scale=1)
-<<<<<<< HEAD
 # plt.savefig('mtx_03a')
-=======
-# plt.savefig('mtx_03a')
-plt.show()
->>>>>>> 3c01533b68af47423f5354f36b77ab4c5174c97c

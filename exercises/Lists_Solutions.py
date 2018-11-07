@@ -17,6 +17,8 @@ def nested_sum(t):
     print x.extend(y)
     print x
     print sum(x)
+
+
 nested_sum(t)
 
 
@@ -30,7 +32,9 @@ def capitalize_all(t):
         res.append(s.capitalize())
     return res
 
-nested_t = ['string1', ['String2', 'string3'], 'string4',['string5']]
+
+nested_t = ['string1', ['String2', 'string3'], 'string4', ['string5']]
+
 
 def capitalized_nested(nested_t):
     nested_res = []
@@ -41,6 +45,8 @@ def capitalized_nested(nested_t):
         else:
             nested_res.append(capitalize_all(e))
     print nested_res
+
+
 capitalized_nested(nested_t)
 
 
@@ -58,6 +64,8 @@ def cum(numbers):
         s = s + x
         cumulative.append(s)
     print cumulative
+
+
 cum(numbers)
 
 
@@ -70,9 +78,12 @@ print '\n Exercise 4\n'.upper()
 
 t = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
+
 def middle(t):
     cut = t[1:-1]
     return cut
+
+
 print middle(t)
 
 print '\n Exercise 5\n'.upper()
@@ -85,13 +96,15 @@ l = list(s)
 def chop(l):
     mod_l = l[1:-1]
     print mod_l
+
+
 print chop(l)
 
 print '\n Exercise 6\n'.upper()
 # Exercise 6
 
 
-l = [3,4,9,7,8]
+l = [3, 4, 9, 7, 8]
 
 
 def is_sorted(l):
@@ -100,6 +113,8 @@ def is_sorted(l):
             print True, j
         else:
             return False, 'Not an ascending order list'
+
+
 print is_sorted(l)
 
 
@@ -113,7 +128,8 @@ print s1
 s2 = 'silent'
 print s2
 print '\n'
-ln = s2 
+ln = s2
+
 
 def is_anagram(s1, s2):
     for i in s1:
@@ -121,9 +137,11 @@ def is_anagram(s1, s2):
             s2 = s2.replace(i, ' ')
             print i.upper(), s2.upper()
         else:
-            print False 
+            print False
             print i, 'is already used in', ln
-            break   
+            break
+
+
 is_anagram(s1, s2)
 
 
@@ -131,14 +149,15 @@ print '\n Exercise 8\n'.upper()
 # Exercise 8
 import random
 
-### 366 number of birthdays (February 29 included)
+# 366 number of birthdays (February 29 included)
 
 birthdays = []
 
 for student in range(23):
-    birthdays.append(random.randint(1,366))
+    birthdays.append(random.randint(1, 366))
 
 print birthdays
+
 
 def has_duplicates(birthdays):
     seen = set()
@@ -147,8 +166,10 @@ def has_duplicates(birthdays):
             print e, 'birthday paradox'
             break
         seen.add(e)
-    else: 
+    else:
         print 'no birthday paradox'
+
+
 has_duplicates(birthdays)
 
 print birthdays
@@ -156,11 +177,11 @@ print birthdays
 # print len(birthdays) != len(set(birthdays))
 
 
-
 print '\n Exercise 9\n'.upper()
 # Exercise 9
 
 l = [2, 3, 4, 2, 2, 2, 5, 6, 6, 6, 18]
+
 
 def remove_duplicates(l):
     uniq = []
@@ -171,6 +192,8 @@ def remove_duplicates(l):
         seen.add(e)
     print uniq
     print list(seen)
+
+
 remove_duplicates(l)
 
 
@@ -199,7 +222,8 @@ def word_list3():
         t = t + [word]
     return t
 
-import time 
+
+import time
 
 start_time = time.time()
 t = wordlist
@@ -232,22 +256,26 @@ print '\n Exercise 11\n'.upper()
 
 def bisect(sor_list, target_v):
     print wordlist
-    return 
+    return
 
 
 print '\n Exercise 12\n'.upper()
 # Exercise 12
 
+
 def reverse_pair():
     for word in wordlist:
         if word == word[::-1]:
             print word
+
+
 reverse_pair()
- 
+
 
 print '\n Exercise 13\n'.upper()
 # Exercise 13
 
+
 def interlock():
     print 'work'
-    pass 
+    pass

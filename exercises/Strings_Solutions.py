@@ -194,9 +194,11 @@ print '\nExercise 10\n'
 
 
 def rotate_word(string, int):
+    crypt = []
     for i in string:
         c = ord(i) + int
-        print chr(c),
+        crypt.append(chr(c))
+    print ''.join(crypt)
 
 
-rotate_word('parola', 4)
+rotate_word('cheer', 7)

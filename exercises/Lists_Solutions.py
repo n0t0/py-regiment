@@ -256,7 +256,6 @@ print '\n Exercise 11\n'.upper()
 
 def bisect(sor_list, target_v):
     print wordlist
-    return
     pass
 
 

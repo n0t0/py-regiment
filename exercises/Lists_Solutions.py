@@ -142,7 +142,7 @@ def is_anagram(s1, s2):
             break
 
 
-is_anagram(s1, s2)
+is_anagram('alena fanela', 'fanela alena')
 
 
 print '\n Exercise 8\n'.upper()

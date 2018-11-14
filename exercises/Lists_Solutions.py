@@ -132,10 +132,13 @@ ln = s2
 
 
 def is_anagram(s1, s2):
+    count = []
     for i in s1:
         if i in s2:
             s2 = s2.replace(i, ' ')
             print i.upper(), s2.upper()
+            count += 1
+        elif
         else:
             print False
             print i, 'is already used in', ln

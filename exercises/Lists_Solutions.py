@@ -136,11 +136,11 @@ def is_anagram(s1, s2):
     repeating = []
     for i in s1:
         if i in s2:
-            count += 1
-            repeating.append(i)
-            print repeating, count
+            # count += 1
+            # repeating.append(i)
+            # print repeating, count
             s2 = s2.replace(i, ' ')
-            print i.upper(), s2.upper()
+            print i.upper(), s2.lower()
             # count += 1
         # elif
         # else:
@@ -149,7 +149,8 @@ def is_anagram(s1, s2):
         #     break
 
 
-is_anagram('alena fanela', 'fanela alena')
+# is_anagram('alena fanela', 'fanela alena')
+is_anagram(s1, s2)
 
 
 print '\n Exercise 8\n'.upper()

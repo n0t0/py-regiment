@@ -138,15 +138,18 @@ def is_anagram(s1, s2):
         if i in s2:
             # count += 1
             # repeating.append(i)
-            # print repeating, count
-            s2 = s2.replace(i, ' ')
-            print i.upper(), s2.lower()
-            # count += 1
-        # elif
-        # else:
-        #     print False
-        #     print i, 'is already used in', ln
-        #     break
+
+            # s2 = s2.replace(i, '_')
+            # print i.upper(), s2.lower()
+            print i.upper(), s2[i]
+
+            # print i.upper(), s2[0]
+    # count += 1
+    # elif
+    # else:
+    #     print False
+    #     print i, 'is already used in', ln
+    #     break
 
 
 # is_anagram('alena fanela', 'fanela alena')

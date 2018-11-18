@@ -123,7 +123,7 @@ print '\n Exercise 7\n'.upper()
 
 # version_01
 
-s1 = 'llistenss'
+s1 = 'listen'
 print s1
 s2 = 'silent'
 print s2
@@ -131,18 +131,39 @@ print '\n'
 ln = s2
 
 
-def is_anagram(s1, s2):
-    count = 0
-    anagram = []
-    print s1, s2
-    for i in s1:
-        # if i in s2 or not repeating:
-        if i in s2:
-            anagram.append(i)
-            count += 1
+import string
 
-        s1 = s1.replace(i, '_')
-        s2 = s2.replace(i, '_')
+alphabet = string.ascii_lowercase
+
+count = {}
+for c in s1:
+    if count.has_key(c):
+        count[c] += 1
+    else:
+        count[c] = 1
+print count
+
+anagram2 = {}
+for c in s2:
+    if anagram2.has_key(c):
+        anagram2[c] += 1
+    else:
+        anagram2[c] = 1
+print anagram2
+
+print count == anagram2
+
+
+def is_anagram(s1, s2):
+    anagram = {}
+    print "Compare: ", s1.upper(), s2.upper()
+    for i in s1:
+        if i in s2:
+            # anagram.append(i)
+            # count += 1
+
+            s1 = s1.replace(i, '_')
+            s2 = s2.replace(i, '_')
         print i.upper(), s1, s2.lower()
         # print s1.upper(), s2.lower()
     print anagram
@@ -157,8 +178,8 @@ def is_anagram(s1, s2):
     #     break
 
 
-is_anagram('alena fanela', 'fanela alena')
-# is_anagram(s1, s2)
+# is_anagram('alena fanela', 'fanela alena')
+is_anagram(s1, s2)
 
 
 print '\n Exercise 8\n'.upper()

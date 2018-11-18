@@ -123,7 +123,7 @@ print '\n Exercise 7\n'.upper()
 
 # version_01
 
-s1 = 'llisten'
+s1 = 'llistenss'
 print s1
 s2 = 'silent'
 print s2
@@ -133,19 +133,21 @@ ln = s2
 
 def is_anagram(s1, s2):
     count = 0
-    repeating = []
+    anagram = []
     print s1, s2
     for i in s1:
-        if i in s2 and not repeating:
-            print s1, i.upper(), s2, i.upper()
-            repeating.append(i)
+        # if i in s2 or not repeating:
+        if i in s2:
+            anagram.append(i)
             count += 1
 
-            s2 = s2.replace(i, '_')
-            print i.upper(), s2.lower()
-
-            # print i.upper(), s2[0]
-            # print i.upper(), s2[i]
+        s1 = s1.replace(i, '_')
+        s2 = s2.replace(i, '_')
+        print i.upper(), s1, s2.lower()
+        # print s1.upper(), s2.lower()
+    print anagram
+    # print i.upper(), s2[0]
+    # print i.upper(), s2[i]
 
     # count += 1
     # elif
@@ -155,8 +157,8 @@ def is_anagram(s1, s2):
     #     break
 
 
-# is_anagram('alena fanela', 'fanela alena')
-is_anagram(s1, s2)
+is_anagram('alena fanela', 'fanela alena')
+# is_anagram(s1, s2)
 
 
 print '\n Exercise 8\n'.upper()

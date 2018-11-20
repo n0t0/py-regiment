@@ -168,8 +168,15 @@ is_anagram(s1, s2)
 print '\n Exercise 8\n'.upper()
 # Exercise 8
 import random
-
+import datetime
 # 366 number of birthdays (February 29 included)
+
+
+def serial_date_to_string(srl_no):
+    new_date = datetime.datetime(
+        1970, 1, 1, 0, 0) + datetime.timedelta(srl_no - 1)
+    return new_date.strftime("%Y-%m-%d")
+
 
 birthdays = []
 
@@ -183,7 +190,7 @@ def has_duplicates(birthdays):
     seen = set()
     for e in birthdays:
         if e in seen:
-            print e, 'birthday paradox'
+            print 'Birthday paradox:', serial_date_to_string(e)
             break
         seen.add(e)
     else:

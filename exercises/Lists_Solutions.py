@@ -123,7 +123,7 @@ print '\n Exercise 7\n'.upper()
 
 # version_01
 
-s1 = 'listen'
+s1 = 'llisten'
 print s1
 s2 = 'silent'
 print s2
@@ -131,51 +131,31 @@ print '\n'
 ln = s2
 
 
-import string
-
-alphabet = string.ascii_lowercase
-
-count = {}
-for c in s1:
-    if count.has_key(c):
-        count[c] += 1
-    else:
-        count[c] = 1
-print count
-
-anagram2 = {}
-for c in s2:
-    if anagram2.has_key(c):
-        anagram2[c] += 1
-    else:
-        anagram2[c] = 1
-print anagram2
-
-print count == anagram2
-
-
 def is_anagram(s1, s2):
-    anagram = {}
+    anagram1 = {}
+    anagram2 = {}
     print "Compare: ", s1.upper(), s2.upper()
-    for i in s1:
-        if i in s2:
-            # anagram.append(i)
-            # count += 1
 
-            s1 = s1.replace(i, '_')
-            s2 = s2.replace(i, '_')
-        print i.upper(), s1, s2.lower()
-        # print s1.upper(), s2.lower()
-    print anagram
-    # print i.upper(), s2[0]
-    # print i.upper(), s2[i]
+    for c in s1:
+        if anagram1.has_key(c):
+            anagram1[c] += 1
+        else:
+            anagram1[c] = 1
 
-    # count += 1
-    # elif
-    # else:
-    #     print False
-    #     print i, 'is already used in', ln
-    #     break
+    for c in s2:
+        if anagram2.has_key(c):
+            anagram2[c] += 1
+        else:
+            anagram2[c] = 1
+
+    if anagram1 == anagram2:
+        for i in s1 and s1:
+            print s1.replace(i, '_'), s2.replace(i, '_')
+
+    else:
+        print "One or more characters don't match"
+        print 'or'
+        print "One or more characters extra"
 
 
 # is_anagram('alena fanela', 'fanela alena')

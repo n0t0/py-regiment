@@ -123,7 +123,7 @@ print '\n Exercise 7\n'.upper()
 
 # version_01
 
-s1 = 'llisten'
+s1 = 'listen'
 print s1
 s2 = 'silent'
 print s2
@@ -149,13 +149,16 @@ def is_anagram(s1, s2):
             anagram2[c] = 1
 
     if anagram1 == anagram2:
-        for i in s1 and s1:
+        for i in s1 and s2:
             print s1.replace(i, '_'), s2.replace(i, '_')
 
     else:
         print "One or more characters don't match"
         print 'or'
         print "One or more characters extra"
+        for k, v in anagram1.items():
+            if v > 1:
+                print k, v
 
 
 # is_anagram('alena fanela', 'fanela alena')

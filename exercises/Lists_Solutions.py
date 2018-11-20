@@ -192,7 +192,7 @@ def has_duplicates(birthdays):
 
 has_duplicates(birthdays)
 
-print birthdays
+# print birthdays
 
 # print len(birthdays) != len(set(birthdays))
 

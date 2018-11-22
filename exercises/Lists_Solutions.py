@@ -172,6 +172,7 @@ import datetime
 # 366 number of birthdays (February 29 included)
 
 
+# combine two functions
 def serial_date_to_string(srl_no):
     new_date = datetime.datetime(
         1970, 1, 1, 0, 0) + datetime.timedelta(srl_no - 1)

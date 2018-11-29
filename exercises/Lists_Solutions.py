@@ -281,6 +281,8 @@ print elapsed_time, 'seconds'
 print '\n Exercise 11\n'.upper()
 # Exercise 11
 
+import bisect
+
 
 def bisect(sor_list, target_v):
     TODO test

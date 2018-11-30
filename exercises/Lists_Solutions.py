@@ -285,7 +285,7 @@ import bisect
 
 
 def bisect(sor_list, target_v):
-    TODO test
+    TODO test me
     print wordlist
     pass
 

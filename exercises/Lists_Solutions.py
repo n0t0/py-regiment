@@ -228,27 +228,29 @@ remove_duplicates(l)
 print '\n Exercise 10\n'.upper()
 # Exercise 10
 
-WORD_LIST = "Z:\python\w.txt"
+WORD_LIST = "words.txt"
 wordlist = open(WORD_LIST).readlines()
 wordlist = [word.lower().strip() for word in wordlist]
 
 
 def word_list2():
     t = []
-    fin = open("Z:\python\w.txt")
+    # fin = open("Z:\python\w.txt")
+    fin = open("words.txt")
     for line in fin:
         word = line.strip()
         t.append(word)
     return t
 
 
-def word_list3():
-    t = []
-    fin = open("Z:\python\w.txt")
-    for line in fin:
-        word = line.strip()
-        t = t + [word]
-    return t
+# def word_list3():
+#     t = []
+#     # fin = open("Z:\python\w.txt")
+#     fin = open("words.txt")
+#     for line in fin:
+#         word = line.strip()
+#         t = t + [word]
+#     return t
 
 
 import time
@@ -269,13 +271,13 @@ print len(t)
 print t[:10]
 print elapsed_time, 'seconds'
 
-start_time = time.time()
-t = word_list3()
-elapsed_time = time.time() - start_time
+# start_time = time.time()
+# t = word_list3()
+# elapsed_time = time.time() - start_time
 
-print len(t)
-print t[:10]
-print elapsed_time, 'seconds'
+# print len(t)
+# print t[:10]
+# print elapsed_time, 'seconds'
 
 
 print '\n Exercise 11\n'.upper()
@@ -285,9 +287,22 @@ import bisect
 
 
 def bisect(sor_list, target_v):
-    TODO test me
-    print wordlist
-    pass
+    if len(wordlist) == 0:
+        return False
+
+    i = len(wordlist) // 2
+    if wordlist[i] == word:
+        return True
+
+    if wordlist[i] > word:
+        # search the first half
+        return in_bisect(wordlist[:i], word)
+    else:
+        # search the second half
+        return in_bisect(wordlist[i+1:], word)
+
+
+bisect(wordlist, 'ava')
 
 
 print '\n Exercise 12\n'.upper()

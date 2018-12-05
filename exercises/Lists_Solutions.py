@@ -283,10 +283,10 @@ print elapsed_time, 'seconds'
 print '\n Exercise 11\n'.upper()
 # Exercise 11
 
-import bisect
+from bisect import bisect_left
 
 
-def bisect(sor_list, target_v):
+def in_bisect(sor_list, target_v):
     if len(wordlist) == 0:
         return False
 
@@ -302,7 +302,7 @@ def bisect(sor_list, target_v):
         return in_bisect(wordlist[i+1:], word)
 
 
-bisect(wordlist, 'ava')
+in_bisect(wordlist, 'green')
 
 
 print '\n Exercise 12\n'.upper()

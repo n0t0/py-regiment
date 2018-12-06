@@ -302,7 +302,7 @@ def in_bisect(sor_list, target_v):
         return in_bisect(wordlist[i+1:], word)
 
 
-in_bisect(wordlist, 'green')
+in_bisect(wordlist, 'a')
 
 
 print '\n Exercise 12\n'.upper()

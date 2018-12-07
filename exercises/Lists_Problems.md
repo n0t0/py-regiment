@@ -74,7 +74,7 @@ Either way, you cut the remaining search space in half. If the word list has 113
 
 Write a function called _bisect_ that takes a sorted list and a target value and returns the index of the value in the list, if it’s there, or None if it’s not.
 
-Or you could read the documentation of the bisect module and use that! 
+Or you could read the documentation of the _bisect_ module and use that! 
 
 ### Exercise 12  
 Two words are a “reverse pair” if each is the reverse of the other. Write a program that finds all the reverse pairs in the word list. 

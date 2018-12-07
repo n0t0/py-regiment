@@ -1,24 +1,27 @@
 print '\nExercise 1\n'
-# Exercise 1 
+# Exercise 1
 
-a = [1,2,3,4,5,6]
+a = [1, 2, 3, 4, 5, 6]
 
 
 def sumall(*args):
     print sum(args)
-sumall(1,2,3,5,8,13)
+
+
+sumall(1, 2, 3, 5, 8, 13)
 
 
 print '\nExercise 2\n'
 # Exercise 2
 import random
-words = ['dog', 'monkey', 'fly', 'crocodile', 'horse', 'rhino', 'zebra', 'goose', 'camel']
+words = ['dog', 'monkey', 'fly', 'crocodile',
+         'horse', 'rhino', 'zebra', 'goose', 'camel']
 
 
 def sort_by_length(words):
     t = []
     for word in words:
-       t.append((len(word), word))
+        t.append((len(word), word))
 
     t.sort(reverse=True)
 
@@ -26,6 +29,8 @@ def sort_by_length(words):
     for length, word in t:
         res.append(word)
     return res
+
+
 print sort_by_length(words)
 
 
@@ -39,10 +44,13 @@ def sort_by_random(words):
     for length, _, word in t:
         res.append(word)
     return res
+
+
 print sort_by_random(words)
 
 if __name__ == '__main__':
-    words = ['dog', 'monkey', 'fly', 'crocodile', 'horse', 'rhino', 'zebra', 'goose', 'camel']
+    words = ['dog', 'monkey', 'fly', 'crocodile',
+             'horse', 'rhino', 'zebra', 'goose', 'camel']
 
     t = sort_by_random(words)
     for x in t:
@@ -61,8 +69,9 @@ def most_frequent(s):
     uniq = set(lt)
     for elem in sorted(uniq, reverse=True):
         print elem
-most_frequent(s)
 
+
+most_frequent(s)
 
 
 print '\nExercise 4\n'
@@ -77,13 +86,13 @@ def signature(s):
     t.sort()
     t = ''.join(t)
     return t
-            
+
 
 def anagrams_list(filename):
     """
     List all anagrams in a list of words.
     """
-#### Read a word list from a file 
+# Read a word list from a file
     d = {}
     for line in open(filename):
         word = line.strip().lower()
@@ -151,16 +160,16 @@ if __name__ == '__main__':
 print '\nExercise 5\n'
 # Exercise 5
 
+
 def func1():
     pass
+
 
 print '\nExercise 6\n'
 # Exercise 6
 
-def func2():
+
+def func2(word):
+    for i in word:
+
     pass
-
-
-
-
-

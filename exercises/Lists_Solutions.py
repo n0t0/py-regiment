@@ -1,3 +1,5 @@
+from __future__ import division
+
 # Exercise 1
 
 t = [1, 2, [3, 4], 5, 6, [[7, 8], 9, 10]]
@@ -286,6 +288,19 @@ print '\n Exercise 11\n'.upper()
 from bisect import bisect_left
 
 
+def makeword_list():
+    """Reads lines from a file and builds a list using append.
+
+    returns: list of strings
+    """
+    word_list = []
+    fin = open('words.txt')
+    for line in fin:
+        word = line.strip()
+        wordlist.append(word)
+    return wordlist
+
+
 def in_bisect(sor_list, target_v):
     if len(wordlist) == 0:
         return False
@@ -302,26 +317,36 @@ def in_bisect(sor_list, target_v):
         return in_bisect(wordlist[i+1:], word)
 
 
+if __name__ == '__main__':
+    wordlist = makeword_list()
+
+    for word in ['aa', 'alien', 'allen', 'zymurgy']:
+        print(word, 'in list', in_bisect(wordlist, word))
+
+    # for word in ['aa', 'alien', 'allen', 'zymurgy']:
+    #     print(word, 'in list', in_bisect_cheat(wordlist, word))
+
+
 in_bisect(wordlist, 'a')
 
 
-print '\n Exercise 12\n'.upper()
-# Exercise 12
+# print '\n Exercise 12\n'.upper()
+# # Exercise 12
 
 
-def reverse_pair():
-    for word in wordlist:
-        if word == word[::-1]:
-            print word
+# def reverse_pair():
+#     for word in wordlist:
+#         if word == word[::-1]:
+#             print word
 
 
-reverse_pair()
+# reverse_pair()
 
 
-print '\n Exercise 13\n'.upper()
-# Exercise 13
+# print '\n Exercise 13\n'.upper()
+# # Exercise 13
 
 
-def interlock():
-    print 'work'
-    pass
+# def interlock():
+#     print 'work'
+#     pass

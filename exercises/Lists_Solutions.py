@@ -327,7 +327,7 @@ if __name__ == '__main__':
     #     print(word, 'in list', in_bisect_cheat(wordlist, word))
 
 
-in_bisect(wordlist, 'f')
+in_bisect(wordlist, 'g')
 
 
 # print '\n Exercise 12\n'.upper()

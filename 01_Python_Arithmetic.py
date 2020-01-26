@@ -34,5 +34,5 @@ print s * 3
 
 # Getting Help
 
-print help() # getting help
+print help()  # getting help
 print help('print')

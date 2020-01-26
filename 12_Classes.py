@@ -2,34 +2,41 @@
 
 from math import sqrt
 
+
 class Point(object):
     """
     Represent a point in 2D space
     """
 
-print Point # point is defined at top level so fullname is __main__
 
-blank = Point() # instantination; blank is an instance of the class Point()
-print blank
+print (Point)  # point is defined at top level so fullname is __main__
+
+blank = Point()  # instantination; blank is an instance of the class Point()
+print (blank)
 
 # Attributes
 
 blank.x = 3.0
 blank.y = 4.0
 
-print blank.y
+print (blank.y)
 x = blank.x
-print x
+print (x)
+
 # NOTE:
 # dot (.) notation can be used with expressions
 
-print '({}, {})'.format(blank.x, blank.y)
+
+print ('({}, {})'.format(blank.x, blank.y))
 distance = sqrt(blank.x ** 2 + blank.y ** 2)
-print distance
+print (distance)
+
 
 def print_point(p):
-    print '{}, {}'.format(p.x, p.y)
-print print_point(blank)
+    print ('{}, {}'.format(p.x, p.y))
+
+
+print (print_point(blank))
 
 # NOTE:
 # instide the function p is an alias for blank;
@@ -41,6 +48,7 @@ class Rectangle(object):
 
     attrubutes: width, height, corner
     """
+
 
 box = Rectangle()
 box.width = 100.0
@@ -56,6 +64,7 @@ def find_center(rect):
     p.y = rect.corner.y + rect.height/2.0
     return p
 
+
 center = find_center(box)
 print_point(center)
 
@@ -70,12 +79,12 @@ def grow_rectangle(rect, dwidth, dheight):
     rect.height += dheight
 
 
-print box.width
-print box.height
+print (box.width)
+print (box.height)
 
 grow_rectangle(box, 50, 100)
-print box.width
-print box.height
+print (box.width)
+print (box.height)
 
 # Copying is Alternative to Aliasing
 
@@ -88,13 +97,13 @@ import copy
 p2 = copy.copy(p1)
 print_point(p1)
 print_point(p2)
-print p1 is p2 # p1 and p2 contain the same data but are different points
-print p1 == p2 # for instances '==' is the same as the 'is' operator
+print (p1 is p2)  # p1 and p2 contain the same data but are different points
+print (p1 == p2)  # for instances '==' is the same as the 'is' operator
 
 
 box2 = copy.copy(box)
-print box2 is box
-print box2.corner is box.corner
+print (box2 is box)
+print (box2.corner is box.corner)
 
 # NOTE:
 # shallow copy copies object's references, but not embedded objects
@@ -103,10 +112,10 @@ print box2.corner is box.corner
 
 
 box3 = copy.deepcopy(box)
-print box3 is box
-print box3.corner is box.corner
+print (box3 is box)
+print (box3.corner is box.corner)
 
 # NOTE: use built-in hasattr() for checking if object has an attribute
 
-print hasattr(box, 'width')
-print hasattr(box, 'lenght')
+print (hasattr(box, 'width'))
+print (hasattr(box, 'lenght'))

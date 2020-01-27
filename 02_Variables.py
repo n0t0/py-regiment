@@ -6,7 +6,7 @@ b = 'command'
 print a
 print b
 
-# Finding value's type
+# Finding Value's Type
 
 print type(a)
 print type(b)

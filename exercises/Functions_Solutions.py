@@ -1,4 +1,5 @@
 # Exercise 1
+print '\nExercise 1\n'
 
 # Python provides a built-in function called len that returns the length of a string,
 # so the value of len('allen') is 5. Write a function named right_justify that takes
@@ -21,6 +22,7 @@ string = 'today is a good day'
 print len(string) * 2
 
 # Exercise 2
+print '\nExercise 2\n'
 
 # A function object is a value you can assign to a variable or pass as an argument.
 # For example, do_twice is a function that takes a function object as an argument
@@ -114,6 +116,7 @@ def do_four(op, trop):
 do_four(print_twice, trop)
 
 # Exercise 3
+print '\nExercise 3\n'
 
 # 1. Write a function that draws a grid like the following:
 # + - - - - + - - - - +
@@ -240,9 +243,11 @@ def print_twice(a):
     print a
     print a
 
-def do_twice(a,b):
-    a(b)
-    a(b)
+
+def do_twice(func, b):
+    func(b)
+    func(b)
+
 
 def box():
     print f
@@ -251,6 +256,7 @@ def box():
     do_twice(print_twice, g)
     print f
 
+    
 box()
 
 # 2.

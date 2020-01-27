@@ -3,9 +3,7 @@ Write a function that takes a string as an argument and displays the letters
 backward, one per line.
 
 ### Exercise 2
-Modify the program to fix this error.
-
-In Roberts McCloskey's book 'Make Way for Ducklings', the names of the ducklings
+In Roberts McCloskey's book '_Make Way for Ducklings_', the names of the ducklings
 are Jack, Kack, Lack, Mack, Nack, Ouack, Pack, and Quack. This loop outputs
 these names in order:
 
@@ -29,6 +27,7 @@ The output is:
 - Qack
 
 Of course, that's not quite right because "Ouack" and "Quack" are misspelled.
+Modify the program to fix this error.
 
 ### Exercise 3
 Modify _find_ so that it has a third parameter, the index in word
@@ -45,7 +44,7 @@ def find(word, letter):
 ```
 
 ### Exercise 4
-Encapsulate this code in a function named count, and generalize
+Encapsulate this code in a function named _count_, and generalize
 it so that it accepts the string and the letter as arguments.
 
 ```
@@ -64,7 +63,7 @@ it uses the three-parameter version of _find_ from the previous section.
 ### Exercise 6
 There is a string method called _count_ that is similar to the function
 in the previous exercise. Read the documentation of this method and
-write an invocation that counts the number of as in 'abracadabra'.
+write an invocation that counts the number of as in '**abracadabra**'.
 
 ```
 word = 'abracadabra'
@@ -75,7 +74,7 @@ print word.count('a')
 Read the documentation of the string methods at
 http://docs.python.org/2/library/stdtypes.html#string-methods.
 You might want to experiment with some of them to make sure you understand
-how they work. strip() and replace() are particularly useful.
+how they work. _strip()_ and _replace()_ are particularly useful.
 
 #### replace()
 
@@ -93,7 +92,7 @@ print w.strip('.mp4')
 ```
 
 The documentation uses a syntax that might be confusing.
-For example, in find(sub[, start[, end]]), the brackets indicate optional
+For example, in _find(sub[, start[, end]])_, the brackets indicate optional
 arguments. So sub is required, but start is optional, and if you include
 start, then end is optional.
 
@@ -107,7 +106,7 @@ A string slice can take a third index that specifies the “step size;” that i
 ```
 A step size of -1 goes through the word backwards, so the slice [::-1] generates a reversed string.
 
-Use this idiom to write a one-line version of is_palindrome from Exercise 6.
+Use this idiom to write a one-line version of _is_palindrome_ from _Math_Problems - Exercise 5_.
 
 ### Exercise 9
 The following functions are all intended to check whether a string contains any lowercase letters, but at least some of them are wrong. For each function, describe what the function actually does (assuming that the parameter is a string).
@@ -148,10 +147,10 @@ def any_lowercase5(s):
 ### Exercise 10  
 ROT13 is a weak form of encryption that involves “rotating” each letter in a word by 13 places. To rotate a letter means to shift it through the alphabet, wrapping around to the beginning if necessary, so ’A’ shifted by 3 is ’D’ and ’Z’ shifted by 1 is ’A’.
 
-Write a function called rotate_word that takes a string and an integer as parameters, and that returns a new string that contains the letters from the original string “rotated” by the given amount.
+Write a function called _rotate_word_ that takes a **string** and an **integer** as parameters, and that returns a new string that contains the letters from the original string “rotated” by the given amount.
 
 For example, “cheer” rotated by 7 is “jolly” and “melon” rotated by -10 is “cubed”.
 
-You might want to use the built-in functions ord, which converts a character to a numeric code, and chr, which converts numeric codes to characters.
+You might want to use the built-in functions _ord_, which converts a character to a numeric code, and _chr_, which converts numeric codes to characters.
 
-Potentially offensive jokes on the Internet are sometimes encoded in ROT13. If you are not easily offended, find and decode some of them. Solution: http://thinkpython.com/code/rotate.py.
+Potentially offensive jokes on the Internet are sometimes encoded in ROT13. If you are not easily offended, find and decode some of them. 

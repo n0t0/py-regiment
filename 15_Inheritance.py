@@ -1,11 +1,12 @@
 class Card(object):
     """Represents a standart playing card."""
 
-    suit_names = ['Clubs', 'Hearts', 'Diamonds', 'Spades']
+    suit_names = ['Clubs', 'Diamonds', 'Hearts', 'Spades']
     rank_names = [None, 'Ace', '2', '3', '4', '5', '6', '7',
                 '8', '9', '10', 'Jack', 'Queen', 'King']
 
     def __init__(self, suit=0, rank=2):
+        # default card is 2 of Clubs 
         self.suit = suit
         self.rank = rank
 
@@ -14,18 +15,17 @@ class Card(object):
         return '%s of %s' % (Card.rank_names[self.rank],
                              Card.suit_names[self.suit])
 
-
     # def __cmp__(self, other):
-    #     # suits
+    #         # check the suits
     #     if self.suit > other.suit: return 1
     #     if self.suit < other.suit: return -1
-    #
-    #     # if suits are the same..check ranks
+
+    #     # suits are the same... check ranks
     #     if self.rank > other.rank: return 1
     #     if self.rank < other.rank: return -1
-    #
-    #     # if ranks are the same..it's a tie
-    #     return 0
+
+    #     # ranks are the same... it's a tie
+    #     return 0    
 
 
     def __cmp__(self, other):
@@ -34,7 +34,8 @@ class Card(object):
         return cmp(t1, t2)
 
 
-queen_of_diamonds = Card(1, 12)
+queen_of_diamonds = Card(1, 12) # creates a card 
+print queen_of_diamonds
 
 card1 = Card(2, 11)
 print card1
@@ -66,16 +67,29 @@ class Deck(object):
         self.cards.append(card)
 
     # NOTE: import random module
-    # def shuffle(self):
-    #     random.shuffle(self.cards)
+    def shuffle(self):
+        random.shuffle(self.cards)
 
 
     def move_cards(self, hand, num):
         for i in range(num):
             hand.add_card(self.pop_card())
 
+
+    def deal_hands(self, hand_num):
+        hands = []
+        for elmt in range(hand_num):
+            elmt = Hand('some hand')
+            print elmt.label
+            hands.append(elmt)
+        for item in hands:
+            hand.add_card(self.pop_card())
+        return hands   
+         
+            
+
 deck = Deck()
-print deck
+# print deck
 
 # Inheritance
 
@@ -94,3 +108,7 @@ print hand.label
 card = deck.pop_card()
 hand.add_card(card)
 print hand
+
+hands = deck.deal_hands(4)
+print hands
+

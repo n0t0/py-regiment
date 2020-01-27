@@ -90,3 +90,61 @@ def only_upper(s):
     return filter(lambda x: x.isupper(), s)
 
 print only_upper(s)
+
+## 6/29/2018
+
+f = lambda a, b : a + b 
+print f(7, 8)
+
+
+l = [4, 5, 6, 7]
+
+f1 = map(lambda x : x ** 2, l)
+print f1
+
+
+def fahrenheit(t):
+    return ( (float(9) / 5 * t ) + 32 )
+def celsious(t):
+    return ( float(5) / 9 * (t - 32) ) 
+temp = (36.5, 37, 37.5, 39)   
+
+F = map(fahrenheit, temp)
+C = map(celsious, F)
+
+Celsius = [39.2, 36.5, 37.2, 37.8]
+Fahrenheit = map(lambda x : (float(9) / 5) * x + 32, Celsius)
+print Fahrenheit
+
+C = map(lambda x: (float(5) / 9) * (x-32), Fahrenheit)
+print C
+
+
+a = [4, 5, 6, 7]
+b = [14, 17, 21, 17]
+c = [0, -2, 4, 55]
+
+print map(lambda x, y : x + y, a, b)
+print map(lambda x, y, z : x + y + z, a, b, c)
+
+
+fib = [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
+
+result = filter(lambda x : x % 2, fib)
+print result
+
+f2 = reduce(lambda x, y : x + y, fib)
+print f2
+
+
+# finding the maximum 
+
+f3 = lambda a, b : a if (a > b) else b
+print reduce(f, fib)
+
+# the sum in the range 
+
+print reduce(lambda x, y : x + y, range(1,101))
+
+
+

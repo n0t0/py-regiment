@@ -1,12 +1,12 @@
 ### Exercise 1  
-Many of the built-in functions use variable-length argument tuples. For example, max and min can take any number of arguments:
+Many of the built-in functions use variable-length argument tuples. For example, _max_ and _min_ can take any number of arguments:
 
 ```
 >>> max(1,2,3)
 3
 ```
 
-But sum does not.
+But _sum_ does not.
 
 ```
 >>> sum(1,2,3)
@@ -16,7 +16,7 @@ TypeError: sum expected at most 2 arguments, got 3
 Write a function called sumall that takes any number of arguments and returns their sum.
 
 ### Exercise 2  
-In following example, ties are broken by comparing words, so words with the same length appear in reverse alphabetical order. For other applications you might want to break ties at random. Modify this example so that words with the same length appear in random order. Hint: see the random function in the random module.
+In following example, ties are broken by comparing words, so words with the same length appear in reverse alphabetical order. For other applications you might want to break ties at random. Modify this example so that words with the same length appear in random order. Hint: see the **random** function in the random module.
 
 
 ```
@@ -34,7 +34,7 @@ def sort_by_length(words):
 ```
 
 ### Exercise 3  
-Write a function called most_frequent that takes a string and prints the letters in decreasing order of frequency. Find text samples from several different languages and see how letter frequency varies between languages. Compare your results with the tables at http://en.wikipedia.org/wiki/Letter_frequencies. Solution: http://thinkpython.com/code/most_frequent.py.
+Write a function called _most_frequent_ that takes a string and prints the letters in decreasing order of frequency. Find text samples from several different languages and see how letter frequency varies between languages. Compare your results with the tables at http://en.wikipedia.org/wiki/Letter_frequencies. 
 
 ### Exercise 4  
 More anagrams!
@@ -53,7 +53,6 @@ Hint: you might want to build a dictionary that maps from a set of letters to a 
 
 2. Modify the previous program so that it prints the largest set of anagrams first, followed by the second largest set, and so on.
 3. In Scrabble a “bingo” is when you play all seven tiles in your rack, along with a letter on the board, to form an eight-letter word. What set of 8 letters forms the most possible bingos? Hint: there are seven.
-Solution: http://thinkpython.com/code/anagram_sets.py.
 
 ### Exercise 5  
 Two words form a “metathesis pair” if you can transform one into the other by swapping two letters; for example, “converse” and “conserve.” Write a program that finds all of the metathesis pairs in the dictionary. Hint: don’t test all pairs of words, and don’t test all possible swaps. Solution: http://thinkpython.com/code/metathesis.py. Credit: This exercise is inspired by an example at http://puzzlers.org.
@@ -65,7 +64,7 @@ Here’s another Car Talk Puzzler (http://www.cartalk.com/content/puzzlers):
 What is the longest English word, that remains a valid English word, as you remove its letters one at a time?
 Now, letters can be removed from either end, or the middle, but you can’t rearrange any of the letters. Every time you drop a letter, you wind up with another English word. If you do that, you’re eventually going to wind up with one letter and that too is going to be an English word—one that’s found in the dictionary. I want to know what’s the longest word and how many letters does it have?
 
-I’m going to give you a little modest example: Sprite. Ok? You start off with sprite, you take a letter off, one from the interior of the word, take the r away, and we’re left with the word spite, then we take the e off the end, we’re left with spit, we take the s off, we’re left with pit, it, and I.
+I’m going to give you a little modest example: _Sprite_. Ok? You start off with sprite, you take a letter off, one from the interior of the word, take the r away, and we’re left with the word _spite_, then we take the e off the end, we’re left with _spit_, we take the s off, we’re left with _pit_, _it_, and _I_.
 ```
 
 Write a program to find all words that can be reduced in this way, and then find the longest one.

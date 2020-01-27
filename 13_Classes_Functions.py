@@ -12,7 +12,6 @@ t.second = '%.2d' % 23
 
 def print_time(t):
     print '{}:{}:{}'.format(t.hour, t.minute, t.second)
-
 print_time(t)
 
 # Pure Functions
@@ -37,7 +36,7 @@ duration.second = 47
 done = add_time(start, duration)
 print_time(done)
 
-# Patching add_time() to carry minutes and seconds >60
+# Patching add_time() to Carry Minutes and Seconds >60
 
 def add_time(t1, t2):
     sum = Time()
@@ -73,21 +72,26 @@ def increment(time, seconds):
         time.hour += 1
 
 
-
 # NOTE: What happens if the parameter seconds is much greater than sixty?
 
 # In that case, it is not enough to carry once; we have to keep doing it until
 # time.second is less than sixty. One solution is to replace the if statements
 # with while statements. That would make the function correct, but not very efficient.
-
+print 2
+t = Time()
+t.hour = '%.2d' % 12
+t.minute = '%.2d' % 9
+t.second = '%.2d' % 23
+s = '{}:{}:{}'.format(t.hour, t.minute, t.second)
 
 def time_to_int(t):
     minutes = t.hour * 60 + t.minute
-    seconds = t.minute * 60 + t.second
+    seconds = minutes * 60 + t.second
     return seconds
+print time_to_int(t)
 
 
-def int_to_time(seconds):
+def int_to_time(s):
     time = Time()
     minutes, t.second = divmod(seconds, 60)
     t.hour, t.minute = divmod(minutes, 60)

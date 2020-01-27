@@ -1,28 +1,38 @@
-# Python for beginners
+# Python for Beginners
+## Exercises
 
-## FUNDAMENTALS:
+[Exercises and Solutions](https://github.com/n0t0/py-regiment/tree/master/exercises)
 
-- Arithmetics
-- Methods
-- Functions
-- Conditionals (if-elif-else)
-- Recursion
-- Iteration
-- Strings
-- Lists
-- Dictionaries
-- Tuples  
-- Files
-- Classes
-- Inheritance
+## Content
 
-## ADVANCED:
+### FUNDAMENTALS:
+
+1. Arithmetics
+2. Variables
+3. Functions
+4. Conditionals (if-elif-else)
+5. Recursion  
+6. Iteration
+7. Strings
+8. Lists
+9. Dictionaries
+10. Tuples  
+11. Files
+12. Classes
+13. Inheritance
+
+### ADVANCED:
 
 1. Formatting
+1. Methods
 1. Lambda
-1. Importing Modules
-1. RE module
 1. String Methods
 1. List Methods
+1. More Functions
 
-EXERCISES:
+### MODULES:
+
+1. Importing Modules
+1. RE
+1. Math
+1. os
